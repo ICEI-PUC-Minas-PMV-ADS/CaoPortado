@@ -1,12 +1,12 @@
 # Cão Portado
 
-`CURSO`
+`Tecnologia em Análise e Desenvolvimento de Sistema`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Interativa`
 
-`SEMESTRE`
+`Eixo 2`
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Projeto em desenvolvimento de um site, responsivo, de um hotel/creche/adestramento de Cães. 
 
 ## Integrantes
 
