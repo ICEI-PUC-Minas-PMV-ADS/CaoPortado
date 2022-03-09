@@ -28,10 +28,17 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
+| Tomás Edson | Ler artigos recomendados e as últimas publicações .| Para encontrar conteúdos atualizados sobre organização de rotinas . |
+| Tomás Edson | Gostaria de poder localizar conteúdos de sons que estimulem no foco.| Para me concentrar melhor nos estudos .|
+| Tomás Edson | Gostaria de entrar em contato com os mantenedores do site | Para enviar um feedback.|
+|Geraldo José | Ser mais produtivo nos pequenos intervalos que possuo para estudar.| Para conciliar melhor meu tempo nas minhas tarefas.|
+|Geraldo José | Acessar videos e artigos que tenham breves imagens resumindo o conteúdo.| Para facilitar a compreensão do conteúdo.|
+|Geraldo José | Uma funcionalidade para pesquisar sobre conteúdo no qual eu busco.| Para ser mais objetiva.|
+|Larissa Alves| Conseguir gerenciar a  minha rotina do Ensino Médio, conciliando-a com o vestibular.|Poder melhorar as minhas notas.|
+|Larissa Alves| Um site onde posso escolher um tema da minha escolha.| Para localizar mais rápido certo conteúdo.|
+|Renata Barreto| Entender o porquê do meu filho ter tanta dificuldade para se concentrar.| Para ajudá-lo nas atividades escolares.| 
+|Renata Barreto| Comentar e compartilhar minhas experiências e dificuldades | Para contribuir na vida de outras pessoas e também aprender.| 
+|Renata Barreto| Compartilhar, com outras mães, artigos de meu interesse. | Para ajudar outras mães com os mesmos problemas.|
 
 > **Links Úteis**:
 > - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
