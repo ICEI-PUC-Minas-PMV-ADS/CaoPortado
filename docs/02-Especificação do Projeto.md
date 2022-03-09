@@ -48,8 +48,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 > - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+De acordo com a necessidade de criação do site que, busca facilitar a vida do público-alvo, os requisitos do projeto são:
 
 ### Requisitos Funcionais
 
