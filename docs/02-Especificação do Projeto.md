@@ -36,9 +36,13 @@ Para que meu cachorro fique num lugar com ótimos profissionais|
 |  Robert Dolittle |                                |                   |
 |    CãoPortado | Quero uma forma automatizada para os clientes poderem agendar e eu não ter que passar o dia cuidando dessa parte | Para agilizar o atendimento ao cliente e eu poder focar em outros pontos |
 ## Requisitos
+<<<<<<< HEAD
 
 O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados abaixo
 ### Requisitos funcionais
+=======
+De acordo com a necessidade de criação do site que, busca facilitar a vida do público-alvo, os requisitos do projeto são:
+>>>>>>> 247b4e6a144a5833e7ca2c0922c8eba24d404d92
 
 Os requisitos funcionais representam as necessidades, características e recursos fornecidos pelo Coleta.
 
@@ -56,8 +60,10 @@ Os requisitos funcionais representam as necessidades, características e recurso
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);  | ALTA | 
+|RNF-002 | O site deverá ser responsivo permitindo a visualização em um celular de forma adequada; |  ALTA | 
+|RNF-003 | O site deve ter bom nível de contraste entre os elementos da tela em conformidade;      |  MÉDIA |
+|RNF-004 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).    |  ALTA |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
@@ -80,8 +86,9 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 25/06/2022; |
+|02| A aplicação se restringirá às tecnologias básicas da Web no Back-End; |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho; |
 
 
 Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
