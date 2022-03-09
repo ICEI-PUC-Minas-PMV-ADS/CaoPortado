@@ -26,38 +26,32 @@ Lembre-se que você deve ser enumerar e descrever precisamente e personalizada t
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
 
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-| Tomás Edson | Ler artigos recomendados e as últimas publicações .| Para encontrar conteúdos atualizados sobre organização de rotinas . |
-| Tomás Edson | Gostaria de poder localizar conteúdos de sons que estimulem no foco.| Para me concentrar melhor nos estudos .|
-| Tomás Edson | Gostaria de entrar em contato com os mantenedores do site | Para enviar um feedback.|
-|Geraldo José | Ser mais produtivo nos pequenos intervalos que possuo para estudar.| Para conciliar melhor meu tempo nas minhas tarefas.|
-|Geraldo José | Acessar videos e artigos que tenham breves imagens resumindo o conteúdo.| Para facilitar a compreensão do conteúdo.|
-|Geraldo José | Uma funcionalidade para pesquisar sobre conteúdo no qual eu busco.| Para ser mais objetiva.|
-|Larissa Alves| Conseguir gerenciar a  minha rotina do Ensino Médio, conciliando-a com o vestibular.|Poder melhorar as minhas notas.|
-|Larissa Alves| Um site onde posso escolher um tema da minha escolha.| Para localizar mais rápido certo conteúdo.|
-|Renata Barreto| Entender o porquê do meu filho ter tanta dificuldade para se concentrar.| Para ajudá-lo nas atividades escolares.| 
-|Renata Barreto| Comentar e compartilhar minhas experiências e dificuldades | Para contribuir na vida de outras pessoas e também aprender.| 
-|Renata Barreto| Compartilhar, com outras mães, artigos de meu interesse. | Para ajudar outras mães com os mesmos problemas.|
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
-
+|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`       |
+|--------------------|------------------------------------|------------------------------|
+|  Roberta  Schawlski | Quero que o PetHotel seja confiável e com boas avaliações |  
+Para que meu cachorro fique num lugar com ótimos profissionais|
+|  João Schiabel | Quero poder saber quem são as pessoas que irão cuidar do meu pet | Para que eu possa ter um breve conhecimento dos profissionais e ganhar confiança no trabalho deles.|
+| Andressa Werneck | Quero uma funcionalidade de agendamento com algum aplicativo terceirizado | Para que eu possa ter um agendamento organizado |
+|  Sandra Januário | Quero conhecer o PetHotel antes mesmo de visitá-lo pessoalmente | Para que eu possa saber se o local é seguro e organizado para que meu cachorro não volte estressado novamente |
+|  Robert Dolittle |                                |                   |
+|    CãoPortado | Quero uma forma automatizada para os clientes poderem agendar e eu não ter que passar o dia cuidando dessa parte | Para agilizar o atendimento ao cliente e eu poder focar em outros pontos |
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados abaixo
+### Requisitos funcionais
 
-### Requisitos Funcionais
+Os requisitos funcionais representam as necessidades, características e recursos fornecidos pelo Coleta.
 
 |ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
-
+|------|----------------------------------------|----  |
+|'RF-001'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | ALTA | 
+|'RF-002'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA|
+|'RF-003'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | ALTA | 
+|'RF-004'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA| 
+|'RF-005'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA| 
+|'RF-006'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA|
+|'RF-007'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA|
+|'RF-' | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA|
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
