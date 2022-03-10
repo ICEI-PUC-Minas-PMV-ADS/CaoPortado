@@ -48,14 +48,16 @@ Os requisitos funcionais representam as necessidades, características e recurso
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|----------------------------------------|----  |
-|'RF-001'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | ALTA | 
-|'RF-002'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA|
-|'RF-003'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx | ALTA | 
-|'RF-004'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA| 
-|'RF-005'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA| 
-|'RF-006'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA|
-|'RF-007'| xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA|
-|'RF-' | xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx| MÉDIA|
+|'RF-001'| O site deve permitir que os cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA | 
+|'RF-002'| O site deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
+|'RF-003'| O site deve conter uma funcionalidade de agendamento online; | ALTA | 
+|'RF-004'| O site deve conter um limitador de vagas;| MÉDIA | 
+|'RF-005'| O site deve possibilitar a compra de planos e pacotes da creche e da hospedagem;| ALTA | 
+|'RF-006'| O site deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
+|'RF-007'| O site deve conter um sistema de envio de comprovante de marcação para o cliente e envio do comprovante de pagamento para a empresa;| ALTA |
+|'RF-008'| O site deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp;| ALTA |
+|'RF-009'| O site deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia);| MÉDIA |
+|'RF-010'| O cadastro do pet  deve ser obrigatoriamente vinculado ao cadastro de seu dono.| ALTA |
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
