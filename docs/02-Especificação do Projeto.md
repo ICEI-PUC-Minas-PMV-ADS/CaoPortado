@@ -20,11 +20,10 @@ Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos 
 > - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
 > - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
 >
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+
 
 ## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do cotidiano das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`       |
 |--------------------|------------------------------------|------------------------------|
@@ -34,15 +33,11 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |  Sandra Januário | Quero conhecer o PetHotel antes mesmo de visitá-lo pessoalmente. | Para que eu possa saber se o local é seguro e organizado, para que meu cachorro não volte estressado novamente. |
 |  Robert Dolittle | Quero um PetHotel com um preço mais acessível . | Para que eu possa organizar minhas finanças pessoais. |
 |    CãoPortado | Quero uma forma automatizada, possibilitando que meus clientes realizarem o agendamento. | Para agilizar o atendimento ao cliente e eu poder focar em outros pontos. |
+
 ## Requisitos
-<<<<<<< HEAD
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados abaixo:
 
-O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades de interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados abaixo
 ### Requisitos funcionais
-=======
-De acordo com a necessidade de criação do site que, busca facilitar a vida do público-alvo, os requisitos do projeto são:
->>>>>>> 247b4e6a144a5833e7ca2c0922c8eba24d404d92
-
 Os requisitos funcionais representam as necessidades, características e recursos fornecidos pelo Coleta.
 
 |ID    | Descrição do Requisito  | Prioridade |
@@ -57,7 +52,9 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |`RF-008`| O site deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp;| ALTA |
 |`RF-009`| O site deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia);| MÉDIA |
 |`RF-010`| O cadastro do pet  deve ser obrigatoriamente vinculado ao cadastro de seu dono.| ALTA |
+
 ### Requisitos não Funcionais
+Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
@@ -66,24 +63,8 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RNF-003 | O site deve ter bom nível de contraste entre os elementos da tela em conformidade;      |  MÉDIA |
 |RNF-004 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).    |  ALTA |
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
-
 ## Restrições
-
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
