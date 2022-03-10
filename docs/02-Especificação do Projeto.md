@@ -27,11 +27,11 @@ A partir da compreensão do cotidiano das personas identificadas para o projeto,
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`       |
 |--------------------|------------------------------------|------------------------------|
-|  Roberta  Schawlski | Quero um PetHotel que seja confiável e tenha boas avaliações. | Para que meu cachorro fique num lugar com ótimos profissionais. |
+|  Roberta  Schawlski | Quero saber se o PetHotel é confiável e tem boas avaliações. | Para que meu cachorro fique num lugar com ótimos profissionais. |
 |  João Schiabel | Quero poder saber quem são as pessoas que irão cuidar do meu pet. | Para que eu possa ter um breve conhecimento dos profissionais e ganhar confiança no trabalho deles.|
 | Andressa Werneck | Quero poder fazer o agendamento online. | Para que eu possa agendar onde eu estiver e a qualquer hora. |
 |  Sandra Januário | Quero conhecer o PetHotel antes mesmo de visitá-lo pessoalmente. | Para que eu possa saber se o local é seguro e organizado, para que meu cachorro não volte estressado novamente. |
-|  Robert Dolittle | Quero um PetHotel com um preço mais acessível . | Para que eu possa organizar minhas finanças pessoais. |
+|  Robert Dolittle | Quero saber se o PetHotel tem o preço mais acessível em comparação a outros. | Para que eu possa organizar minhas finanças pessoais. |
 |    CãoPortado | Quero uma forma automatizada, possibilitando que meus clientes realizarem o agendamento. | Para agilizar o atendimento ao cliente e eu poder focar em outros pontos. |
 
 ## Requisitos
