@@ -1,8 +1,5 @@
 # Especificações do Projeto
-
-
-
-------------------------------------------------------------------------------------------------------
+A escolha do referido problema foi definida por meio de entrevistas e estudos realizados pelos membros da equipe. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.??????? REVER
 
 ## Personas
 As personas foram criadas a partir do briefing feito para a empresa CãoPortado, baseadas em seu público real e, são apresentadas nas figuras que se seguem:
