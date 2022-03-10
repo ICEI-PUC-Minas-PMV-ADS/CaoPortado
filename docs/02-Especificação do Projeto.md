@@ -4,15 +4,12 @@
 
 ------------------------------------------------------------------------------------------------------
 
-
 ## Personas
+As personas foram criadas a partir do briefing feito para a empresa CãoPortado, baseadas em seu público real e, são apresentadas nas figuras que se seguem:
 
-
-
-
------------------------------------------------------------------------------------------------------
-
-
+=============================
+PERSONAS AQUI
+=============================
 
 ## Histórias de Usuários
 A partir da compreensão do cotidiano das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
