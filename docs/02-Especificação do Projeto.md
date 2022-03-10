@@ -4,9 +4,13 @@ A escolha do referido problema foi definida por meio de entrevistas e estudos re
 ## Personas
 As personas foram criadas a partir do briefing feito para a empresa CãoPortado, baseadas em seu público real e, são apresentadas nas figuras que se seguem:
 
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/Roberta.jpeg)
+==========
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/Jo%C3%A3o.jpeg)
+======
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/Andressa.jpeg)
 =============================
-PERSONAS AQUI
-=============================
+
 
 ## Histórias de Usuários
 A partir da compreensão do cotidiano das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
