@@ -6,7 +6,7 @@
 
 `Eixo 2`
 
-Projeto em desenvolvimento de um site, responsivo, de um hotel/creche/adestramento de Cães. 
+Projeto em desenvolvimento de um site, responsivo, do hotel/creche/adestramento para Cães chamado CãoPortado. 
 
 ## Integrantes
 
