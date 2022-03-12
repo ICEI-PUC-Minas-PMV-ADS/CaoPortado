@@ -1,5 +1,5 @@
 # CãoPortado 🦮
-![WhatsApp Image 2022-03-12 at 19 35 23 (1)](https://user-images.githubusercontent.com/90113699/158037415-6dd0c58e-49ca-4c80-bd9c-c6c02b468c80.jpeg)
+![WhatsApp Image 2022-03-12 at 19 35 23 (1) (1) (1)](https://user-images.githubusercontent.com/90113699/158037463-0f62a720-da7b-405a-b20d-f190d311577a.jpeg)
 
 `Tecnologia em Análise e Desenvolvimento de Sistema`
 
