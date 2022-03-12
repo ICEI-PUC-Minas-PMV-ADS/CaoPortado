@@ -66,7 +66,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 |02| A aplicação se restringirá às tecnologias básicas da Web no Back-End; |
 |03| A equipe não pode subcontratar o desenvolvimento do trabalho; |
 
-##Diagrama de Casos de Uso
+## Diagrama de Casos de Uso
 
 O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
 
