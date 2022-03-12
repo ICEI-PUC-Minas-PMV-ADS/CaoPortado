@@ -7,7 +7,7 @@
 
 `Eixo 2`
 
-Projeto em desenvolvimento de um site, responsivo, do hotel/creche/adestramento para Cães chamado CãoPortado. 
+Este projeto trata-se do desenvolvimento de um site, responsivo e funcional, para o hotel e creche de cachorros da empresa CãoPortado, com a finalidade de facilitar para que o usuário do site realize o agendamento da diária do seu Pet, além de encontrar informações e ver fotos e vídeos do lugar e, posteriormente, avaliar o atendimento recebido. 
 
 ## Integrantes
 
