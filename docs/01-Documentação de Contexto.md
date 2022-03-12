@@ -15,11 +15,11 @@ O problema é a ineficiência nos processos de agendamento da creche e do hotel,
 O objetivo geral deste projeto é tornar os agendamentos da creche e do hotel mais eficientes.
 Como objetivos específicos, podemos ressaltar:
 
-● Construir um site com as linguagens de marcação, HTML e CSS que permitirá uma estrutura visualmente prática para realização de consultas e cadastros;
-● Para que o cadastro seja armazenado no banco de dados será desenvolvido uma estrutura back end com a linguagem de programação C#;
-● Modelar um banco de dados em SQL com o intuito de armazenar as informações dos dados cadastrais;
-● Criar uma interface que permita a visualização e download dos agendamentos e cadastros realizados;
-● Realizar testes para encontrar falhas, e caso necessário efetuar correções.
+● Construir um site com as linguagens de marcação, HTML e CSS que permitirá uma estrutura visualmente prática para realização de consultas e cadastros;<br>
+● Para que o cadastro seja armazenado no banco de dados será desenvolvido uma estrutura back end com a linguagem de programação C#;<br>
+● Modelar um banco de dados em SQL com o intuito de armazenar as informações dos dados cadastrais;<br>
+● Criar uma interface que permita a visualização e download dos agendamentos e cadastros realizados;<br>
+● Realizar testes para encontrar falhas, e caso necessário efetuar correções.<br>
 
 ## Justificativa
 
