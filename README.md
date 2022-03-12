@@ -1,5 +1,5 @@
 # CãoPortado 🦮
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/C%C3%A3o%20Persona.png)
+![WhatsApp Image 2022-03-12 at 19 35 23 (1)](https://user-images.githubusercontent.com/90113699/158037415-6dd0c58e-49ca-4c80-bd9c-c6c02b468c80.jpeg)
 
 `Tecnologia em Análise e Desenvolvimento de Sistema`
 
