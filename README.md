@@ -1,4 +1,5 @@
-# CãoPortado
+# CãoPortado 🦮
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/C%C3%A3o%20Persona.png)
 
 `Tecnologia em Análise e Desenvolvimento de Sistema`
 
