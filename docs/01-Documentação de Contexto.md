@@ -1,46 +1,30 @@
 # Introdução
-
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+    O mundo contemporâneo se encontra em um estado acelerado, ora, o ser humano moderno está repleto de compromissos 
+profissionais e sociais. Embora isto, as famílias não deixaram de ter animais de estimação, como aponta a Pesquisa Nacional de Saúde (PNS) de 2019¹ ( adicionar esse número pequeno (¹ ) na bibliografia no rodapé), que afirma que 46,1% dos domicílios brasileiros possuem pelo menos 1 cachorro como pet. Deste modo, a empresa CãoPortado surgiu com o objetivo de auxiliar as pessoas que possuem cachorros como animais de estimação, em especial nos momentos em que os tutores precisam viajar ou trabalhar e não tem condições de cuidar do seu cãozinho neste período.
+     A empresa tem crescido de forma considerável e com projeções de ampliação do negócio. Contudo, à medida que a organização se 
+desenvolve problemas críticos começam a se ampliar, e caso não sejam resolvidos podem trazer muitos prejuízos. Hoje na CãoPortado o processo de atendimento aos clientes ocorre de três formas, a primeira presencial, a segunda por telefone e a terceira via Whatsapp, sendo este o meio mais usado pelos clientes. Devido ao grande fluxo de clientes o processo de cadastro e agendamento se encontra sobrecarregado, uma vez que o colaborador precisa coletar os dados cadastrais do tutor e agendar a estadia do cãozinho. Este processo tem consumido muito tempo e se tornou pouco eficiente, fazendo com que os clientes necessitem esperar para serem atendidos.
+    Diante disto, o presente trabalho tem como objetivo desenvolver uma solução tecnológica capaz de resolver esse problema
+crítico. Sendo assim, buscará desenvolver um site onde o cliente realizará seu cadastro e agendamento da estadia do se‘Cãopanheiro’. Deste modo, será possível otimizar o processo e melhorar a experiência dos clientes com a empresa.  	 
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+O problema é a ineficiência nos processos de agendamento da creche e do hotel, assim, tendo como consequência uma espera prolongada de atendimento ao cliente.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+O objetivo geral deste projeto é tornar os agendamentos da creche e do hotel mais eficientes.
+Como objetivos específicos, podemos ressaltar:
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+● Construir um site com as linguagens de marcação, HTML e CSS que permitirá uma estrutura visualmente prática para realização de consultas e cadastros;
+● Para que o cadastro seja armazenado no banco de dados será desenvolvido uma estrutura back end com a linguagem de programação C#;
+● Modelar um banco de dados em SQL com o intuito de armazenar as informações dos dados cadastrais;
+● Criar uma interface que permita a visualização e download dos agendamentos e cadastros realizados;
+● Realizar testes para encontrar falhas, e caso necessário efetuar correções.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Devido ao ritmo acelerado de crescimento da empresa, os processos de cadastro e agendamento se tornaram ineficientes. Diante disto, se faz necessário resolver esse problema para que a empresa continue atendendo os seus clientes com agilidade e qualidade.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo são os moradores da cidade de Itabira e região que possuem cachorros e que se encontram na faixa etária de 25 a 60 anos, majoritariamente das classes A e B.   
