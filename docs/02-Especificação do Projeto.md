@@ -54,8 +54,8 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-16| O sistema deve permitir que o usuário altere suas reservas; | MÉDIA |
 |RF-17| O sistema deve permitir que o usuário e Administrador acessem as reservas feitas pelo usuário; | MÉDIA |
 |RF-18| O sistema deve permitir que o Administrador altere valores e pacotes; | ALTA|
-|RF-18| O sistema deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
-
+|RF-19| O sistema deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
+|RF-20| O sistema deve permitir que o Administrador e o usuário acessem o comprovante de pagamento de um agendamento/reserva; | MÉDIA |
 
 
 
@@ -68,7 +68,7 @@ Os requisitos não-funcionais descrevem características de caráter mais técni
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
 |RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);  | ALTA |
-|RNF-02 | O site deverá ser responsivo permitindo a visualização em um celular de forma adequada; |  ALTA |
+|RNF-02 | O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; |  ALTA |
 |RNF-03 | O site deve ter bom nível de contraste entre os elementos da tela em conformidade;      |  MÉDIA |
 |RNF-04 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge); |  ALTA |
 
@@ -106,12 +106,12 @@ Tabela - Casos de Uso
 |Criar conta                    | O usuário deve criar uma conta para utilizar os recursos disponíveis no sistema.                         | RF-08 |
 |Efetuar pagamento              | O usuário pode efetuar o pagamento, através das formas de pagamento oferecidas pelo sistema.             | RF-12 |
 |Acessar reservas               | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário.                         | RF-17 |
-|Alterar reservas               | O usuário pode alterar sua reserva conforme as normas e disponibilidade.                                  | RF-15, RF-16 |
+|Alterar reservas               | O usuário pode alterar sua reserva, conforme as normas e disponibilidade.                                  | RF-15, RF-16 |
 |Avaliar estabelecimento        | O usuário pode comentar e avaliar a empresa.                                                             | RF-01 |
 |Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais.                                                            | RF-14 |
 |Obter informações sobre o PetHotel | O usuário pode obter informações referentes a valores, fotos e vídeos, etc.                          | RF-01, RF-02 |
 |Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, etc).                      | RF-09 |
-|Acessar comprovante de marcação e Pagamento | O Administrador e o usuário podem acessar o comprovante de marcação e pagamento             | RF-07 |
+|Acessar comprovante de marcação e Pagamento | O Administrador e o usuário podem acessar o comprovante de marcação e pagamento.             | RF-07 |
 |Alterar Valores e Pacotes      | O Administrador pode alterar valores e pacotes.                                                          | RF-18 |
 |Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-19 |
 
