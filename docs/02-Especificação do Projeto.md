@@ -1,5 +1,5 @@
 # Especificações do Projeto
-A escolha do referido problema foi definida por meio de entrevistas e estudos realizados pelos membros da equipe. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
+A escolha do referido problema foi definida por meio de discussões e estudos realizados pelos membros da equipe. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
 
 ## Personas
 As personas foram criadas a partir do briefing feito para a empresa CãoPortado, baseadas em seu público real e, são apresentadas nas figuras que se seguem:
@@ -71,3 +71,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 O diagrama de casos de uso é o seguinte passo após a elicitação dos Requisitos Funcionais. Ele ilustra a interação de possíveis usuários com as funcionalidades primordiais do sistema projetado, utilizando-se de atores para representá-los.
 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/Diagrama%20de%20Caso%20de%20Uso.png)
+
+
+Fonte: Elaborado pelos autores do projeto
+
