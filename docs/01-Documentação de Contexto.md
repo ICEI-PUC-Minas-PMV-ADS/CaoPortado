@@ -4,7 +4,10 @@
   A empresa tem crescido de forma considerável e com projeções de ampliação do negócio. Contudo, à medida que a organização se desenvolve problemas críticos começam a se ampliar, e caso não sejam resolvidos podem trazer muitos prejuízos. Hoje na CãoPortado o processo de atendimento aos clientes ocorre de três formas, a primeira presencial, a segunda por telefone e a terceira via Whatsapp, sendo este o meio mais usado pelos clientes. Devido ao grande fluxo de clientes o processo de cadastro e agendamento se encontra sobrecarregado, uma vez que o colaborador precisa coletar os dados cadastrais do tutor e agendar a estadia do cãozinho. Este processo tem consumido muito tempo e se tornou pouco eficiente, fazendo com que os clientes necessitem esperar para serem atendidos.<br>
     
   Diante disto, o presente trabalho tem como objetivo desenvolver uma solução tecnológica capaz de resolver esse problema
-crítico. Sendo assim, buscará desenvolver um site onde o cliente realizará seu cadastro e agendamento da estadia do se‘Cãopanheiro’. Deste modo, será possível otimizar o processo e melhorar a experiência dos clientes com a empresa.  	 
+crítico. Sendo assim, buscará desenvolver um site onde o cliente realizará seu cadastro e agendamento da estadia do se‘Cãopanheiro’. Deste modo, será possível otimizar o processo e melhorar a experiência dos clientes com a empresa.  
+
+¹ *RIOS, R. Quase 48 milhões de domicílios no Brasil tem cães ou gatos, aponta pesquisa do IBGE. Disponível em: <https://www.correiobraziliense.com.br/brasil/2020/09/4873376-quase-48-milhoes-de-domicilios-no-brasil-tem-caes-ou-gatos-aponta-pesquisa-do-ibge.html>. Acesso em: 13 mar. 2022.*
+
 
 ## Problema
 
