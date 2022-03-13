@@ -125,7 +125,7 @@ Tabela - Casos de Uso
 |              | Para agendar uma diária, o usuário deve contratar um serviço.                                                                                      |
 |              | Para efetuar pagamento, o usuário deve agendar uma diária.                                                                                         
 |EXTENSÃO      |                                                                                                                                                    |
-|              | O usuário pode alterar seus dados cadastrais se fizer Login.                                                               |
+|              | O usuário pode alterar seus dados cadastrais, se fizer Login.                                                               |
 |              | O usuário pode alterar reservas, se agendar uma diária. |
 
 Fonte: Elaborado pelos autores do projeto
