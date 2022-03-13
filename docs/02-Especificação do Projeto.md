@@ -38,7 +38,7 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |------|----------------------------------------|----  |
 |RF-01| O sistema deve permitir que os cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA | 
 |RF-02| O sistema deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
-|RF-03| O sistema deve disponibilizar um calendário, para que o usuário veja as datas disponíveis para o agendamento on-line. | ALTA | 
+|RF-03| O sistema deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line. | ALTA | 
 |RF-04| O sistema deve conter um limitador de vagas;| MÉDIA | 
 |RF-05| O sistema deve possibilitar a compra de pacotes de creche, adestramento e hospedagem;| ALTA | 
 |RF-06| O sistema deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
@@ -52,6 +52,12 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-14| O sistema deve permitir que o usuário altere seus dados cadastrais; | MÉDIA |
 |RF-15| O sistema deve notificar ao Administrador qualquer alteração que o usuário fizer em suas reservas; | MÉDIA |
 |RF-16| O sistema deve permitir que o usuário altere suas reservas; | MÉDIA |
+|RF-17| O sistema deve permitir que o usuário e Administrador acessem as reservas feitas pelo usuário; | MÉDIA |
+|RF-18| O sistema deve permitir que o Administrador altere valores e pacotes; | ALTA|
+|RF-18| O sistema deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
+
+
+
 
 
 
@@ -94,35 +100,33 @@ Tabela - Casos de Uso
  
 |CASO DE USO                    | DESCRIÇÃO                                                                                                | REQUISITO FUNCIONAL  |
 |-------------------------------|----------------------------------------------------------------------------------------------------------|----------------------|
-|Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta.                                     | RF-15 |
-|Criar conta                    | O usuário deve criar uma conta para utilizar os recursos disponíveis no sistema.                         | RF-08 |
+|Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta.                                     | RF-11 |
+|Agendar diária                 | O usuário pode reservar diárias através do sistema.                                                      | RF-03 |
 |Contratar um serviço           | O usuário pode fazer a compra dos serviços oferecidos pela empresa.                                      | RF-05 |
+|Criar conta                    | O usuário deve criar uma conta para utilizar os recursos disponíveis no sistema.                         | RF-08 |
 |Efetuar pagamento              | O usuário pode efetuar o pagamento, através das formas de pagamento oferecidas pelo sistema.             | RF-12 |
-|Redefinir senha                | O cliente pode redefinir sua senha, se desejar.                                                          | RF-13 |
-|Acessar reserva                | O cliente pode consultar suas reservas realizadas.                                                       | RF-16 |
-|Editar reserva                 | O cliente pode alterar sua reserva conforme regras contratuais e disponibilidade.                        | RF-16 |
-|Cancelar reserva               | O cliente pode cancelar a reserva conforme regras contratuais.                                           | RF-16 |
-|Falar com anfitrião/hóspede    | Anfitriões e hóspedes podem comunicar-se entre si através dos meios de contato disponíveis na aplicação. | RF-18 |
-|Avaliar o estabelecimento      | O usuário pode avaliar sua estadia após o início da mesma.                                               | RF-09 | 
+|Acessar reservas               | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário.                         | RF-17 |
+|Alterar reservas               | O usuário pode alterar sua reserva conforme as normas e disponibilidade.                                  | RF-15, RF-16 |
+|Avaliar estabelecimento        | O usuário pode comentar e avaliar a empresa.                                                             | RF-01 | 
 |Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais.                                                            | RF-14 | 
+|Obter informações sobre o PetHotel | O usuário pode obter informações referentes a valores, fotos e vídeos, etc.                          | RF-01, RF-02 | 
+|Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, etc).                      | RF-09 | 
+|Acessar comprovante de marcação e Pagamento | O Administrador e o usuário podem acessar o comprovante de marcação e pagamento             | RF-07 | 
+|Alterar Valores e Pacotes      | O Administrador pode alterar valores e pacotes.                                                          | RF-18 | 
+|Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-19 | 
 
 <br>
 
 |RELACIONAMENTO| DESCRIÇÃO                                                                                                                                          |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 |INCLUSÃO      |                                                                                                                                                    |
-|              | Para efetivar sua reserva, o cliente deve fazer o login e realizar o pagamento da mesma.                                                           |
-|              | Para alterar dados cadastrais, o cliente deve realizar o login.                                                                                    | 
-|              | Para excluir sua conta, o cliente deve realizar o login.                                                                                           |
-|              | Para acessar sua reserva, o cliente deve fazer o login.                                                                                            |
-|              | Para cadastrar um imóvel, o cliente deve criar uma conta.                                                                                          |
-|              | Para alterar dados do imóvel, o cliente deve fazer o login.                                                                                        |
-|              | Ao cadastrar seu imóvel, o cliente deve também cadastrar dados para recebimento das estadias realizadas no mesmo.                                  | 
+|              | Para efetivar o cadastro do Pet, o usuário deve fazer o Login.                                                           |
+|              | Para avaliar o estabelecimento, o usuário deve fazer o Login.                                                                                    | 
+|              | Para agendar uma diária, o usuário deve contratar um serviço.                                                                                      |
+|              | Para efetuar pagamento, o usuário deve agendar uma diária.                                                                                         
 |EXTENSÃO      |                                                                                                                                                    |
-|              | Se o cliente esquecer sua senha, pode redefiní-la informando seu e-mail de cadastro.                                                               |
-|              | O cliente pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do login. |
-|              | O cliente pode cancelar sua reserva se desejar, conforme regras contratuais, acessando sua reserva através do login.                               |
-
+|              | O usuário pode alterar seus dados cadastrais se fizer Login.                                                               |
+|              | O usuário pode alterar reservas, se agendar uma diária. |
 
 Fonte: Elaborado pelos autores do projeto
 
