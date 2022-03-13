@@ -36,16 +36,22 @@ Os requisitos funcionais representam as necessidades, características e recurso
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|----------------------------------------|----  |
-|`RF-001`| O site deve permitir que os cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA | 
-|`RF-002`| O site deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
-|`RF-003`| O site deve conter uma funcionalidade de agendamento online; | ALTA | 
-|`RF-004`| O site deve conter um limitador de vagas;| MÉDIA | 
-|`RF-005`| O site deve possibilitar a compra de planos e pacotes da creche e da hospedagem;| ALTA | 
-|`RF-006`| O site deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
-|`RF-007`| O site deve conter um sistema de envio de comprovante de marcação para o cliente e envio do comprovante de pagamento para a empresa;| ALTA |
-|`RF-008`| O site deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp;| ALTA |
-|`RF-009`| O site deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia);| MÉDIA |
-|`RF-010`| O cadastro do pet  deve ser obrigatoriamente vinculado ao cadastro de seu dono.| ALTA |
+|`RF-001`| O sistema deve permitir que os cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA | 
+|`RF-002`| O sistema deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
+|`RF-003`| O sistema deve conter uma funcionalidade de agendamento online; | ALTA | 
+|`RF-004`| O sistema deve conter um limitador de vagas;| MÉDIA | 
+|`RF-005`| O sistema deve possibilitar a compra de pacotes da creche, adestramento e da hospedagem;| ALTA | 
+|`RF-006`| O sistema deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
+|`RF-007`| O sistema deve conter um sistema de envio de comprovante de marcação para o cliente e envio do comprovante de pagamento para a empresa;| ALTA |
+|`RF-008`| O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp;| ALTA |
+|`RF-009`| O sistema deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia);| MÉDIA |
+|`RF-010`| O cadastro do pet  deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
+|`RF-011`| O sistema deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
+|`RF-012`| O sistema deve disponibilizar formas de pagamento para o serviço contratado; | ALTA |
+|`RF-013`| O sistema deve permitir que o usuário redefina sua senha, informando o e-mail cadastrado; | MÉDIA |
+|`RF-014`| O sistema deve permitir que o usuário edite seus dados cadastrais; | MÉDIA |
+|`RF-015`| O sistema deve disponibilizar um calendário para que o usuário veja as datas disponíveis para agendamento. | ALTA |
+
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
@@ -71,6 +77,54 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 O diagrama de casos de uso é o seguinte passo após a elicitação dos Requisitos Funcionais. Ele ilustra a interação de possíveis usuários com as funcionalidades primordiais do sistema projetado, utilizando-se de atores para representá-los.
 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/Diagrama%20de%20Caso%20de%20Uso.png)
+
+Tabela - Casos de Uso
+
+|ATOR             | DESCRIÇÃO                                                                                        |
+|-----------------|--------------------------------------------------------------------------------------------------|
+|Usuário Cadastrado| Pessoa que possui um cadastro no sistema.|
+|Usuário Não Cadastrado| Pessoa que não possui um cadastro no sistema.|
+|Administrador| Pessoa que gerencia e tem acesso a todos as funcionalidades do sistema.|
+
+
+<br>
+ 
+|CASO DE USO                    | DESCRIÇÃO                                                                                                | REQUISITO FUNCIONAL  |
+|-------------------------------|----------------------------------------------------------------------------------------------------------|----------------------|
+|Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta.                                     | RF-015 |
+|Criar conta                    | O cliente deve criar uma conta para utilizar os serviços oferecidos pela aplicação.                      | RF-01 |
+|Alterar dados cadastrais       | O cliente pode fazer alterações referentes ao seu cadastro pessoal.                                      | RF-02 |
+|Excluir conta                  | O cliente pode excluir sua conta quando assim o desejar.                                                 | RF-02 |
+|Fazer login                    | O cliente deve fazer login para acessar sua conta.                                                       | RF-15 |
+|Redefinir senha                | O cliente pode redefinir sua senha se necessário.                                                        | RF-13 |
+|Buscar imóveis                 | O cliente pode buscar, filtrar, favoritar e compartilhar os imóveis disponíveis na aplicação, assim como as características e regras contratuais dos mesmos.                                                                                                                    | RF-06, RF-07, RF-08, RF-10, RF-14, RF-19 |
+|Reservar imóvel                | O cliente pode reservar um imóvel conforme disponibilidade.                                              | RF-05 |
+|Pagar reserva                  | O cliente pode pagar sua reserva através dos meios de pagamento oferecidos pela aplicação.               | RF-12 |
+|Acessar reserva                | O cliente pode consultar suas reservas realizadas.                                                       | RF-16 |
+|Editar reserva                 | O cliente pode alterar sua reserva conforme regras contratuais e disponibilidade.                        | RF-16 |
+|Cancelar reserva               | O cliente pode cancelar a reserva conforme regras contratuais.                                           | RF-16 |
+|Falar com anfitrião/hóspede    | Anfitriões e hóspedes podem comunicar-se entre si através dos meios de contato disponíveis na aplicação. | RF-18 |
+|Avaliar estadia                | O cliente pode avaliar sua estadia após o início da mesma.                                               | RF-09 | 
+|Cadastrar imóvel               | O anfitrião deve cadastrar os dados do seu imóvel na aplicação.                                          | RF-03 |
+|Cadastrar dados de recebimento | O anfitrião deve cadastrar os dados para recebimento das reservas realizadas no seu imóvel.              | RF-17 |
+|Alterar dados do imóvel        | O anfitrião pode alterar dados referentes ao seu imóvel.                                                 | RF-04 |
+
+<br>
+
+|RELACIONAMENTO| DESCRIÇÃO                                                                                                                                          |
+|--------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
+|INCLUSÃO      |                                                                                                                                                    |
+|              | Para efetivar sua reserva, o cliente deve fazer o login e realizar o pagamento da mesma.                                                           |
+|              | Para alterar dados cadastrais, o cliente deve realizar o login.                                                                                    | 
+|              | Para excluir sua conta, o cliente deve realizar o login.                                                                                           |
+|              | Para acessar sua reserva, o cliente deve fazer o login.                                                                                            |
+|              | Para cadastrar um imóvel, o cliente deve criar uma conta.                                                                                          |
+|              | Para alterar dados do imóvel, o cliente deve fazer o login.                                                                                        |
+|              | Ao cadastrar seu imóvel, o cliente deve também cadastrar dados para recebimento das estadias realizadas no mesmo.                                  | 
+|EXTENSÃO      |                                                                                                                                                    |
+|              | Se o cliente esquecer sua senha, pode redefiní-la informando seu e-mail de cadastro.                                                               |
+|              | O cliente pode alterar os dados de sua reserva se desejar e conforme disponibilidade e regras contratuais, acessando sua reserva através do login. |
+|              | O cliente pode cancelar sua reserva se desejar, conforme regras contratuais, acessando sua reserva através do login.                               |
 
 
 Fonte: Elaborado pelos autores do projeto
