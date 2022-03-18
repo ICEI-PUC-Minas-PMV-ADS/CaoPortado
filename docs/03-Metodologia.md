@@ -27,7 +27,7 @@ A equipe está organizada da seguinte maneira:
 
 ● **Scrum Master**:
 
-Arthur Victor de Paula
+Hector Florença da Silva Mendes
 
 ● **Product Owner**:
 
@@ -35,7 +35,7 @@ Fernanda Araújo Macieira
 
 ● **Equipe de Desenvolvimento**:
 
-Hector Florença da Silva Mendes
+Arthur Victor de Paula
 
 Luiz Guilherme Martins Franchim
 
