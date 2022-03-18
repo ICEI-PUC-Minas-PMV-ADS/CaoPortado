@@ -47,6 +47,10 @@ A equipe está organizada da seguinte maneira:
 
 Arthur Victor de Paula
 
+● **Product Owner**:
+
+Fernanda Araújo Macieira
+
 
 ### Processo
 
