@@ -51,6 +51,16 @@ Arthur Victor de Paula
 
 Fernanda Araújo Macieira
 
+● **Equipe de Desenvolvimento**:
+
+Hector Florença da Silva Mendes
+
+Isabella Carolina de Almeida Siqueira Damião
+
+● **Equipe de Design** :
+
+Helen Tito Gomes Belinassi
+
 
 ### Processo
 
