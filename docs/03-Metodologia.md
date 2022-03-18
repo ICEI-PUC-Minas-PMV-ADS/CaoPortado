@@ -1,7 +1,7 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
+
 
 A Metodologia contempla as ferramentas que as equipes usam para manutenção o código e outros artefatos, além de organizar o time para executar as tarefas do projeto.
 
@@ -36,6 +36,10 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 > - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
+
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, a manutenção do código é realizada na branch, identificada como Develop.
+
+![Gestão](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/Gest%C3%A3o%20de%20Codigo%20Fonte.png)
 
 ### Divisão de Papéis
 
