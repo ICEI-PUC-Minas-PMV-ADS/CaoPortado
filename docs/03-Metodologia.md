@@ -37,13 +37,13 @@ Fernanda Araújo Macieira
 
 Hector Florença da Silva Mendes
 
-Isabella Carolina de Almeida Siqueira Damião
-
 Luiz Guilherme Martins Franchim
 
 ● **Equipe de Design** :
 
 Helen Tito Gomes Belinassi
+
+Isabella Carolina de Almeida Siqueira Damião
 
 
 ## Organização
