@@ -1,10 +1,3 @@
-
-# Metodologia
-
-
-
-A Metodologia contempla as ferramentas que as equipes usam para manutenção o código e outros artefatos, além de organizar o time para executar as tarefas do projeto.
-
 # Metodologia
 
 A metodologia contempla as definições de ferramentas utilizadas pela equipe tanto para a manutenção dos códigos e demais artefatos quanto para a organização do time na execução das tarefas do projeto.
