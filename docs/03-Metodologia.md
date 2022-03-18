@@ -15,9 +15,9 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 
 ## Gerenciamento de Projeto
 
-Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, a manutenção do código é realizada na branch, identificada como Develop.
+Para gestão do código fonte do software desenvolvido pela equipe, o grupo utiliza um processo baseado no Git Flow abordado por Vietro (2015), mostrado na Figura a seguir. Desta forma, todas as manutenções no código são realizadas em branches separados, identificados como, Develop e Feature.
 
-![Gestão](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/Gest%C3%A3o%20de%20Codigo%20Fonte.png)
+![Gestão](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/gest%C3%A3o%20de%20Codigo%20Fonte.png)
 
 ### Divisão de Papéis
 
