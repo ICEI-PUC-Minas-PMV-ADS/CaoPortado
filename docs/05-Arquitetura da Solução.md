@@ -16,6 +16,7 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 ## Modelo ER e Esquema Relacional
 
 O Diagrama ER (ou DER) representa como as entidades relacionam-se entre si na aplicação interativa. Nele é representado, além da relações entre as entidades, as dependências e atributos das mesmas. 
+![Modelo ER](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/modelo%20er.jpg)
 
 ## Tecnologias Utilizadas
 
