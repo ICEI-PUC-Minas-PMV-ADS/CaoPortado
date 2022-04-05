@@ -36,7 +36,7 @@ Os requisitos funcionais representam as necessidades, características e recurso
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|----------------------------------------|----  |
-|RF-01| O sistema deve permitir que os cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA |
+|RF-01| O sistema deve permitir que o cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA |
 |RF-02| O sistema deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
 |RF-03| O sistema deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line. | ALTA |
 |RF-04| O sistema deve conter um limitador de vagas;| MÉDIA |
