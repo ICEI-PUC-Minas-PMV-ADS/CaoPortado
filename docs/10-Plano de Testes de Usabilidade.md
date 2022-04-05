@@ -14,7 +14,7 @@ Quanto tempo foi necessário para conclui-la.
 
 |Tarefa 1| Critério de êxito | O que será avaliado |
 |--------|-------------------|---------------------|
-|Cadastro de novo usuário|Concluir o cadastro, considerando a mensagem "Cadastro realizado com sucesso"|Concretização da tarefa. Quantidade de erros cometidos. Tempo necessario para se concluir|
+|Cadastro de usuário|Concluir o cadastro, considerando a mensagem "Cadastro realizado com sucesso"|Concretização da tarefa. Quantidade de erros cometidos. Tempo necessario para se concluir|
 
 |Tarefa 2| Critério de êxito | O que será avaliado |
 |--------|-------------------|---------------------|
@@ -22,11 +22,15 @@ Quanto tempo foi necessário para conclui-la.
 
 |Tarefa 3| Critério de êxito | O que será avaliado |
 |--------|-------------------|---------------------|
-|Cadastro de novo pet | Concluir o cadastro do pet, considerando a mensagem "Cadastro realizado com sucesso" |Concretização da tarefa. Quantidade de erros cometidos. |
+|Cadastro do pet | Concluir o cadastro do pet, considerando a mensagem "Cadastro realizado com sucesso" |Concretização da tarefa. Quantidade de erros cometidos. |
 
 |Tarefa 4| Critério de êxito | O que será avaliado |
 |--------|-------------------|---------------------|
 |Agendamento | Concluir o agendamento do pet, considerando a mensagem "Agendamento realizado com sucesso" |Concretização da tarefa. Quantidade de erros cometidos. |
+
+|Tarefa 3| Critério de êxito | O que será avaliado |
+|--------|-------------------|---------------------|
+|Fazer o pagamento | Realizar o pagamento do serviço, considerando a mensagem "Pagamento realizado com sucesso" |Concretização da tarefa. Quantidade de erros cometidos. |
 
 
 ### Objetivo
