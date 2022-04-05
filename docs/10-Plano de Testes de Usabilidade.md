@@ -30,7 +30,7 @@ Quanto tempo foi necessário para conclui-la.
 
 |Tarefa 3| Critério de êxito | O que será avaliado |
 |--------|-------------------|---------------------|
-|Fazer o pagamento | Realizar o pagamento do serviço, considerando a mensagem "Pagamento realizado com sucesso" |Concretização da tarefa. Quantidade de erros cometidos. |
+|Pagamento | Realizar o pagamento do serviço, considerando a mensagem "Pagamento realizado com sucesso" |Concretização da tarefa. Quantidade de erros cometidos. |
 
 
 ### Objetivo
