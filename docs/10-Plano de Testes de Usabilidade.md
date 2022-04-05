@@ -20,6 +20,13 @@ Quanto tempo foi necessário para conclui-la.
 |--------|-------------------|---------------------|
 |Fazer o login no sistema | Conseguir logar no sistema e ser encaminhado para a página de cadastro |Concretização da tarefa. Quantidade de erros cometidos. |
 
+### Objetivo
+
+Fazer melhorias na plataforma proporcionando uma melhor experiência ao usuário. O que será mensurado no teste:
+
+- A qualidade na navegação
+- Satisfação do usuário
+
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
 > - [Teste de usabilidade: tudo o que você precisa saber! | by Jon Vieira | Aela.io | Medium](https://medium.com/aela/teste-de-usabilidade-o-que-voc%C3%AA-precisa-saber-39a36343d9a6/)
