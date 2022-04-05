@@ -6,7 +6,19 @@ Metodo Utilizado: Medição e Avaliação
 
 Para cada tarefa do participante é possível medir:
 
-Concretização da tarefa; O total de erros cometidos; Quantos erros de cada tipo ocorreram; Quanto tempo foi necessário para conclui-la.
+Concretização da tarefa; O total de erros cometidos; 
+Quantos erros de cada tipo ocorreram; 
+Quanto tempo foi necessário para conclui-la.
+
+### Roteiro
+
+|Tarefa 1| Critério de êxito | O que será avaliado |
+|--------|-------------------|---------------------|
+|Cadastro de novo usuário|Concluir o cadastro, considerando a mensagem "Cadastro realizado com sucesso"|Concretização da tarefa. Quantidade de erros cometidos. Tempo necessario para se concluir|
+
+|Tarefa 2| Critério de êxito | O que será avaliado |
+|--------|-------------------|---------------------|
+|Fazer o login no sistema | Conseguir logar no sistema e ser encaminhado para a página de cadastro |Concretização da tarefa. Quantidade de erros cometidos. |
 
 > **Links Úteis**:
 > - [Teste De Usabilidade: O Que É e Como Fazer Passo a Passo (neilpatel.com)](https://neilpatel.com/br/blog/teste-de-usabilidade/)
