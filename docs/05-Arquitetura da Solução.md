@@ -10,11 +10,14 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 ![Diagrama](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/diagrama%20ex.jpg)
 
-## Modelo ER e Esquema Relacional
+## Modelo ER 
 
-O Diagrama ER (ou DER) representa como as entidades relacionam-se entre si na aplicação interativa. Nele é representado, além da relações entre as entidades, as dependências e atributos das mesmas. 
+O Modelo ER representa, através de um diagrama, como as entidades relacionam-se entre si na aplicação interativa. Nele é representado, além da relações entre as entidades, as dependências e atributos das mesmas. 
 
 ![Modelo ER](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/er.jpeg)
+
+## Esquema Relacional
+-----------------
 
 ## Tecnologias Utilizadas
 
