@@ -17,7 +17,10 @@ O Modelo ER representa, através de um diagrama, como as entidades relacionam-se
 ![Modelo ER](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/er.jpeg)
 
 ## Esquema Relacional
------------------
+
+O Esquema Relacional trata da representação dos dados em forma de tabela, em conjunto com as restrições de integridade e chave primária.
+
+img aqui !!!!!
 
 ## Tecnologias Utilizadas
 
