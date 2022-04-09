@@ -11,7 +11,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 
 | **Caso de Teste** | **CT-01 Cadastro**|
 |---|---|
-| Requisitos Associados|•RF-8 O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp;<br> •RF-9 O sistema deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia);<br> •RF-10 ´po6O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono; |
+| Requisitos Associados|•RF-8 O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp;<br> •RF-9 O sistema deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia);<br> •RF-10 O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono; |
 |Objetivo de Teste | Verificar se o banco de dados está registrando as informações dos clientes corretamente.RF-8,RF-9,RF-10|
 | Passos |1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão "cadastrar". <br/> 4) Preencha os campos com as informações requeridas.<br/> 5) Clique no botão "cadastrar".<br/> 6) Clique no link de validação enviado para o e-mail cadastrado. <br/> 7)Clique no botão login.<br/> 8) Preencha os campos com o e-mail e senha cadastrados. <br/> 9) Clique em "entrar".|
 |Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. Sendo assim, o cliente já pode realizar o login na plataforma com as informações inseridas no cadastro. |
@@ -25,7 +25,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 |Critéritos de Êxito| •Todos sistema de Agendas esteja funcionando corretamento.|
 
 
-|**Caso de Teste** | **CT-04 Informaçoes**|
+|**Caso de Teste** | **CT-04 Informações**|
 |---|---|
 | Requisitos Associados |RF-02 O sistema deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local; |
 |Objetivo de Teste | Verificar se a pagina de Informaçoes, esta em pleno funcionamento |
@@ -44,7 +44,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 
 
 
- |**Caso de Teste** | **CT-06-Responsividade, compatibilidade, cores e contraste.**|
+ |**Caso de Teste** | **CT-06-Responsividade, compatibilidade, cores e contraste**|
 |---|---|
 | Requisitos Associados |RNF-02 O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; 
 |Objetivo de Teste | Verificar a responsividade em dispositivo mobile, compatibilidade com diversos navegadores e as cores/contraste dos elementos visuais. |
