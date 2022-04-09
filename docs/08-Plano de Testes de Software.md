@@ -19,7 +19,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 
 | **Caso de Teste** | **CT-03 Serviço de Agendas**|
 |---|---|
-| Requisitos Associados |x |
+| Requisitos Associados |•RF-03 O sistema deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line.<br> •RF-04 O sistema deve conter um limitador de vagas;  |
 |Objetivo de Teste | Verificar se a pagina de agendamento esta em pleno funcionamento |
 | Passos |  1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "Serviços", na homepage; <br/> 6) Clique no serviço que deseja comprar, dentro do dropdown; <br/> 7) Selecione a data que deseja agendar; <br/> 8) Confirme se há disponibilidade nesta data; <br/> 9) Clique em "Realizar pagamento". |
 |Critéritos de Êxito| •Todos sistema de Agendas esteja funcionando corretamento.|
@@ -27,7 +27,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 
 |**Caso de Teste** | **CT-04 Informaçoes**|
 |---|---|
-| Requisitos Associados |x |
+| Requisitos Associados |RF-02 O sistema deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local; |
 |Objetivo de Teste | Verificar se a pagina de Informaçoes, esta em pleno funcionamento |
 | Passos | 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no Botão "A Empresa"; |
 |Critéritos de Êxito| •Página carregar todo texto e a imagem. |
@@ -37,7 +37,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 
  |**Caso de Teste** | **CT-05 Depoimentos**|
 |---|---|
-| Requisitos Associados |x |
+| Requisitos Associados | RF-01 O sistema deve permitir que o cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários;|
 |Objetivo de Teste | Verificar se a pagina de depoimentos esta funcionado corretamento |
 | Passos |  1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "DEPOIMENTOS";<br/> 6) Realize um feedback;<br/> 7) Clique em Enviar.|
 |Critéritos de Êxito| • A funcionalidade Depoimentos esta em pleno funcionamento.|
@@ -46,7 +46,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 
  |**Caso de Teste** | **CT-06-Responsividade, compatibilidade, cores e contraste.**|
 |---|---|
-| Requisitos Associados |x |
+| Requisitos Associados |R1F-02 O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; |
 |Objetivo de Teste | Verificar a responsividade em dispositivo mobile, compatibilidade com diversos navegadores e as cores/contraste dos elementos visuais. |
 | Passos |  1) Verificar a responsividade no app: https://github.com/responsively-org/responsively-app<br> 2) Verificar a compatibilidade com os navegadores. |
 |Critéritos de Êxito| •	Página responsiva e compativel. <br> •Imagens visíveis e agradáveis.|
