@@ -46,7 +46,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 
  |**Caso de Teste** | **CT-06-Responsividade, compatibilidade, cores e contraste.**|
 |---|---|
-| Requisitos Associados |R1F-02 O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; |
+| Requisitos Associados |RNF-02 O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; 
 |Objetivo de Teste | Verificar a responsividade em dispositivo mobile, compatibilidade com diversos navegadores e as cores/contraste dos elementos visuais. |
 | Passos |  1) Verificar a responsividade no app: https://github.com/responsively-org/responsively-app<br> 2) Verificar a compatibilidade com os navegadores. |
 |Critéritos de Êxito| •	Página responsiva e compativel. <br> •Imagens visíveis e agradáveis.|
