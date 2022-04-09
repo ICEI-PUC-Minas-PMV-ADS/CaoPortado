@@ -12,7 +12,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 | **Caso de Teste** | **CT-01 Cadastro**|
 |---|---|
 | Requisitos Associados|•RF-8 O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp;<br> •RF-9 O sistema deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia);<br> •RF-10 O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono; |
-|Objetivo de Teste | Verificar se o banco de dados está registrando as informações dos clientes corretamente.RF-8,RF-9,RF-10|
+|Objetivo de Teste | Verificar se o banco de dados está registrando as informações dos clientes corretamente.|
 | Passos |1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão "cadastrar". <br/> 4) Preencha os campos com as informações requeridas.<br/> 5) Clique no botão "cadastrar".<br/> 6) Clique no link de validação enviado para o e-mail cadastrado. <br/> 7)Clique no botão login.<br/> 8) Preencha os campos com o e-mail e senha cadastrados. <br/> 9) Clique em "entrar".|
 |Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. Sendo assim, o cliente já pode realizar o login na plataforma com as informações inseridas no cadastro. |
 
