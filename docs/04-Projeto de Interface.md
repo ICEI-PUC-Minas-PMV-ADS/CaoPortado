@@ -19,36 +19,34 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
  
 ### Tela - Home-Page ### 
 
-A tela de home-page mostra os artigos recomendados e últimas publicações. O bloco de conteúdo traz as informações em destaques (imagem e título). 
+A tela de home-page mostra um carrossel de fotos, um resumo sobre a empresa e um  mapa de como chegar.O bloco apresenta os mesmos elementos fixos (cabeçalho e rodapé). 
 
-O bloco do home-page traz três elementos distintos:
+O bloco do home-page traz quatro elementos distintos:
 
-●	Componente de pesquisa que permite fazer buscas no site;
+●	Componente de "serviços" que permite escolher o serviço;
 
-●	Componente de Fale Conosco que leva o usuário para a tela de contatos;
+●	Componente de "depoimentos";
 
-●	Componente de Conteúdos possui uma lista de artigos, que, ao selecionar um artigo, dará acesso à página do conteúdo.
+●	Componente de "sobre a empresa" que possui informações da empresa.
 
-![Fluxo 01](https://thumbs2.imgbox.com/1b/8c/Ng1jX7qc_t.png)
+●	Componente de login.
+
+![Home](https://user-images.githubusercontent.com/90113699/162631244-0e539495-8363-4fa7-b1fa-3421f75c84ff.PNG)
 <br/>
-Figura 5 - Tela Inicial
 
-### Tela de Conteúdos ###
+### Tela de Serviços ###
 
-O menu contém uma lista de artigos com categorias específicas, à escolha do usuário. O Bloco também apresenta os mesmos elementos fixos (cabeçalho e rodapé).
+O serviço contém uma lista de serviços com categorias específicas, à escolha do usuário. O Bloco também apresenta os mesmos elementos fixos (cabeçalho e rodapé).
 
-![Fluxo 01](https://thumbs2.imgbox.com/1c/93/1tWp3kLd_t.png)
+![serviços](https://user-images.githubusercontent.com/90113699/162638266-4235af1e-d531-4e0f-801f-0f2837e9974c.PNG)
 <br/>
-Figura 6 - Lista de conteúdos
 
-### Tela - Resultado de Pesquisa ###
+### Tela de Depoimentos ###
 
-Assim que o usuário informa um tópico de pesquisa, ao clicar no botão OK, ele é direcionado para uma tela, a qual forma uma lista com conteúdos associadas ao tópico informado. Este resultado é apresentado na Figura 7 a seguir.
+Permite que o usuário faça comentários e avaliações sobre o trabalho prestado pela empresa.
 
-
-![Fluxo 01](https://thumbs2.imgbox.com/94/c0/sJa0lJlR_t.png)
+![Depoimentos](https://user-images.githubusercontent.com/90113699/162638675-dbd353fa-5043-4190-bbe5-cb1b47c24116.PNG)
 <br/>
-Figura 7 - Tela de Resultados de Pesquisa
 
 ### Tela - Leitura Artigos ###
 
