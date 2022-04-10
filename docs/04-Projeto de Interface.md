@@ -48,28 +48,17 @@ Permite que o usuário faça comentários e avaliações sobre o trabalho presta
 ![Depoimentos](https://user-images.githubusercontent.com/90113699/162638675-dbd353fa-5043-4190-bbe5-cb1b47c24116.PNG)
 <br/>
 
-### Tela - Leitura Artigos ###
+### Tela de Sobre a Empresa ###
 
-A tela de Leitura de Artigos apresenta, no Bloco de Conteúdo, um assunto específico. O Bloco também apresenta os mesmos elementos fixos (cabeçalho e rodapé). 
-
-
-![Fluxo 01](https://thumbs2.imgbox.com/4b/fb/1V2bPALn_t.png)
+Fotos e informações da empresa.
+![Sobre](https://user-images.githubusercontent.com/90113699/162639487-df2c6894-df2b-4e7d-ac63-9112d5cd9818.PNG)
 <br/>
-Figura 8 - Tela de Leitura do Artigo e comentários
 
-### Tela - Comentários ###
 
-Na tela que permite ao usuário comentar em uma notícia, deve-se informar o nome e o comentário em questão. Esta tela é exibida na forma de uma janela modal. Em seguida, deve-se confirmar ou cancelar a finalização do comentário. Na sequência, a tela é fechada, voltando para o ambiente anterior.
+### Tela de Login ###
+Permite que o usuário acesse seu cadastro e seus agendamentos.
 
-![Fluxo 01](https://thumbs2.imgbox.com/60/98/PH35Wn6i_t.png)
+![login](https://user-images.githubusercontent.com/90113699/162639155-05c236f6-ac37-48c4-b6e0-6f44466cd800.PNG)
 <br/>
-Figura 9 - Tela de inclusão de comentários
-
-### Tela – Fale Conosco ###
-
-Já esta tela, permite que o usuário possa se conectar com os desenvolvedores do site; contendo as seguintes opções: através do e-mail mostrado na tela, assim como o WhatsApp para quem preferir mandar mensagens com as seguintes duvidas ou feedback. Assim como apresentado na Figura 10 a seguir. 
 
 
-![Fluxo 01](https://thumbs2.imgbox.com/5c/16/1f0KJRvC_t.png)
-<br/>
-Figura 10- Tela Fale Conosco
