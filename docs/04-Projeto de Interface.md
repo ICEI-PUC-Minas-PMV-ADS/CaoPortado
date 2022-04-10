@@ -51,11 +51,13 @@ Permite que o usuário faça comentários e avaliações sobre o trabalho presta
 ### Tela de Sobre a Empresa ###
 
 Fotos e informações da empresa.
+
 ![Sobre](https://user-images.githubusercontent.com/90113699/162639487-df2c6894-df2b-4e7d-ac63-9112d5cd9818.PNG)
 <br/>
 
 
 ### Tela de Login ###
+
 Permite que o usuário acesse seu cadastro e seus agendamentos.
 
 ![login](https://user-images.githubusercontent.com/90113699/162639155-05c236f6-ac37-48c4-b6e0-6f44466cd800.PNG)
