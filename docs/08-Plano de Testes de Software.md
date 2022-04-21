@@ -1,19 +1,56 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os requisitos para realização dos testes de software são:
+<br><br>
+ •	_Site_ publicado na internet;<br/>
+ •	Navegador de Internet (_Google Chrome, Microsoft Edge, Mozilla Firefox, Safari_);<br/>
+ •	Conexão com a internet para acesso à plataforma.<br/>
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
-
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Os testes funcionais a serem realizados no site são descritos a seguir:
  
-## Ferramentas de Testes (Opcional)
 
-Comente sobre as ferramentas de testes utilizadas.
+| **Caso de Teste** | **CT-01 Cadastro**|
+|---|---|
+| Requisitos Associados|•RF-8 O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp;<br> •RF-9 O sistema deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia);<br> •RF-10 O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono; |
+|Objetivo de Teste | Verificar se o banco de dados está registrando as informações dos clientes corretamente.|
+| Passos |1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão "cadastrar". <br/> 4) Preencha os campos com as informações requeridas.<br/> 5) Clique no botão "cadastrar".<br/> 6) Clique no link de validação enviado para o e-mail cadastrado. <br/> 7)Clique no botão login.<br/> 8) Preencha os campos com o e-mail e senha cadastrados. <br/> 9) Clique em "entrar".|
+|Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. Sendo assim, o cliente já pode realizar o login na plataforma com as informações inseridas no cadastro. |
+
+
+| **Caso de Teste** | **CT-03 Serviço de Agendas**|
+|---|---|
+| Requisitos Associados |•RF-03 O sistema deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line.<br> •RF-04 O sistema deve conter um limitador de vagas;  |
+|Objetivo de Teste | Verificar se a pagina de agendamento esta em pleno funcionamento |
+| Passos |  1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "Serviços", na homepage; <br/> 6) Clique no serviço que deseja comprar, dentro do dropdown; <br/> 7) Selecione a data que deseja agendar; <br/> 8) Confirme se há disponibilidade nesta data; <br/> 9) Clique em "Realizar pagamento". |
+|Critéritos de Êxito| •Todos sistema de Agendas esteja funcionando corretamento.|
+
+
+|**Caso de Teste** | **CT-04 Informações**|
+|---|---|
+| Requisitos Associados |RF-02 O sistema deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local; |
+|Objetivo de Teste | Verificar se a pagina de Informaçoes, esta em pleno funcionamento |
+| Passos | 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no Botão "A Empresa"; |
+|Critéritos de Êxito| •Página carregar todo texto e a imagem. |
+
+
+
+
+ |**Caso de Teste** | **CT-05 Depoimentos**|
+|---|---|
+| Requisitos Associados | RF-01 O sistema deve permitir que o cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários;|
+|Objetivo de Teste | Verificar se a pagina de depoimentos esta funcionado corretamento |
+| Passos |  1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "DEPOIMENTOS";<br/> 6) Realize um feedback;<br/> 7) Clique em Enviar.|
+|Critéritos de Êxito| • A funcionalidade Depoimentos esta em pleno funcionamento.|
+
+
+
+ |**Caso de Teste** | **CT-06-Responsividade, compatibilidade, cores e contraste**|
+|---|---|
+| Requisitos Associados |RNF-02 O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; 
+|Objetivo de Teste | Verificar a responsividade em dispositivo mobile, compatibilidade com diversos navegadores e as cores/contraste dos elementos visuais. |
+| Passos |  1) Verificar a responsividade no app: https://github.com/responsively-org/responsively-app<br> 2) Verificar a compatibilidade com os navegadores. |
+|Critéritos de Êxito| •	Página responsiva e compativel. <br> •Imagens visíveis e agradáveis.|
+
+
+
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
