@@ -1,32 +1,29 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-} */
-/*Navegação*/
 header{
     display: flex;
     justify-content: 15px, 15px, 15px ;
     height: 80px;
     background-color:#fff;
 }
+
 .container {
     display: flex;
     justify-content: space-between;
     width: 960px;
 }
+
 .logo{
     display: flex;
     align-items: center;
     margin-top: 9px;
+
 }
+
 .logo a img {
     width:125px;
     height:auto;
-}
+} /*precisa msm???????? n tem class disso*/
 
-/* 15/11 colocando o buscar no nav e o desaparecendo o botão hamburguer do desktop*/
-#button-buscar-nav input{
+/*#button-buscar-nav input{
     width: 155px;
     height: 40px;
     border-radius: 24px;
