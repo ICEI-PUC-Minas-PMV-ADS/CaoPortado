@@ -25,6 +25,7 @@ header{
 
 ul { 
     list-style-type: none;
+    text-align: center;
 }
 
 /*#button-buscar-nav input{
