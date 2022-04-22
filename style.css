@@ -23,6 +23,10 @@ header{
     height:auto;
 } /*precisa msm???????? n tem class disso*/
 
+ul { 
+    list-style-type: none;
+}
+
 /*#button-buscar-nav input{
     width: 155px;
     height: 40px;
