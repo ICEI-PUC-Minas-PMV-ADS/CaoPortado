@@ -121,6 +121,7 @@ nav a:hover {
 .dp-menu ul ul li a {
     display: block;
 }
+
 /*login*/
 * {
     margin: 0;
@@ -163,7 +164,6 @@ a:hover {
     margin-top: 10vh;
     border-radius: 10px;
     text-align: center;
-
 }
 
 /* formulario */
@@ -174,7 +174,7 @@ form {
 }
 
 label,
-input {
+input{
     display: block;
     width: 100%;
     text-align: left;
@@ -197,8 +197,9 @@ input:focus {
     border-bottom: 2px solid #08558B;
 }
 
+
 #forgot-pass {
-    text-align: right;
+    text-align: center;
     display: block;
 }
 
@@ -217,7 +218,7 @@ input[type="submit"] {
 
 
 input[type="submit"]:hover {
-    background-color: #1b223c;
+    background-color: #0d3148;
     transition: .5s;
 }
 
@@ -239,15 +240,25 @@ input[type="submit"]:hover {
 }
 
 .fa-facebook-f {
-    background-color: #3B5998;
+    background-color: #08558B;
+}
+
+.fa-facebook-f:hover{
+    background-color: #0d3148;
+    transition: .5s;
 }
 
 .fa-linkedin {
     background-color: #08558B;
 }
 
-/* REGISTRAR */
+.fa-linkedin:hover{
+    background-color: #0d3148;
+    transition: .5s;
+}
 
-#register-container p {
+/* CADASTRAR */
+
+#cadastrar-container p {
     margin-bottom: 10px;
 }
