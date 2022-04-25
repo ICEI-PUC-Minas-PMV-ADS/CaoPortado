@@ -215,14 +215,14 @@ article .post_resume{
     text-decoration:underline;
     color:rgb(26, 98, 206);
 }
-footer p {
+/*footer p {
     margin-top:60px;
     height:40px;
     display: flex;
     flex:1;
     justify-content:center;
     align-items: center;
-    background-color: #f4f4f4;
+    background-color: #f4f4f4;*/
 }
 
     @media only screen and (max-width: 600px) {
@@ -231,6 +231,7 @@ footer p {
             margin-top: 0px;
         }
     }
+
   /*Menu */
 
   :root {
@@ -244,7 +245,6 @@ footer p {
     padding: 0;
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
-   
 }
 
 .dp-menu ul {
@@ -277,9 +277,6 @@ footer p {
     display: none;
     left: 5;
     position: absolute;
-    
-    
-    
     
 }
 
@@ -321,3 +318,4 @@ footer p {
 .galery .fotos img {
     width: 19.9%;
 }
+
