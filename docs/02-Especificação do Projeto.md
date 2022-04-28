@@ -111,7 +111,7 @@ Tabela - Casos de Uso
 |Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais.                                                            | RF-14 |
 |Obter informações sobre o PetHotel | O usuário pode obter informações referentes a valores, fotos e vídeos, etc.                          | RF-01, RF-02 |
 |Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, etc).                      | RF-09 |
-|Acessar comprovante de marcação e Pagamento | O Administrador e o usuário podem acessar o comprovante de marcação e pagamento.             | RF-07 |
+|Acessar comprovante de marcação e Pagamento | O Administrador e o usuário podem acessar o comprovante de marcação e pagamento.   ????????         | RF-07 |
 |Alterar Valores e Pacotes      | O Administrador pode alterar valores e pacotes.                                                          | RF-18 |
 |Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-19 |
 
