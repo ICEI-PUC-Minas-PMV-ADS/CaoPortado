@@ -17,11 +17,11 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 |Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. Sendo assim, o cliente já pode realizar o login na plataforma com as informações inseridas no cadastro. |
 
 
-| **Caso de Teste** | **CT-03 Serviço de Agendas**|
+| **Caso de Teste** | **CT-03 Serviço de Agendas** ????????|
 |---|---|
 | Requisitos Associados |•RF-03 O sistema deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line.<br> •RF-04 O sistema deve conter um limitador de vagas;  |
 |Objetivo de Teste | Verificar se a pagina de agendamento esta em pleno funcionamento |
-| Passos |  1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "Serviços", na homepage; <br/> 6) Clique no serviço que deseja comprar, dentro do dropdown; <br/> 7) Selecione a data que deseja agendar; <br/> 8) Confirme se há disponibilidade nesta data; <br/> 9) Clique em "Realizar pagamento". |
+| Passos |  1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "Serviços", na homepage; <br/> 6) Clique no serviço que deseja comprar, dentro do dropdown; <br/> 7) Selecione a data que deseja agendar; <br/> 8) Confirme se há disponibilidade nesta data; <br/> 9) Clique em "Realizar pagamento".???????? |
 |Critéritos de Êxito| •Todos sistema de Agendas esteja funcionando corretamento.|
 
 
