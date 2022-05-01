@@ -117,7 +117,7 @@ nav a:hover {
 }
 
 .dp-menu ul ul {
-    width: 190px border-bottom-right-radius: 45px;
+    width: 190px;
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
 }
@@ -273,7 +273,7 @@ input[type="submit"]:hover {
     transition: .5s;
 }
 
-
+ 
 /* CADASTRAR */
 
 #cadastrar-container p {

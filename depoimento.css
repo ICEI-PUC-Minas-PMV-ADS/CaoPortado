@@ -1,0 +1,147 @@
+/*Navegação*/
+
+header {
+    display: flex;
+    justify-content: 15px, 15px;
+    height: 80px;
+    background-color: #4F4F4F;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 960px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-top: 9px;
+}
+
+.logo a img {
+    width: 125px;
+    height: auto;
+}
+
+
+/* Cabeçario Menu */
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+}
+
+nav a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    margin-left: 21px;
+    border-radius: 24px;
+}
+
+nav a:hover {
+    color: #fff;
+    background-color: #FFC20E;
+}
+
+@media only screen and (max-width: 600px) {
+    #sb-search-example {
+        width: 150px;
+        margin-top: 0px;
+    }
+}
+
+
+/*Menu */
+
+:root {
+    --cor-fundo: #916d01;
+    --cor-hover: rgb(118, 180, 145);
+    --cor-primaria: rgb(231, 241, 236);
+}
+
+.dp-menu ul {
+    list-style-type: none;
+    padding: 0;
+    border-top-left-radius: 45PX;
+    border-top-right-radius: 45PX;
+}
+
+.dp-menu ul {
+    background-color: var(--cor-fundo);
+}
+
+.dp-menu ul li {
+    display: inline;
+    position: relative;
+}
+
+.dp-menu ul li a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    display: inline-block;
+    padding: 20px;
+    display: flex;
+    transition: background .3s;
+}
+
+.dp-menu ul li a:hover {
+    background-color: var(--cor-hover);
+}
+
+
+/*sub menu*/
+
+.dp-menu ul ul {
+    display: none;
+    left: 5;
+    position: absolute;
+}
+
+.dp-menu ul li:hover ul {
+    display: block;
+}
+
+.dp-menu ul ul {
+    width: 190px;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}
+
+.dp-menu ul ul li a {
+    display: block;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+    color: #323232;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+
+
