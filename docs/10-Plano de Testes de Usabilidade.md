@@ -22,10 +22,10 @@ Faz parte do escopo dos testes repetí-los para diferentes tipos de plataformas 
 |:--|:--|
 |**Requisitos Associados**|RF-03 – O sistema deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line; <br/> RF-05 – O sistema deve possibilitar a compra de pacotes de creche, adestramento e hospedagem; 
 |**Objetivo do teste**|- Permitir que o usuário agende diárias no PetHotel. <br/> - Permitir que o usuário consiga comprar os serviços oferecidos.|
-|**Passos**| 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "Serviços", na homepage; <br/> 6) Clique no serviço que deseja comprar, dentro do dropdown, neste caso "Hotel"; <br/> 7) Selecione a data que deseja agendar; <br/> 8) Confirme se há disponibilidade nesta data; <br/> 9) Clique em "Realizar pagamento".| 
+|**Passos**| 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "Serviços", na homepage; <br/> 6) Clique no serviço que deseja comprar, dentro do dropdown, neste caso "Hotel"; <br/> 7) Selecione a data que deseja agendar; <br/> 8) Confirme se há disponibilidade nesta data; <br/> 9) Clique em "Realizar pagamento"????????.| 
 |**Critérios de Êxito**|- Visualização do calendário. <br/> - Visualização da página de serviços oferecidos.
 
-|Caso de Teste | CT-04 - Pagamento do agendamento |
+|Caso de Teste | CT-04 - Pagamento do agendamento???????? |
 |:--|:--|
 |**Requisitos Associados**|RF-12 - O sistema deve disponibilizar formas de pagamento para o serviço contratado; <br/> RF-07 – O sistema deve conter um sistema de envio de comprovante de marcação para o cliente e envio do comprovante de pagamento para a empresa;
 |**Objetivo do teste**|- Permitir que o usuário realize o pagamento dos serviços adquiridos. <br/> - Permitir que o usuário escolha a forma de pagamento que lhe agrada.<br/> - Confirmar agendamento (cliente). <br/> - Confirmar pagamento (empresa).|
