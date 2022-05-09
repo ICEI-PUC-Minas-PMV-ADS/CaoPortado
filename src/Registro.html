@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./registro.css">
+    <link rel="stylesheet" href="./Registro.css">
     <script typer="text/javascript"></script>
     <title>Cadastre-se</title>
 </head>
@@ -58,41 +58,48 @@
                         <button><a href="#">Entrar</a></button>
                     </div>
                 </div>
+
                 <div class="input-group">
                     <div class="input-box">
-                        <label for="firstname">Nome</label>
-                        <input id="firstname" type="firstname" name="firstname" placeholder="Digite seu primeiro nome" required></input>
+                        <input id="name" type="fullname" name="fullname" placeholder="Nome completo" required></input>
+                    </div>
+                    
+                    <div class="input-box">
+                        <input id="birth" type="text" name="00/00/00" placeholder="Data de nascimento" onblur="(this.type='text')" onfocus="(this.type='date')" required></input>
                     </div>
 
                     <div class="input-box">
-                        <label for="lastname">Sobrenome</label>
-                        <input id="lastname" type="lastname" name="lastname" placeholder="Digite seu sobrenome" required></input>
+                        <input id="cpf" type="text" name="000.000.000-00" placeholder="CPF (somente números)" required></input>
                     </div>
 
                     <div class="input-box">
-                        <label for="email">E-mail</label>
-                        <input id="email" type="email" name="Digite seu email" placeholder="Digite seu email" required></input>
+                        <input id="rg" type="text" name="00.000.000-0" placeholder="RG (somente números)" required></input>
                     </div>
 
                     <div class="input-box">
-                        <label for="number">Telefone</label>
-                        <input id="number" type="tel" name="(xx) xxxxx-xxxx" placeholder="Telefone" required></input>
+                        <input id="adress" type="text" name="rua-bairro" placeholder="Endereço" required></input>
                     </div>
 
                     <div class="input-box">
-                        <label for="password">Senha</label>
-                        <input id="password" type="password" name="password" placeholder="Digite sua senha" required></input>
+                        <input id="number" type="tel" required="required" maxlength="15" name="phone" pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" placeholder="Telefone"/>
                     </div>
 
                     <div class="input-box">
-                        <label for="confirpassword">Confirme sua senha</label>
-                        <input id="confirpassword" type="confirpassword" name="confirpassword" placeholder="Digite sua senha" required></input>
+                        <input id="email" type="email" name="youremail" placeholder="E-mail" required></input>
                     </div>
 
+                    <div class="input-box">
+                        <input id="password" type="password" name="password" placeholder="Senha" required></input>
+                    </div>
+
+                    <div class="input-box">
+                        <input id="confirpassword" type="password" name="confirpassword"
+                            placeholder="Confirme sua senha" required></input>
+                    </div>
                 </div>
+
                 <div class="gender-inputs">
                     <div class="gender-title">
-                        <h6>Gênero</h6>
                     </div>
 
                     <div class="gender-group">
@@ -108,16 +115,16 @@
 
                         <div class="gender-input">
                             <input type="radio" id="others" name="gender">
-                            <label for="others">Outros</label>
+                            <label for="others">Personalizado</label>
                         </div>
 
                         <div class="gender-input">
                             <input type="radio" id="none" name="gender">
                             <label for="none">Prefiro não dizer</label>
                         </div>
-
                     </div>
                 </div>
+
                 <div class="continue-button">
                     <button><a href="#">Continuar</a></button>
 
