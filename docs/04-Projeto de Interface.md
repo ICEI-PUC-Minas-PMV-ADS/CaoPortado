@@ -58,7 +58,7 @@ Fotos e informações da empresa.
 
 ### Tela de Login ###
 
-Permite que o usuário acesse seu cadastro e seus agendamentos.
+Permite que o usuário acesse seu cadastro e seus agendamentos. ???????? E ONDE FICARIA A PARTE DE SE CADASTRAR, DE ACORDO OM O COMENTÁRIO DA PROF????
 
 ![login](https://user-images.githubusercontent.com/90113699/162639155-05c236f6-ac37-48c4-b6e0-6f44466cd800.PNG)
 <br/>
