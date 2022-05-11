@@ -10,7 +10,7 @@ O diagrama de classes ilustra graficamente como será a estrutura do software, e
 
 ![Diagrama](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/Diagrama-01.png)
 
-## Modelo ER 
+## Modelo ER ?????? ARRUMAR
 
 O Modelo ER representa, através de um diagrama, como as entidades relacionam-se entre si na aplicação interativa. Nele é representado, além da relações entre as entidades, as dependências e atributos das mesmas. 
 
@@ -18,7 +18,7 @@ O Modelo ER representa, através de um diagrama, como as entidades relacionam-se
 
 ## Esquema Relacional
 
-O Esquema Relacional trata da representação dos dados em forma de tabela, em conjunto com as restrições de integridade e chave primária.
+O Esquema Relacional trata da representação dos dados em forma de tabela, em conjunto com as restrições de integridade e chave primária. ?????? ARRUMAR
 
 ![Esquema](https://user-images.githubusercontent.com/90113699/162637743-0cc59ebc-1959-465b-9cf6-920b763b3a50.PNG)
 
