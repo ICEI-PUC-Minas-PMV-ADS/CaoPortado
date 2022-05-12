@@ -36,24 +36,24 @@ Os requisitos funcionais representam as necessidades, características e recurso
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|----------------------------------------|----  |
-|RF-01| O sistema deve permitir que o cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA |
-|RF-02| O sistema deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
-|RF-03| O sistema deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line. | ALTA |
-|RF-04| O sistema deve conter um limitador de vagas;| MÉDIA |
-|RF-05| O sistema deve possibilitar a compra de pacotes de creche, adestramento e hospedagem;| ALTA |
-|RF-06| O sistema deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
-|RF-07| O sistema deve conter um sistema de envio de comprovante de marcação para o cliente;| ALTA |
-|RF-08| O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp; - gerenciar cliente| ALTA |
-|RF-09| O sistema deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia) - gerenciar Pet;|MÉDIA|
+|RF-01| A aplicação deve permitir que o cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA |
+|RF-02| A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
+|RF-03| A aplicação deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line. | ALTA |
+|RF-04| A aplicação deve conter um limitador de vagas;| MÉDIA |
+|RF-05| A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem;| ALTA |
+|RF-06| A aplicação deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
+|RF-07| A aplicação deve conter um sistema de envio de comprovante de marcação para o cliente;| ALTA |
+|RF-08| A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp; - gerenciar cliente| ALTA |
+|RF-09| A aplicação deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia) - gerenciar Pet;|MÉDIA|
 |RF-10| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
-|RF-11| O sistema deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
-|RF-12| O sistema deve permitir que o usuário redefina sua senha, informando o e-mail cadastrado; | MÉDIA |
-|RF-13| O sistema deve permitir que o usuário altere seus dados cadastrais; - gerenciar cliente| MÉDIA |
-|RF-14| O sistema deve notificar ao Administrador qualquer alteração que o usuário fizer em suas reservas; | MÉDIA |
-|RF-15| O sistema deve permitir que o usuário consulte suas reservas; | MÉDIA |
-|RF-16| O sistema deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
-|RF-17| O sistema deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
-|RF-18| O sistema deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
+|RF-11| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
+|RF-12| A aplicação deve permitir que o usuário redefina sua senha, informando o e-mail cadastrado; | MÉDIA |
+|RF-13| A aplicação deve permitir que o usuário altere seus dados cadastrais; - gerenciar cliente| MÉDIA |
+|RF-14| A aplicação deve notificar ao Administrador qualquer alteração que o usuário fizer em suas reservas; | MÉDIA |
+|RF-15| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
+|RF-16| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
+|RF-17| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
+|RF-18| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
