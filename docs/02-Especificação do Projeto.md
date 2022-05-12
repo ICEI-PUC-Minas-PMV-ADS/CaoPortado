@@ -104,7 +104,7 @@ Tabela - Casos de Uso
 |Obter informações sobre o PetHotel | O usuário pode obter informações referentes a valores, fotos e vídeos, etc.                          | RF-02 |
 |Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, etc).                      | RF-09 |
 |Acessar comprovante de marcação| O Administrador e o usuário podem acessar o comprovante de marcação.                                     | RF-07 |
-|Alterar Valores e Pacotes      | O Administrador pode alterar valores e pacotes.                                                          | RF-17 |
+|Alterar Valores e Pacotes      | O Administrador pode gerencie valores e pacotes.                                                         | RF-17 |
 |Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-18 |
 
 <br>
