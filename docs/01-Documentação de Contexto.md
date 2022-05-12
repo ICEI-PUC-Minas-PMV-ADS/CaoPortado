@@ -24,6 +24,9 @@ Como objetivos específicos, podemos ressaltar:
 ## Justificativa
 
 Devido ao ritmo acelerado de crescimento da empresa, os processos de cadastro e agendamento se tornaram ineficientes. Diante disto, se faz necessário resolver esse problema para que a empresa continue atendendo os seus clientes com agilidade e qualidade.
+Durante e depois da pandemia (2020), houve um número exponencial do crescimento de procura por pets. 
+Com base nos dados, foi considerado um aumento em 50% nos primeiros meses de pandemia¹, em relação ao ano anterior. A demanda por hotéis, a fim de os donos deixarem seus pets em segurança, também cresceu consecutivamente. 
+Devido ao ritmo acelerado do crescimento da empresa, os processos de cadastro e agendamento se tornaram ineficientes. Diante disto, se faz necessário resolver esse problema para que a empresa continue atendendo os seus clientes com agilidade e qualidade.
 
 ## Público-Alvo
 
