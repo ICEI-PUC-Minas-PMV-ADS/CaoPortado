@@ -28,6 +28,8 @@ Durante e depois da pandemia (2020), houve um número exponencial do crescimento
 Com base nos dados, foi considerado um aumento em 50% nos primeiros meses de pandemia¹, em relação ao ano anterior. A demanda por hotéis, a fim de os donos deixarem seus pets em segurança, também cresceu consecutivamente. 
 Devido ao ritmo acelerado do crescimento da empresa, os processos de cadastro e agendamento se tornaram ineficientes. Diante disto, se faz necessário resolver esse problema para que a empresa continue atendendo os seus clientes com agilidade e qualidade.
 
+¹ *LUISA, I. Adoção de animais aumenta na pandemia, mas abandono também. Disponível em: <https://saude.abril.com.br/vida-animal/adocao-de-animais-aumenta-na-pandemia-mas-abandono-tambem/>. Acesso em: 12 maio. 2022.*
+
 ## Público-Alvo
 
 O público-alvo são os moradores da cidade de Itabira e região que possuem cachorros e que se encontram na faixa etária de 25 a 60 anos, majoritariamente das classes A e B.   
