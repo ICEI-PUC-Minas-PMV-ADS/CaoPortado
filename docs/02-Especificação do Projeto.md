@@ -42,25 +42,18 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-04| O sistema deve conter um limitador de vagas;| MÉDIA |
 |RF-05| O sistema deve possibilitar a compra de pacotes de creche, adestramento e hospedagem;| ALTA |
 |RF-06| O sistema deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
-|RF-07| O sistema deve conter um sistema de envio de comprovante de marcação para o cliente e envio do comprovante de pagamento para a empresa;????????| ALTA |
+|RF-07| O sistema deve conter um sistema de envio de comprovante de marcação para o cliente;| ALTA |
 |RF-08| O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp; - gerenciar cliente| ALTA |
 |RF-09| O sistema deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia) - gerenciar Pet;|MÉDIA|
 |RF-10| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
 |RF-11| O sistema deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
-|RF-12| O sistema deve disponibilizar formas de pagamento para o serviço contratado; ????????| ALTA |
-|RF-13| O sistema deve permitir que o usuário redefina sua senha, informando o e-mail cadastrado; | MÉDIA |
-|RF-14| O sistema deve permitir que o usuário altere seus dados cadastrais; - gerenciar cliente| MÉDIA |
-|RF-15| O sistema deve notificar ao Administrador qualquer alteração que o usuário fizer em suas reservas; | MÉDIA |
-|RF-16| O sistema deve permitir que o usuário altere suas reservas; | MÉDIA |
-|RF-17| O sistema deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
-|RF-18| O sistema deve permitir que o Administrador altere valores e pacotes; | ALTA|
-|RF-19| O sistema deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
-|RF-20| O sistema deve permitir que o Administrador e o usuário acessem o comprovante de pagamento de um agendamento/reserva; ??????| MÉDIA |
-
-
-
-
-
+|RF-12| O sistema deve permitir que o usuário redefina sua senha, informando o e-mail cadastrado; | MÉDIA |
+|RF-13| O sistema deve permitir que o usuário altere seus dados cadastrais; - gerenciar cliente| MÉDIA |
+|RF-14| O sistema deve notificar ao Administrador qualquer alteração que o usuário fizer em suas reservas; | MÉDIA |
+|RF-15| O sistema deve permitir que o usuário altere suas reservas; | MÉDIA |
+|RF-16| O sistema deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
+|RF-17| O sistema deve permitir que o Administrador altere valores e pacotes; | ALTA|
+|RF-18| O sistema deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
@@ -102,18 +95,17 @@ Tabela - Casos de Uso
 |-------------------------------|----------------------------------------------------------------------------------------------------------|----------------------|
 |Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta.                                     | RF-11 |
 |Agendar diária                 | O usuário pode reservar diárias através do sistema.                                                      | RF-03 |
-|Contratar um serviço           | O usuário pode fazer a compra dos serviços oferecidos pela empresa.                                      | RF-05 |
+|Contratar um serviço           | O usuário pode fazer a contratação dos serviços oferecidos pela empresa.                                 | RF-05 |
 |Criar conta                    | O usuário deve criar uma conta para utilizar os recursos disponíveis no sistema.                         | RF-08 |
-|Efetuar pagamento              | O usuário pode efetuar o pagamento, através das formas de pagamento oferecidas pelo sistema.      ?????       | RF-12 |
-|Acessar reservas               | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário.                         | RF-17 |
-|Alterar reservas               | O usuário pode alterar sua reserva, conforme as normas e disponibilidade.                                  | RF-15, RF-16 |
+|Consultar reservas             | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário.                         | RF-16 |
+|Alterar reservas               | O usuário pode alterar sua reserva, conforme as normas e disponibilidade.                                | RF-13, RF-14 |
 |Avaliar estabelecimento        | O usuário pode comentar e avaliar a empresa.                                                             | RF-01 |
 |Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais.                                                            | RF-14 |
 |Obter informações sobre o PetHotel | O usuário pode obter informações referentes a valores, fotos e vídeos, etc.                          | RF-01, RF-02 |
 |Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, etc).                      | RF-09 |
-|Acessar comprovante de marcação e Pagamento | O Administrador e o usuário podem acessar o comprovante de marcação e pagamento.   ????????         | RF-07 |
-|Alterar Valores e Pacotes      | O Administrador pode alterar valores e pacotes.                                                          | RF-18 |
-|Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-19 |
+|Acessar comprovante de marcação| O Administrador e o usuário podem acessar o comprovante de marcação.                                     | RF-07 |
+|Alterar Valores e Pacotes      | O Administrador pode alterar valores e pacotes.                                                          | RF-17 |
+|Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-18 |
 
 <br>
 
@@ -123,7 +115,7 @@ Tabela - Casos de Uso
 |              | Para efetivar o cadastro do Pet, o usuário deve fazer o Login.                                                           |
 |              | Para avaliar o estabelecimento, o usuário deve fazer o Login.                                                                                    |
 |              | Para agendar uma diária, o usuário deve contratar um serviço.                                                                                      |
-|              | Para efetuar pagamento, o usuário deve agendar uma diária.        ????????                                                                                 
+|              |                                                                                 
 |EXTENSÃO      |                                                                                                                                                    |
 |              | O usuário pode alterar seus dados cadastrais, se fizer Login.                                                               |
 |              | O usuário pode alterar reservas, se agendar uma diária. |
