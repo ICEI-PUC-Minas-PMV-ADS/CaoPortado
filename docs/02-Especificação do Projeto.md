@@ -50,9 +50,9 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-12| O sistema deve permitir que o usuário redefina sua senha, informando o e-mail cadastrado; | MÉDIA |
 |RF-13| O sistema deve permitir que o usuário altere seus dados cadastrais; - gerenciar cliente| MÉDIA |
 |RF-14| O sistema deve notificar ao Administrador qualquer alteração que o usuário fizer em suas reservas; | MÉDIA |
-|RF-15| O sistema deve permitir que o usuário altere suas reservas; | MÉDIA |
+|RF-15| O sistema deve permitir que o usuário consulte suas reservas; | MÉDIA |
 |RF-16| O sistema deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
-|RF-17| O sistema deve permitir que o Administrador altere valores e pacotes; | ALTA|
+|RF-17| O sistema deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
 |RF-18| O sistema deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
 
 ### Requisitos não Funcionais
