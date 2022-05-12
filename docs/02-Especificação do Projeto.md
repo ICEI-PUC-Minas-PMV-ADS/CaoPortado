@@ -6,7 +6,7 @@ As personas foram criadas a partir do briefing feito para a empresa CãoPortado,
 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/Roberta.jpeg)
 ==========
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/Jo%C3%A3o.jpeg)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/Jo%25C3%25A3o.jpeg)
 ======
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/Andressa.jpeg)
 =============================
