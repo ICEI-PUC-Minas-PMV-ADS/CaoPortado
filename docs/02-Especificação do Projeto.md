@@ -101,7 +101,7 @@ Tabela - Casos de Uso
 |Alterar reservas               | O usuário pode alterar sua reserva, conforme as normas e disponibilidade.                                | RF-13, RF-14 |
 |Avaliar estabelecimento        | O usuário pode comentar e avaliar a empresa.                                                             | RF-01 |
 |Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais.                                                            | RF-14 |
-|Obter informações sobre o PetHotel | O usuário pode obter informações referentes a valores, fotos e vídeos, etc.                          | RF-01, RF-02 |
+|Obter informações sobre o PetHotel | O usuário pode obter informações referentes a valores, fotos e vídeos, etc.                          | RF-02 |
 |Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, etc).                      | RF-09 |
 |Acessar comprovante de marcação| O Administrador e o usuário podem acessar o comprovante de marcação.                                     | RF-07 |
 |Alterar Valores e Pacotes      | O Administrador pode alterar valores e pacotes.                                                          | RF-17 |
