@@ -58,9 +58,21 @@ Fotos e informações da empresa.
 
 ### Tela de Login ###
 
-Permite que o usuário acesse seu cadastro e seus agendamentos. ???????? E ONDE FICARIA A PARTE DE SE CADASTRAR, DE ACORDO OM O COMENTÁRIO DA PROF????
+Permite que o usuário acesse seu cadastro e seus agendamentos.
 
 ![login](https://user-images.githubusercontent.com/90113699/162639155-05c236f6-ac37-48c4-b6e0-6f44466cd800.PNG)
 <br/>
 
+### Tela de Cadastro do Usuário ###
 
+Permite que o usuário se cadastre no site.
+
+![CadastroUsuario](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/user.png)
+<br/>
+
+### Tela de Cadastro do Pet ###
+
+Permite que o usuário cadastre os dados do seu Pet no site, e através de seu CPF, o vincula ao seu próprio cadastro.
+
+![CadastroPet](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/cadastro-pet.png)
+<br/>
