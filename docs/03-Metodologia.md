@@ -10,7 +10,7 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 --------- | ---------- |  -------------  |
 | Repositório de código fonte | GitHub | https://github.com/orgs/ICEI-PUC-Minas-PMV-ADS/teams/caoportado/repositories   |
 | Documentos do projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/tree/main/docs |
-| Projeto de Interface e  Wireframes | MarvelApp    | https://marvelapp.com/4hd6091 ?????? TROCAR LINK | 
+| Projeto de Interface e  Wireframes | MarvelApp    | https://marvelapp.com/prototype/2e0e5c66/section/1612252| 
 | Gerenciamento do Projeto | GitHub | https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/projects/1 |
 
 ## Gerenciamento de Projeto
