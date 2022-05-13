@@ -97,7 +97,7 @@ Tabela - Casos de Uso
 |Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta.                                     | RF-11 |
 |Fazer reserva                  | O usuário pode reservar diárias através do sistema.                                                      | RF-03 |
 |Contratar um serviço           | O usuário pode fazer a contratação dos serviços oferecidos pela empresa.                                 | RF-05 |
-|Criar conta                    | O usuário deve criar uma conta para utilizar os recursos disponíveis no sistema (usuário não sendo obrigado a realizar cadastro do Pet, avaliar estabelecimento, contaratar serviços ou alterar dados cadastrais).                          | RF-08 |
+|Criar conta                    | O usuário deve criar uma conta para utilizar os recursos disponíveis no sistema (usuário não sendo obrigado a realizar cadastro do Pet, avaliar estabelecimento, contratar serviços ou alterar dados cadastrais).                          | RF-08 |
 |Consultar reservas             | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário.                         | RF-16 |
 |Alterar reservas               | O usuário pode alterar sua reserva, conforme as normas e disponibilidade.                                | RF-13, RF-14 |
 |Avaliar estabelecimento        | O usuário pode comentar e avaliar a empresa.                                                             | RF-01 |
