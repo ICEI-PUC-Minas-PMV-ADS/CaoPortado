@@ -86,7 +86,7 @@ Tabela - Casos de Uso
 |-----------------|--------------------------------------------------------------------------------------------------|
 |Usuário Cadastrado| Pessoa que possui um cadastro no sistema.|
 |Usuário Não Cadastrado| Pessoa que não possui um cadastro no sistema.|
-|Usuário e Usuário Não Cadastrado| Ambos têm os mesmos acessos, com exceção do limite que Usuário tem com o cadastro feito no site.
+|Usuário e Usuário Não Cadastrado| Ambos têm os mesmos limites, com exceção do acesso ''extra'' que Usuário tem com o cadastro feito no site.|
 |Administrador| Pessoa que gerencia e tem acesso a todos as funcionalidades do sistema.|
 
 
