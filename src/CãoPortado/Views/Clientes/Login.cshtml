@@ -6,30 +6,45 @@
 
 
 <link rel="stylesheet" href="~/css/Login.css" asp-append-version="true" />
-
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
 <form asp-action="Login">
-    
-    <div class="login">
-        <h1>Login</h1>
-        <form method="post">
-            <div class="form-group">
-                <label asp-for="Nome" class="control-label"></label>
-                <input asp-for="Nome" class="form-control" />
-                <span asp-validation-for="Nome" class="text-danger"></span>
-            </div><br/>
-            <div class="form-group">
-                <label asp-for="Senha" class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
-                <span asp-validation-for="Senha" class="text-danger"></span>
-            </div><br/>
-
-            <div class="form-group">
-            <input type="submit" value="Entrar" class="btn btn-primary" /> |
-            <a class="btn btn-info" asp-controller="Home" asp-action="Index">Voltar</a>
-            </div><br/>
-        </form>
-        <h3>@ViewBag.Message </h3>
+<body>
+<div id="login">
+    <h3 class="text-center text-white pt-5">Login form</h3>
+    <div class="container">
+        <div id="login-row" class="row justify-content-center align-items-center">
+            <div id="login-column" class="col-md-6">
+                <div class="login-box col-md-12">
+                    <form id="login-form" class="form" action="" method="post">
+                        <h3 class="text-center text-info">Login</h3>
+                        <div class="form-group">
+                            <label asp-for="Nome" class="control-label"></label>
+                            <input asp-for="Nome" class="form-control" />
+                            <span asp-validation-for="Nome" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <label asp-for="Senha" class="control-label"></label>
+                            <input asp-for="Senha" class="form-control" />
+                            <span asp-validation-for="Senha" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" value="Entrar" class="btn btn-primary" /> |
+                            <a class="btn btn-info" asp-controller="Home" asp-action="Index">Voltar</a>
+                        </div>
+                        <div id="register-link" class="text-right">
+                            <a href="#" class="text-info">Register here</a>
+                            <h3>@ViewBag.Message </h3>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+</body>
 </form>
 
 @section Scripts {
