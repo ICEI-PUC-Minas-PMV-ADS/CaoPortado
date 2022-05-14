@@ -1,16 +1,11 @@
 /* _content/PetHotel/Views/Home/Login.cshtml.rz.scp.css */
-@ 
-
-
-
-header {
-
-    background-color: red;
+text-center32[b-te11762no5] {
+    background: crimson;
 }
 
-Login text-center[b-te11762no5] {
-    background-color: red;
-     color: red                 
+display-4[b-te11762no5] {
+    background-color: crimson;
+    background: crimson;
 }
 /* _content/PetHotel/Views/Shared/_Layout.cshtml.rz.scp.css */
 /* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification

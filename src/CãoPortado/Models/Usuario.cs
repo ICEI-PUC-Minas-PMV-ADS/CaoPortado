@@ -17,9 +17,6 @@ namespace PetHotel.Models
         [Column("Nome")]
 
 
-        public string Name { get; set; }    
-
-
-
+        public string Name { get; set; }
     }
 }

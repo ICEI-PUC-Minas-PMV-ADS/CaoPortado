@@ -21,6 +21,7 @@ namespace PetHotel.Models
 
         [Required(ErrorMessage = "Obrigatorio Informar o Perfil!")]
         public Perfil Perfil { get; set; }
+
     }
 
     public enum Perfil

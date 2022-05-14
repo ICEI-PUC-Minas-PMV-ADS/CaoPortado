@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using System.Diagnostics;
 using PetHotel.Models;
+using System.Diagnostics;
 
 namespace PetHotel.Controllers
 {
@@ -22,10 +22,7 @@ namespace PetHotel.Controllers
         {
             return View();
         }
-        public IActionResult Login()
-        {
-            return View();
-        }
+       
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

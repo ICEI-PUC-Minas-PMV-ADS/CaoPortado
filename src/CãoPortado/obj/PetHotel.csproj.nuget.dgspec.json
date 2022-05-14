@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hector\\source\\repos\\CãoPortado\\PetHotel.csproj": {}
+    "C:\\Users\\Hector\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hector\\source\\repos\\CãoPortado\\PetHotel.csproj": {
+    "C:\\Users\\Hector\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hector\\source\\repos\\CãoPortado\\PetHotel.csproj",
+        "projectUniqueName": "C:\\Users\\Hector\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj",
         "projectName": "PetHotel",
-        "projectPath": "C:\\Users\\Hector\\source\\repos\\CãoPortado\\PetHotel.csproj",
+        "projectPath": "C:\\Users\\Hector\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj",
         "packagesPath": "C:\\Users\\Hector\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hector\\source\\repos\\CãoPortado\\obj\\",
+        "outputPath": "C:\\Users\\Hector\\source\\repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -69,9 +69,13 @@
               "target": "Package",
               "version": "[6.0.4, )"
             },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.2.8, )"
+            },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.3, )"
+              "version": "[6.0.4, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",

@@ -26,8 +26,25 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Login">Login</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Cadastro</a>
                         </li>
+                    </ul>
+                    <ul Class="navbar-nav">
+                        
+                        
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-link">
+                            Olá, @User.Identity.Name
+                            </li>
+                        }
+                        else
+                        {
+                           <li class="nav-link">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Login">Login</a>
+                            </li>
+                        }
+                        
                     </ul>
                 </div>
             </div>
@@ -41,7 +58,7 @@
 
     <footer class="border-top footer text-muted">
         <div class="container">
-            &copy; 2022 - CãoPortado - <a asp-area="" asp-controller="Home" asp-action="Login">Privacy</a>
+            &copy; 2022 - CãoPortado - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

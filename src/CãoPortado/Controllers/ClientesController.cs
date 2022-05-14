@@ -2,10 +2,13 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Claims;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.VisualBasic;
 using PetHotel.Data;
 using PetHotel.Models;
 
@@ -19,6 +22,69 @@ namespace PetHotel.Controllers
         {
             _context = context;
         }
+
+
+        public IActionResult Login()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Login([Bind("Nome,Senha,")] Clientes clientes)
+        {
+            var user = await _context.Clientes
+                .FirstOrDefaultAsync(m => m.Nome == clientes.Nome);
+
+            if (user == null)
+            {
+                ViewBag.Message= "Usuario e/ou Senha Inválidos!";
+                return View();
+            }
+
+
+            bool isSenhaOk = BCrypt.Net.BCrypt.Verify(clientes.Senha, user.Senha);
+
+            if (isSenhaOk)
+            {
+
+                var claims = new List<Claim>
+                {
+                    new Claim(ClaimTypes.Name, user.Nome),
+                    new Claim(ClaimTypes.NameIdentifier, user.Nome),
+                    new Claim(ClaimTypes.Role, user.Perfil.ToString())
+                };
+
+                
+
+                var userIdentity = new ClaimsIdentity(claims, "login");
+
+                ClaimsPrincipal principal = new ClaimsPrincipal(userIdentity);
+
+                var props = new AuthenticationProperties
+                {
+                    AllowRefresh = true,
+                    ExpiresUtc = DateAndTime.Now.ToLocalTime().AddDays(7),
+                    IsPersistent = true
+                };
+
+                await HttpContext.SignInAsync(principal, props);
+
+                return Redirect("/");
+
+            }
+
+            ViewBag.Message = "Usuario e/ou Senha Inválidos!";
+            return View();
+            
+        }
+
+
+
+        public IActionResult AccessDenied()
+        {
+            return View();
+        }
+
 
         // GET: Clientes
         public async Task<IActionResult> Index()
