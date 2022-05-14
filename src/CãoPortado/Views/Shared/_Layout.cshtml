@@ -35,7 +35,7 @@
                         @if (User.Identity.IsAuthenticated)
                         {
                             <li class="nav-link">
-                            Olá, @User.Identity.Name
+                                Olá, @User.Identity.Name <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Logout">Sair</a>
                             </li>
                         }
                         else

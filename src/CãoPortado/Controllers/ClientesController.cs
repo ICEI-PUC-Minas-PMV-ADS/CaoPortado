@@ -80,6 +80,16 @@ namespace PetHotel.Controllers
 
 
 
+        public async Task<IActionResult> Logout()
+        {
+
+            await HttpContext.SignOutAsync();
+            return RedirectToAction("Login", "Clientes");
+
+
+        }
+
+
         public IActionResult AccessDenied()
         {
             return View();
