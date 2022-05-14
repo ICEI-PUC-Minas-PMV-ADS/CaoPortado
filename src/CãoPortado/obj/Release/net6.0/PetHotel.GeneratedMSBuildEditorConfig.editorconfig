@@ -47,6 +47,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/Hector/Source/Repos/ICEI-PUC-Minas-PMV-ADS/CaoPortado/src/CãoPortado/Views/Home/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Hector/Source/Repos/ICEI-PUC-Minas-PMV-ADS/CaoPortado/src/CãoPortado/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -86,10 +90,6 @@ build_metadata.AdditionalFiles.CssScope =
 [C:/Users/Hector/Source/Repos/ICEI-PUC-Minas-PMV-ADS/CaoPortado/src/CãoPortado/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Hector/Source/Repos/ICEI-PUC-Minas-PMV-ADS/CaoPortado/src/CãoPortado/Views/Home/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxMb2dpbi5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = b-te11762no5
 
 [C:/Users/Hector/Source/Repos/ICEI-PUC-Minas-PMV-ADS/CaoPortado/src/CãoPortado/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s

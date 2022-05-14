@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Y7s4fZe3UOse9v6tpKUiVKbCONJocLfORukWnUotKx4=",
+  "Hash": "o0UGfL2z2fe6Rl7WkDjPsIMth5hgfpy4NnD4toGRp80=",
   "Source": "PetHotel",
   "BasePath": "_content/PetHotel",
   "Mode": "Default",
@@ -51,6 +51,23 @@
       "OriginalItemSpec": "C:\\Users\\Hector\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PetHotel.bundle.scp.css"
     },
     {
+      "Identity": "C:\\Users\\Hector\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\Login.css",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hector\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "css/Login.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\Login.css"
+    },
+    {
       "Identity": "C:\\Users\\Hector\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\site.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
@@ -83,6 +100,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Hector\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\karsten-winegeart-oU6KZTXhuvk-unsplash.jpg",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hector\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "img/karsten-winegeart-oU6KZTXhuvk-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\karsten-winegeart-oU6KZTXhuvk-unsplash.jpg"
     },
     {
       "Identity": "C:\\Users\\Hector\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\js\\site.js",
