@@ -1,0 +1,230 @@
+[33mcommit 1d5cb3d8cb65786ad102f9203798019fcc8151c1[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: arthurvictorprogm <arthurvictorprogm@gmail.com>
+Date:   Sun May 15 01:47:09 2022 -0300
+
+    Create git revert b5aa54b5aa54283e3f9d1e50f91d324b065570582546dd
+
+[33mcommit 8bc0100779a96e1279713777881714b71c772cc7[m
+Author: arthurvictorprogm <arthurvictorprogm@gmail.com>
+Date:   Sun May 15 00:05:19 2022 -0300
+
+    Revert "Merge branch 'main' of https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado"
+    
+    This reverts commit 6b2035a272b565102891bbf98ad7d14b764055f2, reversing
+    changes made to 7f94267d69044e62f9e6aea93b52dddfac3d0a5d.
+
+[33mcommit aef15ce03ce550af9c9dbfda5739bb422d434c47[m
+Author: arthurvictorprogm <arthurvictorprogm@gmail.com>
+Date:   Sun May 15 00:04:50 2022 -0300
+
+    Revert "Revert "Merge branch 'main' of https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado""
+    
+    This reverts commit 02f434f1f0958efc4940786a27f639f3d954a839.
+
+[33mcommit 02f434f1f0958efc4940786a27f639f3d954a839[m
+Author: arthurvictorprogm <arthurvictorprogm@gmail.com>
+Date:   Sun May 15 00:01:40 2022 -0300
+
+    Revert "Merge branch 'main' of https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado"
+    
+    This reverts commit 6b2035a272b565102891bbf98ad7d14b764055f2, reversing
+    changes made to 7f94267d69044e62f9e6aea93b52dddfac3d0a5d.
+
+[33mcommit 6b2035a272b565102891bbf98ad7d14b764055f2[m
+Merge: 7f94267 c044642
+Author: arthurvictorprogm <arthurvictorprogm@gmail.com>
+Date:   Sun May 15 00:00:55 2022 -0300
+
+    Merge branch 'main' of https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado
+
+[33mcommit 7f94267d69044e62f9e6aea93b52dddfac3d0a5d[m
+Merge: b5aa542 479b945
+Author: arthurvictorprogm <arthurvictorprogm@gmail.com>
+Date:   Sat May 14 23:41:37 2022 -0300
+
+    Merge branch 'tuzin'
+
+[33mcommit c044642b30c6668728583b455368a171a8c75a7b[m
+Author: arthurvictorprogm <arthurvictorprogm@gmail.com>
+Date:   Sat May 14 23:22:26 2022 -0300
+
+    commit
+
+[33mcommit b5aa54283e3f9d1e50f91d324b065570582546dd[m
+Author: Hectu13 <90073811+Hectu13@users.noreply.github.com>
+Date:   Sat May 14 21:58:45 2022 -0300
+
+    Commit
+
+[33mcommit 479b945478443aa9ae6f510be25e180f4b9fdd93[m[33m ([m[1;31morigin/tuzin[m[33m, [m[1;32mtuzin[m[33m)[m
+Author: arthurvictorprogm <arthurvictorprogm@gmail.com>
+Date:   Sat May 14 18:30:15 2022 -0300
+
+    amem
+
+[33mcommit 56237762cfed4ddfba160fa83f332585776c71c5[m
+Merge: d668d0a 87cd1b4
+Author: Hectu13 <90073811+Hectu13@users.noreply.github.com>
+Date:   Sat May 14 15:47:00 2022 -0300
+
+    commit
+
+[33mcommit d668d0a188371b8dee9c1bc2c8f2b21a44d5bcd7[m
+Author: Hectu13 <90073811+Hectu13@users.noreply.github.com>
+Date:   Sat May 14 15:44:20 2022 -0300
+
+    Commit
+
+[33mcommit e40dbaa2a11fb242368c5788f50efc1dbb05d40c[m
+Author: Hectu13 <90073811+Hectu13@users.noreply.github.com>
+Date:   Sat May 14 13:55:07 2022 -0300
+
+    erro
+
+[33mcommit 497249d2794007546b43d53094cac848fabf1cf7[m
+Author: Hectu13 <90073811+Hectu13@users.noreply.github.com>
+Date:   Sat May 14 00:34:09 2022 -0300
+
+    Mito
+
+[33mcommit 87cd1b41b955d8f32cdb5fde9b0fff33e7367764[m
+Author: Hectu13 <90073811+Hectu13@users.noreply.github.com>
+Date:   Sat May 14 00:34:09 2022 -0300
+
+    Mito
+
+[33mcommit 3ca8d00339920a9a268de41ad1bee6927d59000a[m
+Author: Hectu13 <90073811+Hectu13@users.noreply.github.com>
+Date:   Sat May 14 00:27:39 2022 -0300
+
+    Cooomit
+
+[33mcommit a8c8b54440fa5d08f8a0c3ec61c8a40b8c8352ae[m[33m ([m[1;31morigin/developer[m[33m, [m[1;32mdeveloper[m[33m)[m
+Author: arthurvictorprogm <arthurvictorprogm@gmail.com>
+Date:   Sat May 14 00:09:51 2022 -0300
+
+    git reset FileContentIndex
+
+[33mcommit b551e8e35b3a75b096a90b1780bc288fdae79d0f[m
+Author: Hectu13 <90073811+Hectu13@users.noreply.github.com>
+Date:   Fri May 13 21:17:37 2022 -0300
+
+    commit
+
+[33mcommit eb2d5b5db844c8917973dfa59321908d3cf3fb60[m
+Author: Helen <90874925+helenbelinassi@users.noreply.github.com>
+Date:   Fri May 13 00:16:24 2022 -0300
+
+    Update 02-Especificação do Projeto.md
+
+[33mcommit cb5fb08e876e92902f741a3cff0413f082f66917[m
+Author: Helen <90874925+helenbelinassi@users.noreply.github.com>
+Date:   Fri May 13 00:14:58 2022 -0300
+
+    Update 02-Especificação do Projeto.md
+
+[33mcommit 44a4ca1f7c743adbdaef1091a26c813b1226fbcf[m
+Author: Helen <90874925+helenbelinassi@users.noreply.github.com>
+Date:   Fri May 13 00:13:13 2022 -0300
+
+    Update 02-Especificação do Projeto.md
+
+[33mcommit d71a74c840d0dd579da50868bcfea2dd32407411[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 22:46:24 2022 -0300
+
+    Update 04-Projeto de Interface.md
+
+[33mcommit 8029d708681f1fde6fdaec25f27959310cbd172f[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 22:44:36 2022 -0300
+
+    Add files via upload
+
+[33mcommit d66a98eaf5919c024724332495cb492f5a6174dc[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 22:44:03 2022 -0300
+
+    Add files via upload
+
+[33mcommit 077091e1b5b6c20230f81fecc0b22104a8c57a9d[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 22:29:36 2022 -0300
+
+    Update 03-Metodologia.md
+
+[33mcommit 1c542a1dc5d111058c06b08e30952e5af52bb9ed[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 21:42:24 2022 -0300
+
+    Update 08-Plano de Testes de Software.md
+
+[33mcommit 26c20549d8b36b7c5eb738cb625edc19eba51382[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 19:38:54 2022 -0300
+
+    Update 08-Plano de Testes de Software.md
+
+[33mcommit dcd367b968377730bf829a1737d4eb44bb279d7c[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 19:18:46 2022 -0300
+
+    Update 01-Documentação de Contexto.md
+
+[33mcommit cf526075c8799ce3550126ce37103729c9443cd0[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 15:46:18 2022 -0300
+
+    Rename 13- Referências.md to 13-Referências.md
+
+[33mcommit e77a2ebe073ac1296917e40858303b00139ea538[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 15:45:57 2022 -0300
+
+    Rename 11- Registro de Testes de Usabilidade.md to 11-Registro de Testes de Usabilidade.md
+
+[33mcommit 045dd9e9dc717852378e08525ee7f52315709017[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 15:45:35 2022 -0300
+
+    Rename 09- Registro de Testes de Software.md to 09-Registro de Testes de Software.md
+
+[33mcommit fc128f68d40681c0dc4aadc4f4d900f1fcca11f0[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 15:45:12 2022 -0300
+
+    Rename 07- Programação de Funcionalidades.md to 07-Programação de Funcionalidades.md
+
+[33mcommit 72f31e6e48b75686d75a77da373a90a4df86ba74[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 15:44:31 2022 -0300
+
+    Delete 09-Registro de Testes de Software.md
+
+[33mcommit d4e9975473c50bf6f4b2ee62666051b51ccc973a[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 02:22:41 2022 -0300
+
+    Update 07- Programação de Funcionalidades.md
+
+[33mcommit eee5118e0992ef03d66501ec3d3dcb97ee173320[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 02:19:46 2022 -0300
+
+    Update 02-Especificação do Projeto.md
+
+[33mcommit ca5088e41fa8f1a067983a0cb44cb8f18d56437c[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 02:09:52 2022 -0300
+
+    Update 09- Registro de Testes de Software.md
+
+[33mcommit 8a1480755b1689deae47692969e1bd930ee05c91[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date:   Thu May 12 02:08:29 2022 -0300
+
+    Update 11- Registro de Testes de Usabilidade.md
+
+[33mcommit 3621c2c5a853f4e32d11feb853b6d503fe5e1e6d[m
+Author: Isabella Damião <84861435+belladamiao@users.noreply.github.com>
+Date
