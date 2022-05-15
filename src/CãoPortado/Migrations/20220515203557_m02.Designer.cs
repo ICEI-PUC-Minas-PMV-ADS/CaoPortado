@@ -10,8 +10,8 @@ using PetHotel.Data;
 namespace PetHotel.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220514230808_m10")]
-    partial class m10
+    [Migration("20220515203557_m02")]
+    partial class m02
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

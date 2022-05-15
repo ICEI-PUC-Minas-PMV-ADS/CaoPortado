@@ -150,12 +150,12 @@ namespace PetHotel.Controllers
                 _context.Add(clientes);
                 await _context.SaveChangesAsync();
                 ViewBag.Message = "Cadastro realizado com sucesso!";
-                return RedirectToAction(nameof(Index));
+                //return RedirectToAction(nameof(Index));
 
             }
 
 
-            return View(clientes);
+            return View();
              
         }
 
