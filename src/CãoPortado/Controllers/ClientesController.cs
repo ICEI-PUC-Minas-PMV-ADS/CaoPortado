@@ -30,10 +30,10 @@ namespace PetHotel.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> Login([Bind("Nome,Senha,")] Clientes clientes)
+        public async Task<IActionResult> Login([Bind("Email,Senha,")] Clientes clientes)
         {
             var user = await _context.Clientes
-                .FirstOrDefaultAsync(m => m.Nome == clientes.Nome);
+                .FirstOrDefaultAsync(m => m.Email == clientes.Email);
 
             if (user == null)
             {
@@ -131,16 +131,32 @@ namespace PetHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Nome,Senha,Perfil")] Clientes clientes)
+        public async Task<IActionResult> Create([Bind("Id,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Clientes clientes)
         {
+
+
+            if (clientes.Senha != clientes.Senha2)
+            {
+                ViewBag.Message = "Senhas não conferem. Digite novamente";
+                return View();
+            }
+
+
+
             if (ModelState.IsValid)
             {
                 clientes.Senha = BCrypt.Net.BCrypt.HashPassword(clientes.Senha);
+                clientes.Senha2 = BCrypt.Net.BCrypt.HashPassword(clientes.Senha2);
                 _context.Add(clientes);
                 await _context.SaveChangesAsync();
+                ViewBag.Message = "Cadastro realizado com sucesso!";
                 return RedirectToAction(nameof(Index));
+
             }
+
+
             return View(clientes);
+             
         }
 
         // GET: Clientes/Edit/5
@@ -164,11 +180,18 @@ namespace PetHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Nome,Senha,Perfil")] Clientes clientes)
+        public async Task<IActionResult> Edit(int id,
+            [Bind("Id,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Clientes clientes)
         {
             if (id != clientes.Id)
             {
                 return NotFound();
+            }
+
+            if (clientes.Senha != clientes.Senha2)
+            {
+                ViewBag.Message = "Senhas não conferem. Digite novamente";
+                return View();
             }
 
             if (ModelState.IsValid)
@@ -176,6 +199,7 @@ namespace PetHotel.Controllers
                 try
                 {
                     clientes.Senha = BCrypt.Net.BCrypt.HashPassword(clientes.Senha);
+                    clientes.Senha2 = BCrypt.Net.BCrypt.HashPassword(clientes.Senha2);
                     _context.Update(clientes);
                     await _context.SaveChangesAsync();
                 }
@@ -190,41 +214,44 @@ namespace PetHotel.Controllers
                         throw;
                     }
                 }
-                return RedirectToAction(nameof(Index));
+
+                ViewBag.Message = "Atualização realizada com sucesso!";
+                //return RedirectToAction(nameof(Index));
             }
+
             return View(clientes);
         }
 
         // GET: Clientes/Delete/5
-        public async Task<IActionResult> Delete(int? id)
-        {
-            if (id == null)
+            public async Task<IActionResult> Delete(int? id)
             {
-                return NotFound();
+                if (id == null)
+                {
+                    return NotFound();
+                }
+
+                var hospede = await _context.Clientes
+                    .FirstOrDefaultAsync(m => m.Id == id);
+                if (hospede == null)
+                {
+                    return NotFound();
+                }
+
+                return View(hospede);
             }
 
-            var clientes = await _context.Clientes
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (clientes == null)
+            // POST: Hospedes/Delete/5
+            [HttpPost, ActionName("Delete")]
+            [ValidateAntiForgeryToken]
+            public async Task<IActionResult> DeleteConfirmed(int id)
             {
-                return NotFound();
+                var hospede = await _context.Clientes.FindAsync(id);
+                _context.Clientes.Remove(hospede);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
             }
 
-            return View(clientes);
-        }
-
-        // POST: Clientes/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var clientes = await _context.Clientes.FindAsync(id);
-            _context.Clientes.Remove(clientes);
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
-
-        private bool ClientesExists(int id)
+            private bool ClientesExists(int id)
         {
             return _context.Clientes.Any(e => e.Id == id);
         }

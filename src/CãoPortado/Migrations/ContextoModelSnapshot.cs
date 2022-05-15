@@ -24,6 +24,22 @@ namespace PetHotel.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<string>("CPF")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("DataDeNascimento")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Email")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Endereco")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Nome")
                         .IsRequired()
                         .HasColumnType("longtext");
@@ -32,6 +48,14 @@ namespace PetHotel.Migrations
                         .HasColumnType("int");
 
                     b.Property<string>("Senha")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Senha2")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Telefone")
                         .IsRequired()
                         .HasColumnType("longtext");
 
