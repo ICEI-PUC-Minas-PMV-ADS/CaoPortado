@@ -5,6 +5,7 @@ using System.Linq;
 using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
@@ -14,6 +15,7 @@ using PetHotel.Models;
 
 namespace PetHotel.Controllers
 {
+    [Authorize(Roles = "Admin")]
     public class ClientesController : Controller
     {
         private readonly Contexto _context;
@@ -23,12 +25,12 @@ namespace PetHotel.Controllers
             _context = context;
         }
 
-
+        [AllowAnonymous]
         public IActionResult Login()
         {
             return View();
         }
-
+        [AllowAnonymous]
         [HttpPost]
         public async Task<IActionResult> Login([Bind("Email,Senha,")] Clientes clientes)
         {
@@ -79,7 +81,7 @@ namespace PetHotel.Controllers
         }
 
 
-
+        [AllowAnonymous]
         public async Task<IActionResult> Logout()
         {
 
@@ -89,7 +91,7 @@ namespace PetHotel.Controllers
 
         }
 
-
+        [AllowAnonymous]
         public IActionResult AccessDenied()
         {
             return View();
@@ -119,7 +121,7 @@ namespace PetHotel.Controllers
 
             return View(clientes);
         }
-
+        [AllowAnonymous]
         // GET: Clientes/Create
         public IActionResult Create()
         {
@@ -129,6 +131,7 @@ namespace PetHotel.Controllers
         // POST: Clientes/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Clientes clientes)

@@ -22,15 +22,29 @@
                         <li class="nav-item">
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Index</a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Create">Cadastro</a>
-                        </li>
+                        
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Vazio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Vazio</a>
+                            </li>
+
+                            @if ((User.IsInRole("Admin")))
+                            {
+                                <li class="nav-item">
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Usuarios</a>
+                                </li>
+                            }
+
+                        }
                     </ul>
                     <ul Class="navbar-nav">
-                        
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Create">Registre-se</a>
+                        </li>
                         
                         @if (User.Identity.IsAuthenticated)
                         {

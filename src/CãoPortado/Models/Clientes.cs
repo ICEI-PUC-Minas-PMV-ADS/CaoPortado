@@ -41,8 +41,9 @@ namespace PetHotel.Models
 
     public enum Perfil
     {
-        Admin,
-        User
+        User = 2,
+        Admin = 1
+        
     }
 }
 
