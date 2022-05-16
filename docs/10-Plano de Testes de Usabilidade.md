@@ -8,29 +8,23 @@ Faz parte do escopo dos testes repetí-los para diferentes tipos de plataformas 
 |:--|:--|
 |**Requisitos Associados**|RF-08 - O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp; <br/> RF-011 - O sistema deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; 
 |**Objetivo do teste**|- Permitir que o usuário se cadastre no site.<br/> - Permitir que o usuário faça _login_ nos site.|
-|**Passos**| 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão "cadastrar". <br/> 4) Preencha os campos com as informações requeridas.<br/> 5) Clique no botão "cadastrar".<br/> 6) Clique no link de validação enviado para o e-mail cadastrado. <br/> 7)Clique no botão login.<br/> 8) Preencha os campos com o e-mail e senha cadastrados. <br/> 9) Clique em "entrar".|
-|**Critérios de Êxito**| - Receber _e-mail_ de validação.<br/> - Confirmação do _login_ e redirecionamento para _a página inicial_ da plataforma.|
+|**Passos**| 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão de _login_, localizado no menu de navegação; <br/> 4) Clique na opção de _Cadastre-se_;<br/> 5) Preencha os campos com as informações requeridas;<br/> 6) Clique novamanete no botão de _login_, localizado no menu de navegação; <br/> 7)Preencha os campos com o e-mail e senha cadastrados;<br/> 8) Clique em _entrar_.|
+|**Critérios de Êxito**| - Conseguir logar, se transfromando em _User_, caso não seja um Administrador.|
 
 |Caso de Teste | CT-02 - Realizar cadastro do PET |
 |:--|:--|
 |**Requisitos Associados**|RF-09 – O sistema deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia); 
 |**Objetivo do teste**|- Permitir que o usuário adicione as informações sobre o seu PET.|
-|**Passos**|1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique em “perfil”; <br/> 5) Clique em “cadastrar PET”; <br/> 6) Preencha os campos com as informações requeridas; <br/> 7) Clique em salvar alterações.
-|**Critérios de Êxito**| - Salvar cadastro do PET.<br/> - Visualizar informações cadastradas.
+|**Passos**|1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _Cadastro do Pet_, localizado no menu de navegação;  <br/> 4) Preencha os campos com as informações requeridas; <br/> 5) Clique em _Finalizar cadastro_.
+|**Critérios de Êxito**| - Salvar cadastro do PET.
 
 |Caso de Teste | CT-03 - Agendar diária |                                    
 |:--|:--|
 |**Requisitos Associados**|RF-03 – O sistema deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line; <br/> RF-05 – O sistema deve possibilitar a compra de pacotes de creche, adestramento e hospedagem; 
 |**Objetivo do teste**|- Permitir que o usuário agende diárias no PetHotel. <br/> - Permitir que o usuário consiga comprar os serviços oferecidos.|
-|**Passos**| 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "Serviços", na homepage; <br/> 6) Clique no serviço que deseja comprar, dentro do dropdown, neste caso "Hotel"; <br/> 7) Selecione a data que deseja agendar; <br/> 8) Confirme se há disponibilidade nesta data; <br/> 9) Clique em "Realizar pagamento"????????.| 
+|**Passos**| 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "Serviços", na homepage; <br/> 6) Clique no serviço que deseja comprar, dentro do dropdown, neste caso "Hotel"; <br/> 7) Selecione a data que deseja agendar; <br/> 8) Confirme se há disponibilidade nesta data.| 
 |**Critérios de Êxito**|- Visualização do calendário. <br/> - Visualização da página de serviços oferecidos.
 
-|Caso de Teste | CT-04 - Pagamento do agendamento???????? |
-|:--|:--|
-|**Requisitos Associados**|RF-12 - O sistema deve disponibilizar formas de pagamento para o serviço contratado; <br/> RF-07 – O sistema deve conter um sistema de envio de comprovante de marcação para o cliente e envio do comprovante de pagamento para a empresa;
-|**Objetivo do teste**|- Permitir que o usuário realize o pagamento dos serviços adquiridos. <br/> - Permitir que o usuário escolha a forma de pagamento que lhe agrada.<br/> - Confirmar agendamento (cliente). <br/> - Confirmar pagamento (empresa).|
-|**Passos**| 1) Após o clique em "Realizar pagamento" para agendar diária; <br/> 2) Selecione a forma de pagamento desejada; <br/> 3) Preencha os campos com as informações necessárias, de acordo com a forma de pagamento escolhida; <br/> 4) Clique em "Finalizar compra"; <br/> 5) Confirme que recebeu, em seu e-mail, o comprovante de de marcação (cliente).| 
-|**Critérios de Êxito**|- Envio de comprovante de marcação para o cliente e envio do comprovante de pagamento para a empresa. <br/> - Visualização da página de formas de pagamento.
 
 |Caso de Teste | CT-05 - Redefinir senha |
 |:--|:--|
