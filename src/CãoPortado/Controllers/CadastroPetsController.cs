@@ -1,5 +1,4 @@
-﻿#nullable disable
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
@@ -11,85 +10,87 @@ using PetHotel.Models;
 
 namespace PetHotel.Controllers
 {
-    public class UsuariosController : Controller
+    public class CadastroPetsController : Controller
     {
         private readonly Contexto _context;
 
-        public UsuariosController(Contexto context)
+        public CadastroPetsController(Contexto context)
         {
             _context = context;
         }
 
-        // GET: Usuarios
+        // GET: CadastroPets
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Usuario.ToListAsync());
+              return _context.CadastroPets != null ? 
+                          View(await _context.CadastroPets.ToListAsync()) :
+                          Problem("Entity set 'Contexto.CadastroPets'  is null.");
         }
 
-        // GET: Usuarios/Details/5
+        // GET: CadastroPets/Details/5
         public async Task<IActionResult> Details(int? id)
         {
-            if (id == null)
+            if (id == null || _context.CadastroPets == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Usuario
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
+            var cadastroPet = await _context.CadastroPets
+                .FirstOrDefaultAsync(m => m.CPF_Usuario == id);
+            if (cadastroPet == null)
             {
                 return NotFound();
             }
 
-            return View(usuario);
+            return View(cadastroPet);
         }
 
-        // GET: Usuarios/Create
+        // GET: CadastroPets/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Usuarios/Create
+        // POST: CadastroPets/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Id,Name")] Usuario usuario)
+        public async Task<IActionResult> Create([Bind("CPF_Usuario,Nome,Porte,Idade,Raca,Vacina")] CadastroPet cadastroPet)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(usuario);
+                _context.Add(cadastroPet);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(usuario);
+            return View(cadastroPet);
         }
 
-        // GET: Usuarios/Edit/5
+        // GET: CadastroPets/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
-            if (id == null)
+            if (id == null || _context.CadastroPets == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Usuario.FindAsync(id);
-            if (usuario == null)
+            var cadastroPet = await _context.CadastroPets.FindAsync(id);
+            if (cadastroPet == null)
             {
                 return NotFound();
             }
-            return View(usuario);
+            return View(cadastroPet);
         }
 
-        // POST: Usuarios/Edit/5
+        // POST: CadastroPets/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name")] Usuario usuario)
+        public async Task<IActionResult> Edit(int id, [Bind("CPF_Usuario,Nome,Porte,Idade,Raca,Vacina")] CadastroPet cadastroPet)
         {
-            if (id != usuario.Id)
+            if (id != cadastroPet.CPF_Usuario)
             {
                 return NotFound();
             }
@@ -98,12 +99,12 @@ namespace PetHotel.Controllers
             {
                 try
                 {
-                    _context.Update(usuario);
+                    _context.Update(cadastroPet);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!UsuarioExists(usuario.Id))
+                    if (!CadastroPetExists(cadastroPet.CPF_Usuario))
                     {
                         return NotFound();
                     }
@@ -114,41 +115,49 @@ namespace PetHotel.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(usuario);
+            return View(cadastroPet);
         }
 
-        // GET: Usuarios/Delete/5
+        // GET: CadastroPets/Delete/5
         public async Task<IActionResult> Delete(int? id)
         {
-            if (id == null)
+            if (id == null || _context.CadastroPets == null)
             {
                 return NotFound();
             }
 
-            var usuario = await _context.Usuario
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (usuario == null)
+            var cadastroPet = await _context.CadastroPets
+                .FirstOrDefaultAsync(m => m.CPF_Usuario == id);
+            if (cadastroPet == null)
             {
                 return NotFound();
             }
 
-            return View(usuario);
+            return View(cadastroPet);
         }
 
-        // POST: Usuarios/Delete/5
+        // POST: CadastroPets/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
-            var usuario = await _context.Usuario.FindAsync(id);
-            _context.Usuario.Remove(usuario);
+            if (_context.CadastroPets == null)
+            {
+                return Problem("Entity set 'Contexto.CadastroPets'  is null.");
+            }
+            var cadastroPet = await _context.CadastroPets.FindAsync(id);
+            if (cadastroPet != null)
+            {
+                _context.CadastroPets.Remove(cadastroPet);
+            }
+            
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool UsuarioExists(int id)
+        private bool CadastroPetExists(int id)
         {
-            return _context.Usuario.Any(e => e.Id == id);
+          return (_context.CadastroPets?.Any(e => e.CPF_Usuario == id)).GetValueOrDefault();
         }
     }
 }

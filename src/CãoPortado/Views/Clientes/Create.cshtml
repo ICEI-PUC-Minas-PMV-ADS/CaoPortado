@@ -23,68 +23,62 @@
 </head>
 
 <body>
-    <div id="main" class="container-fluid">
-        <div class="row">
-            <div class="col-12" id="header">
-                <img src="~/img/Logo_Final_382x148.png" alt="Logo com coqueiro e pôr-do-sol">
-            </div>
+<div id="main" class="container-fluid">
+    <div class="row">
+        <!--<div class="col-12" id="header">
+            <img src="~/img/logo1.png" alt="Logo CãoPortado">
+        </div> -->
+    </div>
+    <div class="row">
+        <div id="fotoCadastro" class="col-sm-6 d-none d-sm-block">
+            <img width="600px" height="600px" src="~/img/wade-austin-ellis-FtuJIuBbUhI-unsplash.jpg" alt="Cadastrar usuário">
         </div>
-        <div class="row">
-            <div id="fotoCadastro" class="col-sm-6 d-none d-sm-block">
-                <img width="600px" height="500px" src="~/img/cadastro.png" alt="Cadastrar usuário">
-            </div>
-            <div id="cadastro" class="col-sm-6 col-xs-12">
-                <form class="formCadastro" name="Cadastro" method="post">
+        <div id="cadastro" class="col-sm-6 col-xs-12">
+            <form class="formCadastro" name="Cadastro" method="post">
 
-                    <legend>
-                        <p> Cadastro</p>
-                        <p id="campoObriga">Campos de preenchimento obrigatório</p>
-                        <h5 id="erro">@ViewBag.Message</h5>
-                    </legend>
-                    <fieldset>
-                        <span>Nome completo</span><br>
-                        <input type="text" name="Nome" value="" required><br>
-                        <span>CPF</span><br>
-                        <input type="text" id="campoCPF" name="CPF" value="" required><br>
-                        <span>Data de nascimento</span><br>
-                        <input type="text" id="campoData" name="DataDeNascimento" value="" required><br>
-                        <span>Endereço</span><br>
-                        <input type="text" name="Endereco" value="" required><br>
-                        <span>Telefone</span><br>
-                        <input type="tel" id="campoTelefone" name="Telefone" value="" required><br>
-                        <span>Email</span><br>
-                        <input type="email" name="Email" value="" required><br>
-                        <span>Senha</span><br>
-                        <input type="password" name="Senha" value="" required><br>
-                        <span>Confirme a senha</span><br>
-                        <input type="password" name="Senha2" value="" required><br>
-                        <input class="form-check-input" id="checkcad" type="checkbox" name="LembrarSenha" value="">
-                        <label class="form-check-label" id="nomeCheckCad" for="checkcad">Lembrar-me nesse dispositivo</label><br>
-                        <p id="esqueceu">Esqueceu a senha?</p>
-                        <input id="botaoCad" type="submit" name="Cadastrar" value="CADASTRAR">
-                        <p id="possuiCad">Já possui cadastro? Faça login.</p>
-                    </fieldset>
-                </form>
-            </div>
+                <legend>
+                    <p>Cadastro</p>
+                    <!--<p id="campoObriga">Campos de preenchimento obrigatório</p>
+                    <h5 id="erro">@ViewBag.Message</h5>-->
+                </legend>
+                <fieldset>
+                    <span>Nome completo</span><br>
+                    <input type="text" name="Nome" value="" required><br>
+                    <span>CPF</span><br>
+                    <input type="text" id="campoCPF" name="CPF" value="" required><br>
+                    <span>Data de nascimento</span><br>
+                    <input type="text" id="campoData" name="DataDeNascimento" value="" required><br>
+                    <span>Endereço</span><br>
+                    <input type="text" name="Endereco" value="" required><br>
+                    <span>Telefone</span><br>
+                    <input type="tel" id="CampoTelefone" name="Telefone" value="" required><br>
+                    <span>Email</span><br>
+                    <input type="email" name="Email" value="" required><br>
+                    <span>Senha</span><br>
+                    <input type="password" name="Senha" value="" required><br>
+                    <span>Confirme a senha</span><br>
+                    <input type="password" name="Senha2" value="" required><br><br/>
+                    <input id="botaoCad" type="submit" name="Cadastrar" value="CADASTRAR">
+                    <p id="possuiCad">Já possui cadastro? Faça login.</p>
+                </fieldset>
+            </form>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-12" id="footer">
-                <p>&copy; 2022 Carpe Diem - Todos os Direitos Reservados</p>
-            </div>
-        </div>
-        <script>
-            jQuery(function($){
+   
+    <script>
+        jQuery(function($){
             $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
             $("#campoData").mask("99/99/9999",{placeholder:"DD/MM/AAAA"});
-            $("#campoTelefone").mask("(99)00000.0000",{placeholder:"(00)00000.0000"});
-           });
-</script>
-    </div>
+            $("#campoTelefone").mask("(99)9.9999-9999",{placeholder:"(00)0.0000-0000"});
+        });
+    </script>
+    
+    
+</div>
 </body>
 
 </html>
-
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }

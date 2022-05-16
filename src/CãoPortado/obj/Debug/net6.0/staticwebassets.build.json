@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5CutNtsOeQs6491QlyYzas6WMMYKnicnWTq1sAn7yNg=",
+  "Hash": "30XwJHwRh5LnEFROX6YXUjqvttddBf+i68vl1nXdPsM=",
   "Source": "PetHotel",
   "BasePath": "_content/PetHotel",
   "Mode": "Default",
@@ -66,6 +66,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
+    },
+    {
+      "Identity": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\CadastroPet.css",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "css/CadastroPet.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\CadastroPet.css"
     },
     {
       "Identity": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\site.js",
@@ -714,6 +731,40 @@
       "OriginalItemSpec": "wwwroot\\img\\cadastro.png"
     },
     {
+      "Identity": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cadastro1",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "img/cadastro1",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cadastro1"
+    },
+    {
+      "Identity": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cadpet.jpg",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "img/cadpet.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\cadpet.jpg"
+    },
+    {
       "Identity": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\favicon.ico",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
@@ -746,6 +797,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Logo_Final_382x148.png"
+    },
+    {
+      "Identity": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\wade-austin-ellis-FtuJIuBbUhI-unsplash.jpg",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "img/wade-austin-ellis-FtuJIuBbUhI-unsplash.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\wade-austin-ellis-FtuJIuBbUhI-unsplash.jpg"
     },
     {
       "Identity": "C:\\Users\\Hector\\source\\repos\\CaoPortado\\src\\CãoPortado\\wwwroot\\js\\site.js",

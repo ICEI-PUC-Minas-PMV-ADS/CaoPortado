@@ -18,6 +18,36 @@ namespace PetHotel.Migrations
                 .HasAnnotation("ProductVersion", "6.0.4")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
+            modelBuilder.Entity("PetHotel.Models.CadastroPet", b =>
+                {
+                    b.Property<int>("CPF_Usuario")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<int>("Idade")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Porte")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Raca")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Vacina")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("CPF_Usuario");
+
+                    b.ToTable("CadastroPet");
+                });
+
             modelBuilder.Entity("PetHotel.Models.Clientes", b =>
                 {
                     b.Property<int>("Id")
@@ -62,23 +92,6 @@ namespace PetHotel.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Clientes");
-                });
-
-            modelBuilder.Entity("PetHotel.Models.Usuario", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int")
-                        .HasColumnName("Id");
-
-                    b.Property<string>("Name")
-                        .IsRequired()
-                        .HasColumnType("longtext")
-                        .HasColumnName("Nome");
-
-                    b.HasKey("Id");
-
-                    b.ToTable("Usuario");
                 });
 #pragma warning restore 612, 618
         }

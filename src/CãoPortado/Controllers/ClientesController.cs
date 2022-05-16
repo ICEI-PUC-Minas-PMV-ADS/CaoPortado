@@ -24,7 +24,7 @@ namespace PetHotel.Controllers
         {
             _context = context;
         }
-
+        
         [AllowAnonymous]
         public IActionResult Login()
         {

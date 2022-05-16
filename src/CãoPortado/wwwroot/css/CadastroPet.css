@@ -1,15 +1,7 @@
-﻿#main {
+#main {
     background-color: #FFF;
 }
 
-
-#header > img {
-    width: 200px;
-    height: 200px;
-    margin-left: 3px;
-    margin-top: 2px;
-    background-color: #FFF
-}
 
 #fotoCadastro {
     padding-top: 50px;
@@ -21,7 +13,8 @@
 
 
 .formCadastro > legend {
-    text-align: center;
+    margin-left:30px;
+    text-align: right;
     padding-left: 90px;
     font-weight: bold;
     font-family: 'Quicksand', sans-serif;
@@ -30,8 +23,57 @@
     margin-top: 30px;
 }
 
-#campoObriga {
-    font-size: 16px;
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.container input .vacina {
+    position: absolute;
+    cursor: pointer;
+}
+
+.container .vacina {
+    opacity:0;
+ }
+
+.check {
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #F1ECE9;
+    position: absolute
+}
+
+.container input:checked ~ .check {
+    background: #006400;
+}
+
+.container .check:after {
+    top: 5px;
+    left: 9px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.check:after {
+    content: "";
+    position: absolute;
+    display:none;
+}
+
+.container input:checked ~ .check:after {
+    display:block;
 }
 
 fieldset {
@@ -60,6 +102,7 @@ fieldset {
             border-style: none;
             border-radius: 8px;
         }
+
 
 #botaoCadPet {
     color: #ffd800;
@@ -104,9 +147,6 @@ fieldset {
         transform: translateY(-7px);
     }
 
-
-
-
 #checkcad {
     width: 20px;
     margin-top: 10px;
@@ -149,15 +189,19 @@ fieldset {
 
 @media screen and (max-width:576px) {
 
+   
     #header > img {
         width: 160px;
         height: 60px;
     }
 
     .formCadastro > legend {
-        font-size: 14px;
+        margin-left: -40px;
+        margin-right: 200px;
         text-align: center;
+        font-size: 25px;
     }
+
 
     fieldset {
         margin-left: 0;
@@ -167,7 +211,7 @@ fieldset {
         fieldset > input {
             width: 300px;
         }
-
+   
     #nomeCheckCad {
         font-size: 12px;
     }
