@@ -1,0 +1,20 @@
+﻿body {
+    background-image: linear-gradient(to left top, #17a2b8, #14abc4, #12b3d1, #11bcde, #12c5eb);
+    height: 100vh;
+}
+
+#login .container #login-row #login-column .login-box {
+    margin-top: 120px;
+    max-width: 600px;
+    height: 320px;
+    border: 1px solid #9C9C9C;
+    background-image: linear-gradient(to bottom, #aec1c3, #a9b5b7, #bcc5c6, #cfd5d5, #e3e5e5);
+}
+
+#login .container #login-row #login-column .login-box #login-form {
+    padding: 20px;
+}
+
+#login .container #login-row #login-column .login-box #login-form #register-link {
+    margin-top: -85px;
+}

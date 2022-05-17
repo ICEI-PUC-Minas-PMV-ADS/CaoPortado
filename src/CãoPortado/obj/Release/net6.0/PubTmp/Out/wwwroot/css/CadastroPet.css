@@ -1,0 +1,236 @@
+#main {
+    background-color: #FFF;
+}
+
+
+#fotoCadastro {
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-bottom: 50px;
+    border-radius: 32px;
+    background-color: #FFF;
+}
+
+
+.formCadastro > legend {
+    margin-left:30px;
+    text-align: right;
+    padding-left: 90px;
+    font-weight: bold;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 48px;
+    line-height: 20px;
+    margin-top: 30px;
+}
+
+
+.container {
+    display: block;
+    position: relative;
+    padding-left: 45px;
+    margin-bottom: 12px;
+    cursor: pointer;
+}
+
+.container input .vacina {
+    position: absolute;
+    cursor: pointer;
+}
+
+.container .vacina {
+    opacity:0;
+ }
+
+.check {
+    left: 0;
+    top: 0;
+    width: 25px;
+    height: 25px;
+    background-color: #F1ECE9;
+    position: absolute
+}
+
+.container input:checked ~ .check {
+    background: #006400;
+}
+
+.container .check:after {
+    top: 5px;
+    left: 9px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+}
+
+.check:after {
+    content: "";
+    position: absolute;
+    display:none;
+}
+
+.container input:checked ~ .check:after {
+    display:block;
+}
+
+fieldset {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    line-height: 30px;
+    position: relative;
+    margin-left: 130px;
+}
+
+    fieldset > input {
+        width: 400px;
+        height: 30px;
+        background-color: #F1ECE9;
+        opacity: 0.6;
+        border: 1px;
+        border-style: none;
+        border-radius: 8px;
+    }
+
+        fieldset > input > botaoCadPet {
+            width: 400px;
+            height: 30px;
+            opacity: 0.6;
+            border: 1px;
+            border-style: none;
+            border-radius: 8px;
+        }
+
+
+#botaoCadPet {
+    color: #ffd800;
+    opacity: 1;
+    cursor: pointer;
+    border: none;
+    border-radius: 32px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+    font-family: 'Quicksand', sans-serif;
+    height: 40px;
+}
+
+    #botaoCadPet:hover {
+        background-color: #006400;
+        box-shadow: 0px 8px 10px #000;
+        color: black;
+        transform: translateY(-7px);
+    }
+
+
+#botaoCad {
+    background-color: #F1ECE9;
+    opacity: 1;
+    cursor: pointer;
+    border: none;
+    border-radius: 32px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: all .3s ease-in-out;
+    font-family: 'Quicksand', sans-serif;
+    height: 40px;
+}
+
+    #botaoCad:hover {
+        background-color: #006400;
+        box-shadow: 0px 8px 10px #000;
+        color: black;
+        transform: translateY(-7px);
+    }
+
+#checkcad {
+    width: 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    background-color: #006400;
+    border: none;
+}
+
+#nomeCheckCad {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#esqueceu {
+    padding-bottom: 0px;
+    line-height: 1px;
+    padding-right: 100px;
+    padding-left: 240px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+#possuiCad {
+    font-size: 14px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+#footer {
+    text-align: center;
+    font-size: 16px;
+}
+
+#erro {
+    color: red;
+}
+
+
+@media screen and (max-width:576px) {
+
+   
+    #header > img {
+        width: 160px;
+        height: 60px;
+    }
+
+    .formCadastro > legend {
+        margin-left: -40px;
+        margin-right: 200px;
+        text-align: center;
+        font-size: 25px;
+    }
+
+
+    fieldset {
+        margin-left: 0;
+        text-align: center;
+    }
+
+        fieldset > input {
+            width: 300px;
+        }
+   
+    #nomeCheckCad {
+        font-size: 12px;
+    }
+
+    #esqueceu {
+        padding-right: 40px;
+        padding-left: 40px;
+        line-height: 0.5px;
+        font-size: 12px;
+    }
+
+    #footer {
+        font-size: 12px;
+        text-align: center;
+    }
+
+    #possuiCad {
+        font-size: 12px;
+        padding-left: 80px;
+        padding-right: 80px;
+    }
+}
