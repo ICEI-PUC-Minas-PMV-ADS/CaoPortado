@@ -10,14 +10,14 @@ using PetHotel.Data;
 namespace PetHotel.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220516000654_Criacao01")]
-    partial class Criacao01
+    [Migration("20220525025224_raca")]
+    partial class raca
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.4")
+                .HasAnnotation("ProductVersion", "6.0.5")
                 .HasAnnotation("Relational:MaxIdentifierLength", 64);
 
             modelBuilder.Entity("PetHotel.Models.CadastroPet", b =>
@@ -45,9 +45,57 @@ namespace PetHotel.Migrations
                         .IsRequired()
                         .HasColumnType("longtext");
 
+                    b.Property<bool>("Vacinas1")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<bool>("Vacinas2")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<bool>("Vacinas3")
+                        .HasColumnType("tinyint(1)");
+
                     b.HasKey("CPF_Usuario");
 
                     b.ToTable("CadastroPet");
+                });
+
+            modelBuilder.Entity("PetHotel.Models.CadPet", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("CPF_Usuario")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<bool>("Giárdia")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<int>("Idade")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Nome")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<bool>("PolivalenteV8ouV10")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<string>("Porte")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<string>("Raca")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.Property<bool>("Raiva")
+                        .HasColumnType("tinyint(1)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("CadPet");
                 });
 
             modelBuilder.Entity("PetHotel.Models.Clientes", b =>

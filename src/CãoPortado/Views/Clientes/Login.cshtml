@@ -13,13 +13,13 @@
 <form asp-action="Login">
 <body>
 <div id="login">
-    <h3 class="text-center text-white pt-5">Login form</h3>
+    <h3 class="text-center text-white pt-5"></h3>
     <div class="container">
         <div id="login-row" class="row justify-content-center align-items-center">
             <div id="login-column" class="col-md-6">
                 <div class="login-box col-md-12">
                     <form id="login-form" class="form" action="" method="post">
-                        <h3 class="text-center text-info">Login</h3>
+                        <h3 class="text-center text-info">Conecte-se</h3>
                         <div class="form-group">
                             <label asp-for="Email" class="control-label"></label>
                             <input asp-for="Email" class="form-control" />
@@ -35,7 +35,7 @@
                             <a class="btn btn-info" asp-controller="Home" asp-action="Index">Voltar</a>
                         </div>
                         <div id="register-link" class="text-right">
-                            <a href="#" class="text-info">Register here</a>
+                            <a asp-controller="Clientes" asp-action="Create">Registre-se Agora!</a>
                             <h3>@ViewBag.Message </h3>
                         </div>
                     </form>

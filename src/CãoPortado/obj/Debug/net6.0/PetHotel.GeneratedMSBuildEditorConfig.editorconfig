@@ -15,24 +15,24 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Hector\source\repos\CaoPortado\src\CãoPortado
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadastroPets/Create.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9QZXRzXENyZWF0ZS5jc2h0bWw=
+[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadPet/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUGV0XENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadastroPets/Delete.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9QZXRzXERlbGV0ZS5jc2h0bWw=
+[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadPet/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUGV0XERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadastroPets/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9QZXRzXERldGFpbHMuY3NodG1s
+[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadPet/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUGV0XERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadastroPets/Edit.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9QZXRzXEVkaXQuY3NodG1s
+[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadPet/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUGV0XEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadastroPets/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkYXN0cm9QZXRzXEluZGV4LmNzaHRtbA==
+[C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/CadPet/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FkUGV0XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Hector/source/repos/CaoPortado/src/CãoPortado/Views/Clientes/AccessDenied.cshtml]

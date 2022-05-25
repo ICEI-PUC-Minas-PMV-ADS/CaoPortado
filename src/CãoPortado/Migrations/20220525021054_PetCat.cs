@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PetHotel.Migrations
 {
-    public partial class Criacao01 : Migration
+    public partial class PetCat : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -26,11 +26,37 @@ namespace PetHotel.Migrations
                     Raca = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Vacina = table.Column<string>(type: "longtext", nullable: false)
-                        .Annotation("MySql:CharSet", "utf8mb4")
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Vacinas1 = table.Column<bool>(type: "tinyint(1)", nullable: false),
+                    Vacinas2 = table.Column<bool>(type: "tinyint(1)", nullable: false),
+                    Vacinas3 = table.Column<bool>(type: "tinyint(1)", nullable: false)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_CadastroPet", x => x.CPF_Usuario);
+                })
+                .Annotation("MySql:CharSet", "utf8mb4");
+
+            migrationBuilder.CreateTable(
+                name: "CadPet",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("MySql:ValueGenerationStrategy", MySqlValueGenerationStrategy.IdentityColumn),
+                    CPF_Usuario = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Nome = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Idade = table.Column<int>(type: "int", nullable: false),
+                    Porte = table.Column<string>(type: "longtext", nullable: false)
+                        .Annotation("MySql:CharSet", "utf8mb4"),
+                    Raiva = table.Column<bool>(type: "tinyint(1)", nullable: false),
+                    Giárdia = table.Column<bool>(type: "tinyint(1)", nullable: false),
+                    PolivalenteV8ouV10 = table.Column<bool>(type: "tinyint(1)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_CadPet", x => x.Id);
                 })
                 .Annotation("MySql:CharSet", "utf8mb4");
 
@@ -69,6 +95,9 @@ namespace PetHotel.Migrations
         {
             migrationBuilder.DropTable(
                 name: "CadastroPet");
+
+            migrationBuilder.DropTable(
+                name: "CadPet");
 
             migrationBuilder.DropTable(
                 name: "Clientes");

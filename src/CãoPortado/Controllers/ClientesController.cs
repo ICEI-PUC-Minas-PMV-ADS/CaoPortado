@@ -6,10 +6,12 @@ using System.Security.Claims;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.VisualBasic;
+using NETCore.MailKit.Core;
 using PetHotel.Data;
 using PetHotel.Models;
 
@@ -24,7 +26,9 @@ namespace PetHotel.Controllers
         {
             _context = context;
         }
+
         
+
         [AllowAnonymous]
         public IActionResult Login()
         {
@@ -258,5 +262,7 @@ namespace PetHotel.Controllers
         {
             return _context.Clientes.Any(e => e.Id == id);
         }
+
+           
     }
 }

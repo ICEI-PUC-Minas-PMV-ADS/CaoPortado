@@ -12,7 +12,8 @@ namespace PetHotel.Data
             : base(options)
         { }
 
-        public DbSet<CadastroPet> CadastroPets { get; set; }
-        public DbSet<Clientes> Clientes { get; set; }    
+        
+        public DbSet<Clientes> Clientes { get; set; }
+        public DbSet<CadPet> CadPet { get; set; }
     }
 }

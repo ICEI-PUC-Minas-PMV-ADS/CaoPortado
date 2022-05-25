@@ -6,7 +6,7 @@
     ViewData["Title"] = "Create";
 }
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 
 <head>
     
@@ -38,7 +38,7 @@
 
                 <legend>
                     <p>Cadastro</p>
-                    <!--<p id="campoObriga">Campos de preenchimento obrigatório</p>
+                    
                     <h5 id="erro">@ViewBag.Message</h5>-->
                 </legend>
                 <fieldset>
@@ -70,7 +70,7 @@
         jQuery(function($){
             $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
             $("#campoData").mask("99/99/9999",{placeholder:"DD/MM/AAAA"});
-            $("#campoTelefone").mask("(99)00000.0000",{placeholder:"(00)00000.0000"});
+            $("#campoTelefone").mask("(99)9.9999-9999",{placeholder:"(00)0.0000-0000"});
         });
     </script>
     

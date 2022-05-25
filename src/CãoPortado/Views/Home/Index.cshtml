@@ -1,8 +1,26 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
+<link rel="stylesheet" href="~/css/Carousel.css" />
+<link rel="stylesheet" href="~/css/site.css" />
+<script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
+<link href="https://cdn.jsdelivr.net/npm/swiffy-slider@1.5.3/dist/css/swiffy-slider.min.css" rel="stylesheet" crossorigin="anonymous">
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+<div class="swiffy-slider">
+  <ul class="slider-container">
+    <img src="~/img/cars.jpg" alt="Foto 1">
+    <img src="~/img/cars.jpg" alt="Foto 2">
+    <img src="~/img/cars.jpg" alt="Foto 3">
+    <img src="~/img/cars.jpg" alt="Foto 4">
+    <img src="~/img/cars.jpg" alt="Foto 1">
+  </ul>
+
+  <button type="button" class="slider-nav"></button>
+  <button type="button" class="slider-nav slider-nav-next"></button>
+
+  <div class="slider-indicators">
+    <button class="active"></button>
+    <button></button>
+    <button></button>
+  </div>
 </div>

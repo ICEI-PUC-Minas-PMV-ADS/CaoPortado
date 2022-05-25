@@ -28,6 +28,16 @@ namespace PetHotel.Models
         [Required(ErrorMessage = ("Obrigatório selecionar as vacinas já tomadas!"))]
         public string Vacina { get; set; }
 
+        [Required(ErrorMessage = ("Obrigatório selecionar as vacinas já tomadas!"))]
+        public bool Vacinas1 { get; set; }
+
+        [Required(ErrorMessage = ("Obrigatório selecionar as vacinas já tomadas!"))]
+        public bool Vacinas2 { get; set; }
+
+        [Required(ErrorMessage = ("Obrigatório selecionar as vacinas já tomadas!"))]
+        public bool Vacinas3 { get; set; }
+
+
     }
 
 }

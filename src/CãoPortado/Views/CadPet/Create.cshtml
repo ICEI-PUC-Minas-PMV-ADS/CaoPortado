@@ -1,0 +1,100 @@
+﻿@model PetHotel.Models.CadPet
+
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <title>Cadastro do Pet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="icon" type="icon/ico" href="~/img/favicon.ico">
+    <link rel="stylesheet" href="~/css/CadastroPet.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.16/jquery.mask.min.js" integrity="sha512-pHVGpX7F/27yZ0ISY+VVjyULApbDlD0/X0rgGbTqCE7WFW5MezNTWG/dnhtbBuICzsd0WQPgpE4REBLv+UqChw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+</head>
+
+<body>
+<div id="main" class="container-fluid">
+    <div class="row">
+        <!--<div class="col-12" id="header">
+            <img src="~/img/logo1.png" alt="Logo CãoPortado">
+        </div> -->
+    </div>
+    <div class="row">
+        <div id="fotoCadastro" class="col-sm-6 d-none d-sm-block">
+            <img width="700px" height="500px" src="~/img/Cdastropet.jpeg" alt="Cadastrar Pet">
+        </div>
+        <div id="cadastro" class="col-sm-6 col-xs-12">
+            <form class="formCadastro" name="Cadastro" method="post">
+
+                <legend>
+                    <p>Cadastro do Pet</p>
+                <!--<p id="campoObriga">Campos de preenchimento obrigatório</p>
+                    <h5 id="erro">@ViewBag.Message</h5>-->
+                </legend>
+                <fieldset>
+                    <span>Nome</span><br>
+                    <input type="text" id="campoNome" name="Nome" value="" required><br>
+                    <span>CPF do Dono</span><br>
+                    <input type="text" id="campoCPF" name="CPF_Usuario" value="" required><br>
+                    <span>Idade</span><br>
+                    <input type="number" id="campoIdade" name="Idade" value="" required><br>
+                    <span>Raça</span><br>
+                    <input type="text" name="Raca" value="" required><br>
+                 
+                    <!--Drop-Down do porte-->
+                    <label for="Porte">Selecione o porte:</label>
+                    <select name="Porte" id="Porte" onchange="sel();">
+                        <option value="pequeno" id="pequeno" class="optcolor">Pequeno</option>
+                        <option value="medio" id="medio" class="optcolor">Médio</option>
+                        <option value="grande" id="grande" class="optcolor">Grande</option>
+                     </select><br>
+                       
+                    <!--Checkbox vacinas-->
+                    <span >Vacinas</span><br>
+                    <label class="container">
+                        <input class="form-check-input" asp-for="Raiva" /> @Html.DisplayNameFor(model => model.Raiva)
+                        <span class="check"></span>
+                    </label>
+                     <label class="container"> 
+                         <input class="form-check-input" asp-for="Giárdia" /> @Html.DisplayNameFor(model => model.Giárdia)
+                         <span class="check"></span>
+                    </label>
+                     <label class="container">
+                         <input class="form-check-input" asp-for="PolivalenteV8ouV10" /> @Html.DisplayNameFor(model => model.PolivalenteV8ouV10)
+                        <span class="check"></span>
+                    </label>
+
+                    <input id="botaoCad" type="submit" name="Cadastrar" value="CADASTRAR">
+                </fieldset>
+            </form>
+        </div>
+    </div>
+
+   
+    <script>
+         jQuery(function($){
+             $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
+             $("#campoData").mask("99/99/9999",{placeholder:"DD/MM/AAAA"});
+             $("#campoTelefone").mask("(99)00000.0000",{placeholder:"(00)00000.0000"});
+         });
+     </script>
+   
+    
+    
+    
+</div>
+</body>
+
+</html>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
