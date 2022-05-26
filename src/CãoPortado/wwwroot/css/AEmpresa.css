@@ -1,0 +1,128 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #C5DBD9;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Quem somos - topo*/
+
+div.about-top h1 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+div .about-top p {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*containers serviços*/
+
+div .container {
+    height: 300px;
+    width: 300px;
+    display: inline-grid;
+    margin-top: 20px;
+    margin-left: 100px;
+    background-color: #FBFBFC;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div .container:hover {
+    background-color: #6AC7BC;
+    transition-duration: 0.5s;
+}
+
+h3 {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+div .container p {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+ /*carrossel ou album*/
+
+.car-about {
+    height: 535px;
+    width: 1024px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navigation {
+    position: absolute;
+    padding-left: 300px;
+    bottom: 20px;
+    display: flex;
+}
+
+.bar {
+    width: 70px;
+    height: 17px;
+    border: 2px solid white;
+    margin: 6px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+    .bar:hover {
+        background-color: white;
+    }
+
+input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 500%;
+    height: 100%;
+}
+
+.slide {
+    width: 20%;
+    transition: .6s;
+}
+
+    .slide img {
+        width: 100%;
+        height: 100%;
+    }
+
+#slide1:checked ~ .s1 {
+    margin-left: 0;
+}
+
+#slide2:checked ~ .s1 {
+    margin-left: -20%;
+}
+
+#slide3:checked ~ .s1 {
+    margin-left: -40%;
+}
+
+#slide4:checked ~ .s1 {
+    margin-left: -60%;
+}
+
+#slide5:checked ~ .s1 {
+    margin-left: -80%;
+}
