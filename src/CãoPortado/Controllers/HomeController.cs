@@ -33,6 +33,21 @@ namespace PetHotel.Controllers
             return View();
         }
 
+        public IActionResult Perfil ()
+        {
+            return View();
+        }
+
+        public IActionResult MeuPerfil()
+        {
+            return View();
+        }
+
+        public IActionResult MeuPet()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

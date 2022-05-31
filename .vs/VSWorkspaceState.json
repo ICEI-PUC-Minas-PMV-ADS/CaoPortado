@@ -1,11 +1,12 @@
 {
   "ExpandedNodes": [
     "",
+    "\\docs",
     "\\src",
     "\\src\\CãoPortado",
     "\\src\\CãoPortado\\Views",
     "\\src\\CãoPortado\\Views\\Home"
   ],
-  "SelectedNode": "\\src\\CãoPortado\\Views\\Home\\Depoimentos.cshtml",
+  "SelectedNode": "\\src\\CãoPortado\\Views\\Home\\Empresa.cshtml",
   "PreviewInSolutionExplorer": false
 }
