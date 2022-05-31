@@ -14,7 +14,7 @@ As personas foram criadas a partir do briefing feito para a empresa CãoPortado,
 =============================
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/Robert%2520.jpeg)
 =============================
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/C%C3%A3oportado.png)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/Caoportado.png)
 
 # Histórias de Usuários
 A partir da compreensão do cotidiano das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
