@@ -47,13 +47,12 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-09| A aplicação deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia) - gerenciar Pet;|MÉDIA|
 |RF-10| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
 |RF-11| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
-|RF-12| A aplicação deve permitir que o usuário redefina sua senha, informando o e-mail cadastrado; | MÉDIA |
-|RF-13| A aplicação deve permitir que o usuário altere seus dados cadastrais, assim como alterar a senha, clicando no botão de ''Esqueci minha senha''; - gerenciar cliente| MÉDIA |
-|RF-14| A aplicação deve notificar ao Administrador qualquer alteração que o usuário fizer em suas reservas; | MÉDIA |
-|RF-15| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
-|RF-16| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
-|RF-17| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
-|RF-18| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
+|RF-12| A aplicação deve permitir que o usuário altere sua senha, clicando no botão de ''Redefinir senha'', na tela de Perfil do usuário; - gerenciar cliente| MÉDIA |
+|RF-13| A aplicação deve permitir que apenas o Administrador possa alterar os dados do usuario; | MÉDIA |
+|RF-14| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
+|RF-15| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
+|RF-16| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
+|RF-17| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
