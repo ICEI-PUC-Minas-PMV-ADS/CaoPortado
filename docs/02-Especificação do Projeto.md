@@ -43,12 +43,12 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-05| A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem;| ALTA |
 |RF-06| A aplicação deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
 |RF-07| A aplicação deve conter um sistema de envio de comprovante de marcação para o cliente;| ALTA |
-|RF-08| A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp; - gerenciar cliente| ALTA |
+|RF-08| A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, data de nascimento, endereço e telefone; - gerenciar cliente| ALTA |
 |RF-09| A aplicação deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia) - gerenciar Pet;|MÉDIA|
 |RF-10| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
 |RF-11| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
-|RF-12| A aplicação deve permitir que o usuário altere sua senha, clicando no botão de ''Redefinir senha'', na tela de Perfil do usuário; - gerenciar cliente| MÉDIA |
-|RF-13| A aplicação deve permitir que apenas o Administrador possa alterar os dados do usuario; | MÉDIA |
+|RF-12| A aplicação deve permitir que o usuário altere sua senha, clicando no botão de "Redefinir senha", na tela "Meu perfil"; - gerenciar cliente| MÉDIA |
+|RF-13| A aplicação deve permitir que o usuário altere seus dados cadastrais, tais como: telefone, endereço, e-mail e senha; | MÉDIA |
 |RF-14| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
 |RF-15| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
 |RF-16| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
