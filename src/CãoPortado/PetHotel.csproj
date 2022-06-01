@@ -29,4 +29,19 @@
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\W3\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\W3\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\W3\fonts\fontello.svg" />
+    <None Include="wwwroot\W3\js\jquery-2.1.4.min.js" />
+    <None Include="wwwroot\W3\js\jquery-ui.js" />
+    <None Include="wwwroot\W3\js\wickedpicker.js" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\web\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\web\fonts\fontello.svg" />
+    <None Include="wwwroot\web\js\jquery-2.1.4.min.js" />
+    <None Include="wwwroot\web\js\jquery-ui.js" />
+    <None Include="wwwroot\web\js\wickedpicker.js" />
+  </ItemGroup>
+
 </Project>
