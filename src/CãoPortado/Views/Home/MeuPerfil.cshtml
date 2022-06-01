@@ -1,0 +1,144 @@
+﻿@{
+    ViewData["Title"] = "Meu Perfil";
+}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <title>Meu perfil</title>
+    <link rel="stylesheet" href="~/css/MeuPerfil.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+</head>
+<body>
+   <div class="container light-style flex-grow-1 container-p-y">
+
+    <h4 class="font-weight-bold py-3 mb-4">
+      Editar perfil
+    </h4>
+
+    <div class="card overflow-hidden">
+      <div class="row no-gutters row-bordered row-border-light">
+        <div class="col-md-3 pt-0">
+          <div class="list-group list-group-flush account-settings-links">
+            <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">Geral</a>
+            <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-change-password">Redefinir senha</a>
+          </div>
+        </div>
+
+        <div class="col-md-9">
+          <div class="tab-content">
+            <div class="tab-pane fade active show" id="account-general">
+
+              <div class="card-body media align-items-center">
+                <img src="~/img/user.png" class="d-block ui-w-80">
+                <div class="media-body ml-4">
+                  
+                    <div class="text-right mt-3">
+                        <button type="button" class="btn btn-primary">Salvar</button>
+                     </div>
+                   
+                  
+                </div>
+              </div>
+              <hr class="border-light m-0">
+
+              <div class="card-body">
+                <div class="form-group">
+                  <label class="form-label">Nome completo</label>
+                  <input id="campoNome" type="text" class="form-control" value="@User.Identity.Name">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">CPF</label>
+                  <input id="campoCPF" type="text" class="form-control" value="">
+                </div>
+                 <div class="form-group">
+                  <label class="form-label">Data de nascimento</label>
+                  <input id="campoData" type="datetime" class="form-control" value="">
+                </div>
+                 <div class="form-group">
+                  <label class="form-label">Endereço</label>
+                  <input id="campoEndereco"type="text" class="form-control" value="">
+                </div>
+                 <div class="form-group">
+                  <label class="form-label">Telefone</label>
+                  <input id="campoTelefone" type="tel" class="form-control" value="">
+                </div>
+                <div class="form-group">
+                  <label class="form-label">E-mail</label>
+                  <input type="text" class="form-control mb-1" value="">
+
+                  <div class="alert alert-warning mt-3">
+                    Seu e-mail ainda não foi confirmado. Por favor, verifique sua caixa de entrada.<br>
+                    <a href="javascript:void(0)">Reenviar confirmação</a>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="tab-pane fade" id="account-change-password">
+              <div class="card-body pb-2">
+
+                <div class="form-group">
+                  <label class="form-label">Senha antiga</label>
+                  <input type="password" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Nova senha</label>
+                  <input type="password" class="form-control">
+                </div>
+
+                <div class="form-group">
+                  <label class="form-label">Repetir nova senha</label>
+                  <input type="password" class="form-control">
+                </div>
+                
+              </div>
+            </div>
+            <div class="tab-pane fade" id="account-info">
+              <div class="card-body pb-2"></div>
+
+                <div class="form-group">
+                  <label class="switcher">
+                    <input type="checkbox" class="switcher-input" checked="">
+                    <span class="switcher-indicator">
+                      <span class="switcher-yes"></span>
+                      <span class="switcher-no"></span>
+                    </span>
+                    <span class="switcher-label">Email me when someone answers on my forum thread</span>
+                  </label>
+                </div>
+                <div class="form-group">
+                  <label class="switcher">
+                    <input type="checkbox" class="switcher-input">
+                    <span class="switcher-indicator">
+                      <span class="switcher-yes"></span>
+                      <span class="switcher-no"></span>
+                    </span>
+                    <span class="switcher-label">Email me when someone follows me</span>
+                  </label>
+                </div>
+              </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  <script>
+        jQuery(function($){
+            $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
+            $("#campoData").mask("99/99/9999",{placeholder:"DD/MM/AAAA"});
+            $("#campoTelefone").mask("(99)9.9999-9999",{placeholder:"(00)0.0000-0000"});
+        });
+    </script>
+    
+</body>
+
+</html>
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

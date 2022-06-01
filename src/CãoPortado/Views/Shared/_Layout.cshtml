@@ -31,11 +31,12 @@
 
                         @if (User.Identity.IsAuthenticated)
                         {
+                            
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Vazio</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"></a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Vazio</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"></a>
                             </li>
                             
                             @if ((User.IsInRole("Admin")))
@@ -47,13 +48,14 @@
 
                         }
                     </ul>
-                    <ul Class="navbar-nav">
+                   <ul Class="navbar-nav">
                         
                         @if (User.Identity.IsAuthenticated)
                         {
-                            <li class="nav-link">
-                                Olá, @User.Identity.Name <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Logout">Sair</a>
+                            <li class="nav-item">
+                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Perfil">Perfil</a>
                             </li>
+
                         }
                         else
                         {

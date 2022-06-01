@@ -10,11 +10,11 @@ As personas foram criadas a partir do briefing feito para a empresa CãoPortado,
 ======
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/Andressa.jpeg)
 =============================
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/Sandra%20Janueario.png)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/sandra%20januario.png)
 =============================
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/Robert%2520.jpeg)
 =============================
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e2-proj-int-t6-caoportado/blob/main/docs/img/C%C3%A3oportado.png)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/Caoportado.png)
 
 # Histórias de Usuários
 A partir da compreensão do cotidiano das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários:
@@ -22,8 +22,8 @@ A partir da compreensão do cotidiano das personas identificadas para o projeto,
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`       |
 |--------------------|------------------------------------|------------------------------|
 |  Roberta  Schawlski | Quero saber se o PetHotel é confiável e tem boas avaliações. | Para que meu cachorro fique num lugar com ótimos profissionais. |
-|  João Schiabel | Quero poder saber quem são as pessoas que irão cuidar do meu pet. | Para que eu possa ter um breve conhecimento dos profissionais e ganhar confiança no trabalho deles.|
-| Andressa Werneck | Quero poder fazer o agendamento online. | Para que eu possa agendar onde eu estiver e a qualquer hora. |
+|  João Schiabel | Quero saber quem são as pessoas que vão cuidar do meu pet. | Para que eu possa ter um breve conhecimento dos profissionais e ganhar confiança em seu trabalho.|
+| Andressa Werneck | Quero poder fazer o agendamento online. | Para que eu possa agendar a qualquer hora e local e não precisar ir até o local físico para fazer uma reserva. |
 |  Sandra Januário | Quero conhecer o PetHotel antes mesmo de visitá-lo pessoalmente. | Para que eu possa saber se o local é seguro e organizado, para que meu cachorro não volte estressado novamente. |
 |  Robert Dolittle | Quero saber se o PetHotel tem o preço mais acessível em comparação a outros. | Para que eu possa organizar minhas finanças pessoais. |
 |    CãoPortado | Quero uma forma automatizada, possibilitando que meus clientes realizarem o agendamento. | Para agilizar o atendimento ao cliente e eu poder focar em outros pontos. |
@@ -38,27 +38,25 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |------|----------------------------------------|----  |
 |RF-01| A aplicação deve permitir que o cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA |
 |RF-02| A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
-|RF-03| A aplicação deve disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line. | ALTA |
+|RF-03| A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem e disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line. | ALTA |
 |RF-04| A aplicação deve conter um limitador de vagas;| MÉDIA |
-|RF-05| A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem;| ALTA |
 |RF-06| A aplicação deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
-|RF-07| A aplicação deve conter um sistema de envio de comprovante de marcação para o cliente;| ALTA |
-|RF-08| A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp; - gerenciar cliente| ALTA |
-|RF-09| A aplicação deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia) - gerenciar Pet;|MÉDIA|
+|RF-07| A aplicação deve conter um alert (pop-up), informando se a reserva foi concluída com sucesso;| ALTA |
+|RF-08| A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, data de nascimento, endereço e telefone;| ALTA |
+|RF-09| A aplicação deve ter um formulário de cadastro do Pet, informando a idade, o porte do animal, informações das vacinas, CPF do dono cadastrado; (Polivalente V8 ou V10, Raiva e Giárdia);|MÉDIA|
 |RF-10| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
 |RF-11| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
-|RF-12| A aplicação deve permitir que o usuário redefina sua senha, informando o e-mail cadastrado; | MÉDIA |
-|RF-13| A aplicação deve permitir que o usuário altere seus dados cadastrais, assim como alterar a senha, clicando no botão de ''Esqueci minha senha''; - gerenciar cliente| MÉDIA |
-|RF-14| A aplicação deve notificar ao Administrador qualquer alteração que o usuário fizer em suas reservas; | MÉDIA |
-|RF-15| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
-|RF-16| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
-|RF-17| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
-|RF-18| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
+|RF-12| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| MÉDIA |
+|RF-13| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail;| MÉDIA |
+|RF-14| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
+|RF-15| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
+|RF-16| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
+|RF-17| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
 
-|ID     | Descrição do Requisito  |Prioridade |
+|ID     | Descrição do Requisito  | Prioridade |
 |-------|-------------------------|----|
 |RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);  | ALTA |
 |RNF-02 | O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; |  ALTA |
