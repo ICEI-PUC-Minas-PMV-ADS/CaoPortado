@@ -8,7 +8,7 @@ Faz parte do escopo dos testes repetí-los para diferentes tipos de plataformas 
 |:--|:--|
 |**Requisitos Associados**|RF-08 - O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, RG, data de nascimento, endereço e contato de WhatsApp; <br/> RF-011 - O sistema deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; 
 |**Objetivo do teste**|- Permitir que o usuário se cadastre no site.<br/> - Permitir que o usuário faça _login_ nos site.|
-|**Passos**| 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão de _login_, localizado no menu de navegação; <br/> 4) Clique na opção de _Cadastre-se_;<br/> 5) Preencha os campos com as informações requeridas;<br/> 6) Clique novamanete no botão de _login_, localizado no menu de navegação; <br/> 7)Preencha os campos com o e-mail e senha cadastrados;<br/> 8) Clique em _entrar_.|
+|**Passos**| 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão de _login_, localizado no menu de navegação; <br/> 4) Clique na opção de _Cadastre-se_;<br/> 5) Preencha os campos com as informações requeridas e em _Cadastre-se_;<br/> 6) Clique novamanete no botão de _login_, localizado no menu de navegação; <br/> 7)Preencha os campos com o e-mail e senha cadastrados;<br/> 8) Clique em _entrar_.|
 |**Critérios de Êxito**| - Conseguir logar, se transfromando em _User_, caso não seja um Administrador.|
 
 |Caso de Teste | CT-02 - Realizar cadastro do PET |
