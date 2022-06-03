@@ -40,18 +40,18 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-02| A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
 |RF-03| A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem e disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line; | ALTA |
 |RF-04| A aplicação deve conter um limitador de vagas;| MÉDIA |
-|RF-06| A aplicação deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
-|RF-07| A aplicação deve conter um alert (pop-up), informando se a reserva foi concluída com sucesso;| ALTA |
-|RF-08| A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, data de nascimento, endereço e telefone;| ALTA |
-|RF-09| A aplicação deve ter um formulário de cadastro do Pet, informando a idade, o porte do animal, informações das vacinas, CPF do dono cadastrado; (Polivalente V8 ou V10, Raiva e Giárdia);|MÉDIA|
-|RF-10| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
-|RF-11| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
-|RF-12| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| MÉDIA |
-|RF-13| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail;| MÉDIA |
-|RF-14| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
-|RF-15| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
-|RF-16| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
-|RF-17| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet. | ALTA|
+|RF-05| A aplicação deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
+|RF-06| A aplicação deve conter um alert (pop-up), informando se a reserva foi concluída com sucesso;| ALTA |
+|RF-07| A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, data de nascimento, endereço e telefone;| ALTA |
+|RF-08| A aplicação deve ter um formulário de cadastro do Pet, informando a idade, o porte do animal, informações das vacinas, CPF do dono cadastrado; (Polivalente V8 ou V10, Raiva e Giárdia);|MÉDIA|
+|RF-09| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
+|RF-10| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
+|RF-11| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| MÉDIA |
+|RF-12| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail;| MÉDIA |
+|RF-13| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
+|RF-14| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
+|RF-15| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
+|RF-16| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet. | ALTA|
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
@@ -84,27 +84,23 @@ Tabela - Casos de Uso
 |-----------------|--------------------------------------------------------------------------------------------------|
 |Usuário Cadastrado| Pessoa que possui um cadastro no sistema.|
 |Usuário Não Cadastrado| Pessoa que não possui um cadastro no sistema.|
-|Usuário e Usuário Não Cadastrado| Ambos têm os mesmos limites, com exceção do acesso ''extra'' que Usuário tem com o cadastro feito no site.|
-|Administrador| Pessoa que gerencia e tem acesso a todos as funcionalidades do sistema.|
+|Usuário e Usuário Não Cadastrado| Ambos têm os mesmos limites, com exceção do acesso "extra" que Usuário teria, já que realizou o seu cadastro no site.|
+|Administrador| Pessoa que gerencia e tem acesso a todas as funcionalidades do sistema.|
 
 
 <br>
 
 |CASO DE USO                    | DESCRIÇÃO                                                                                                | REQUISITO FUNCIONAL  |
 |-------------------------------|----------------------------------------------------------------------------------------------------------|----------------------|
-|Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta.                                     | RF-11 |
-|Fazer reserva                  | O usuário pode reservar diárias através do sistema.                                                      | RF-03 |
-|Contratar um serviço           | O usuário pode fazer a contratação dos serviços oferecidos pela empresa.                                 | RF-05 |
-|Criar conta                    | O usuário deve criar uma conta para utilizar os recursos disponíveis no sistema (usuário não sendo obrigado a realizar cadastro do Pet, avaliar estabelecimento, contratar serviços ou alterar dados cadastrais).                          | RF-08 |
-|Consultar reservas             | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário.                         | RF-16 |
-|Alterar reservas               | O usuário pode alterar sua reserva, conforme as normas e disponibilidade.                                | RF-13, RF-14 |
-|Avaliar estabelecimento        | O usuário pode comentar e avaliar a empresa.                                                             | RF-01 |
-|Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais.                                                            | RF-14 |
-|Obter informações sobre o PetHotel | O usuário pode obter informações referentes a valores, fotos e vídeos, etc.                          | RF-02 |
-|Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, etc).                      | RF-09 |
-|Acessar comprovante de marcação| O Administrador e o usuário podem acessar o comprovante de marcação.                                     | RF-07 |
-|Gerenciar Valores e Pacotes      | O Administrador pode gerencie valores e pacotes.                                                         | RF-17 |
-|Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-18 |
+|Obter informações sobre o PetHotel | O usuário pode obter informações referentes a empresa e sua quipe, além de conseguir ver fotos e vídeos do local e dos pets;                          | RF-02 |
+|Fazer reserva                  | O usuário deve conseguir contratar os serviços oferecidos pela empresa, realizando o agendamto online;   | RF-03 |
+|Criar conta                    | O usuário deve conseguir criar uma conta para, assim, utilizar todos os recursos disponíveis no sistema;  | RF-07 |
+|Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, data de nascimento, nome e raça);                      | RF-08 |
+|Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta;                                    | RF-10 |
+|Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais, tais como: telefone, endereço, e-mail e senha;               | RF-12 |
+|Consultar reservas             | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário;                         | RF-13 |
+|Gerenciar Valores e Pacotes    | O Administrador pode gerenciar valores e pacotes;                                                      | RF-15 |
+|Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-16 |
 
 <br>
 
