@@ -38,7 +38,7 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |------|----------------------------------------|----  |
 |RF-01| A aplicação deve permitir que o cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA |
 |RF-02| A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
-|RF-03| A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem e disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line. | ALTA |
+|RF-03| A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem e disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line; | ALTA |
 |RF-04| A aplicação deve conter um limitador de vagas;| MÉDIA |
 |RF-06| A aplicação deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
 |RF-07| A aplicação deve conter um alert (pop-up), informando se a reserva foi concluída com sucesso;| ALTA |
@@ -51,7 +51,7 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-14| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
 |RF-15| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
 |RF-16| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
-|RF-17| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet; | ALTA|
+|RF-17| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet. | ALTA|
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
