@@ -61,7 +61,7 @@ Os requisitos não-funcionais descrevem características de caráter mais técni
 |RNF-01 | O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku);  | ALTA |
 |RNF-02 | O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; |  ALTA |
 |RNF-03 | O site deve ter bom nível de contraste entre os elementos da tela em conformidade;      |  MÉDIA |
-|RNF-04 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge); |  ALTA |
+|RNF-04 | O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge). |  ALTA |
 
 ## Restrições
 O projeto está restrito pelos itens apresentados na tabela a seguir:
@@ -70,7 +70,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue no final do semestre letivo, não podendo extrapolar a data de 25/06/2022; |
 |02| A aplicação se restringirá às tecnologias básicas da Web no Back-End; |
-|03| A equipe não pode subcontratar o desenvolvimento do trabalho; |
+|03| A equipe não pode subcontratar o desenvolvimento do trabalho. |
 
 ## Diagrama de Casos de Uso
 
@@ -82,9 +82,9 @@ Tabela - Casos de Uso
 
 |ATOR             | DESCRIÇÃO                                                                                        |
 |-----------------|--------------------------------------------------------------------------------------------------|
-|Usuário Cadastrado| Pessoa que possui um cadastro no sistema.|
-|Usuário Não Cadastrado| Pessoa que não possui um cadastro no sistema.|
-|Usuário e Usuário Não Cadastrado| Ambos têm os mesmos limites, com exceção do acesso "extra" que Usuário teria, já que realizou o seu cadastro no site.|
+|Usuário Cadastrado| Pessoa que possui um cadastro no sistema;|
+|Usuário Não Cadastrado| Pessoa que não possui um cadastro no sistema;|
+|Usuário e Usuário Não Cadastrado| Ambos têm os mesmos limites, com exceção do acesso "extra" que Usuário teria, já que realizou o seu cadastro no site;|
 |Administrador| Pessoa que gerencia e tem acesso a todas as funcionalidades do sistema.|
 
 
@@ -107,12 +107,12 @@ Tabela - Casos de Uso
 |RELACIONAMENTO| DESCRIÇÃO                                                                                                                                          |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 |INCLUSÃO      |                                                                                                                                                    |
-|              | Para efetivar o cadastro do Pet, o usuário deve fazer o Login.                                                           |
-|              | Para avaliar o estabelecimento, o usuário deve fazer o Login.                                                                                    |
-|              | Para agendar uma diária, o usuário deve contratar um serviço.                                                                                      |
+|              | Para efetivar o cadastro do Pet, o usuário deve fazer o Login;                                                           |
+|              | Para avaliar o estabelecimento, o usuário deve fazer o Login;                                                                                   |
+|              | Para agendar uma diária, o usuário deve contratar um serviço;                                                                                      |
 |              |                                                                                 
 |EXTENSÃO      |                                                                                                                                                    |
-|              | O usuário pode alterar seus dados cadastrais, se fizer Login.                                                               |
+|              | O usuário pode alterar seus dados cadastrais, se fizer Login;                                                               |
 |              | O usuário pode alterar reservas, se agendar uma diária. |
 
 Fonte: Elaborado pelos autores do projeto
