@@ -25,33 +25,57 @@ div .about-top p {
 
 /*containers serviços*/
 
-div .container {
+div .cont-about {
     height: 300px;
     width: 300px;
-    display: inline-grid;
     margin-top: 20px;
-    margin-left: 100px;
+    margin-left: 150px;
+    display: inline-grid;
     background-color: #FBFBFC;
     border-radius: 8px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-div .container:hover {
-    background-color: #6AC7BC;
-    transition-duration: 0.5s;
-}
+    div .cont-about:hover {
+        background-color: #6AC7BC;
+        transition-duration: 0.5s;
+    }
 
 h3 {
     text-align: center;
     padding-top: 0.5em;
 }
 
-div .container p {
+div .cont-about p {
     padding-left: 5px;
     padding-right: 5px;
     padding-top: 5px;
     text-align: center;
 }
 
- /*album*/
+ /*álbum*/
 
+.h1-class {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    color: black;
+}
+
+.foto-cont img {
+    width: 600px;
+    height: 300px;
+    
+    margin-top: 80px;
+}
+
+/*vídeo*/
+
+.video-cont img {
+   margin-left:380px;
+    margin-top: 62px;
+}
+
+div {
+    display: inline;
+}

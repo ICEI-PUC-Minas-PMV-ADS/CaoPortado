@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XNAC8YXJ1wSrs6QYQ+6TvMyvs9MNqHoLUabX++kS3q5OneRdX8NN9Rwhii8fuT1Lr9O07IvfW5p3grWJ+X2o1w==",
+  "dgSpecHash": "84cAfBYD1Wsb9TRFNoPivIhhhv71pkYXLXnY5o/bPEucSVwOC5aAGex/l4vRqecRnT4/tmMX6HBlaIju4681cg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj",
+  "projectFilePath": "C:\\Users\\isaca\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\isaca\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\isaca\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",

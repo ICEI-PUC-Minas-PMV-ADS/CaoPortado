@@ -48,6 +48,16 @@ namespace PetHotel.Controllers
             return View();
         }
 
+        public IActionResult fotosevideos()
+        {
+            return View();
+        }
+
+        public IActionResult videos()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

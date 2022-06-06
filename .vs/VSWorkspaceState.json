@@ -5,8 +5,10 @@
     "\\src",
     "\\src\\CãoPortado",
     "\\src\\CãoPortado\\Views",
-    "\\src\\CãoPortado\\Views\\Reservations"
+    "\\src\\CãoPortado\\Views\\Home",
+    "\\src\\CãoPortado\\Views\\Reservations",
+    "\\src\\CãoPortado\\Views\\Shared"
   ],
-  "SelectedNode": "\\src\\CãoPortado\\PetHotel.sln",
+  "SelectedNode": "\\src\\CãoPortado\\Views\\Home\\fotosevideos.cshtml",
   "PreviewInSolutionExplorer": false
 }

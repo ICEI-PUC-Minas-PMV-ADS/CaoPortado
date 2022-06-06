@@ -1,0 +1,68 @@
+﻿
+@{
+    ViewData["Title"] = "Galeria de videos";
+}
+
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+         <link rel="stylesheet" href="~/css/videos.css">
+         
+    </head>
+    <body>
+
+        
+        
+         <div class="cont">
+
+   <div class="main-video-container">
+      <video src="~/videos/video - adestramento.mp4" loop controls class="main-video"></video>
+      <h3 class="main-vid-title">Adestramento - Barbe</h3>
+   </div>
+
+   <div class="video-list-container">
+
+      <div class="list active">
+         <video src="~/videos/video - afonso - adestramento.mp4" class="list-video"></video>
+         <h3 class="list-title">Adestramento - Afonso</h3>
+      </div>
+       <div class="list active">
+         <video src="~/videos/video - adestramento-protecao.mp4" class="list-video"></video>
+         <h3 class="list-title">Adestramento - Fila Brasileiro (proteção)</h3>
+      </div>
+        <div class="list active">
+         <video src="~/videos/video - adestramento-obediencia.mp4" class="list-video"></video>
+         <h3 class="list-title">Adestramento - obediência</h3>
+      </div>
+        <div class="list active">
+         <video src="~/videos/video - carinho no Pingo.mp4" class="list-video"></video>
+         <h3 class="list-title">Carinho no Pingo</h3>
+      </div>
+        <div class="list active">
+         <video src="~/videos/video - São lindos!.mp4" class="list-video"></video>
+         <h3 class="list-title">São lindos ou não?!</h3>
+      </div>
+   </div>
+
+</div>
+        <script>
+            let videoList = document.querySelectorAll('.video-list-container .list');
+
+        videoList.forEach(vid =>{
+           vid.onclick = () =>{
+              videoList.forEach(remove =>{remove.classList.remove('active')});
+              vid.classList.add('active');
+              let src = vid.querySelector('.list-video').src;
+              let title = vid.querySelector('.list-title').innerHTML;
+              document.querySelector('.main-video-container .main-video').src = src;
+              document.querySelector('.main-video-container .main-video').play();
+              document.querySelector('.main-video-container .main-vid-title').innerHTML = title;
+           };
+        });
+        </script>
+
+
+    <br /><br /><br /><br /><br /><br /><br /><br />
+</body>
+</html>
