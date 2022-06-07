@@ -17,7 +17,7 @@ Este projeto trata-se do desenvolvimento de um site, responsivo e funcional, par
 * Hector Florença da Silva Mendes
 * Helen Tito Gomes Belinassi
 * Isabella Carolina de Almeida Siqueira Damião
-* Luiz Guilherme Martins Franchim
+
 
 ## Orientador
 
