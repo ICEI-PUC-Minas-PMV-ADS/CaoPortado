@@ -33,11 +33,6 @@ namespace PetHotel.Controllers
             return View();
         }
 
-        public IActionResult Perfil ()
-        {
-            return View();
-        }
-
         public IActionResult MeuPerfil()
         {
             return View();

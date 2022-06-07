@@ -1,10 +1,12 @@
-﻿* {
+﻿
+
+* {
     margin: 0;
     padding: 0;
 }
 
 body {
-    background-image: url(/img/maxresdefault.jpg);
+    
     background-color: #C5DBD9;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
@@ -17,8 +19,11 @@ body {
 
 .action {
     position: fixed;
-    right: 30px;
-    top: 20px
+    width: 0.1px;
+    top: -15px;
+    height: 0.1px;
+    right:87px;
+    
 }
 
     .action .profile {
@@ -28,6 +33,8 @@ body {
         overflow: hidden;
         position: relative;
         width: 60px;
+       
+
     }
 
         .action .profile img {
@@ -40,7 +47,7 @@ body {
         }
 
     .action .menu {
-        background-color: #C5DBD9;
+        background-color: #6ac7bc;
         box-sizing: 0 5px 25px rgba(0,0,0,0.1);
         border-radius: 15px;
         padding: 10px 20px;
@@ -121,4 +128,6 @@ body {
                 color: #ff00ff;
             }
 
-            
+
+
+           

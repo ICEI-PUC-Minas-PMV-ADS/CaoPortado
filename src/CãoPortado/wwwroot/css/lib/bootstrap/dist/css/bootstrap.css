@@ -3919,6 +3919,7 @@ input[type="button"].btn-block {
   transition: background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
   -webkit-appearance: none;
   appearance: none;
+  position: relative;
 }
 
 @media (prefers-reduced-motion: reduce) {
