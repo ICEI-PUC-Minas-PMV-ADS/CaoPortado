@@ -1,11 +1,6 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\src",
-    "\\src\\CãoPortado",
-    "\\src\\CãoPortado\\Views",
-    "\\src\\CãoPortado\\Views\\Shared"
+    ""
   ],
-  "SelectedNode": "\\src\\CãoPortado\\Views\\Shared\\_Layout.cshtml",
   "PreviewInSolutionExplorer": false
 }
