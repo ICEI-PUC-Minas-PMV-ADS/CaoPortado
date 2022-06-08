@@ -29,7 +29,7 @@ div .cont-about {
     height: 300px;
     width: 300px;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left:60px;
     display: inline-grid;
     background-color: #FBFBFC;
     border-radius: 8px;
@@ -63,19 +63,19 @@ div .cont-about p {
 }
 
 .foto-cont img {
-    width: 600px;
-    height: 300px;
+    width: 450px;
+    height: 250px;
+    margin-left:600px;
+    margin-top:-290px;
     
-    margin-top: 80px;
 }
 
 /*vídeo*/
 
 .video-cont img {
-   margin-left:380px;
-    margin-top: 62px;
-}
+    width: 250px;
+    height: 250px;
+    margin-top: 60px;
+    margin-left:180px;
 
-div {
-    display: inline;
 }

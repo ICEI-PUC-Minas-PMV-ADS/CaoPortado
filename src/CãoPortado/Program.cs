@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
 (options => options.UseMySql(
-    "server=localhost;initial catalog=Tb_Clientes;uid=Fernanda;pwd=123456",
+    "server=localhost;initial catalog=Tb_Clientes;uid=bella;pwd=123456",
     Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.29-mysql")));
 
 
