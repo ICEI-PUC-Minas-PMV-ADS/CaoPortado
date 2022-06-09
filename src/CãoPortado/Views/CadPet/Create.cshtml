@@ -45,8 +45,8 @@
                     <input type="text" id="campoNome" name="Nome" value="" required><br>
                     <span>CPF do Dono</span><br>
                     <input type="text" id="campoCPF" name="CPF_Usuario" value="" required><br>
-                    <span>Idade</span><br>
-                    <input type="number" id="campoIdade" name="Idade" value="" required><br>
+                    <span>Ano de nascimento</span><br>
+                    <input type="text" id="campoAno" name="Idade" value="" required><br>
                     <span>Raça</span><br>
                     <input type="text" name="Raca" value="" required><br>
                  
@@ -83,7 +83,7 @@
     <script>
          jQuery(function($){
              $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
-             $("#campoData").mask("99/99/9999",{placeholder:"DD/MM/AAAA"});
+             $("#campoAno").mask("9999",{placeholder:"0000"});
              $("#campoTelefone").mask("(99)00000.0000",{placeholder:"(00)00000.0000"});
          });
      </script>

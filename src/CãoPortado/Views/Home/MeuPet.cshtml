@@ -53,8 +53,8 @@
                   <input id="campoCPF" type="text" class="form-control" value="">
                 </div>
                  <div class="form-group">
-                  <label class="form-label">Idade</label>
-                  <input id="campoIdade" type="number" class="form-control" value="">
+                  <label class="form-label">Ano de nascimento</label>
+                  <input id="campoAno" type="text" class="form-control" value="">
                 </div>
                  <div class="form-group">
                   <label class="form-label">Raça</label>
@@ -83,6 +83,7 @@
     <script>
         jQuery(function($){
             $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
+            $("#campoAno").mask("9999",{placeholder:"0000"});
             });
     </script>
     

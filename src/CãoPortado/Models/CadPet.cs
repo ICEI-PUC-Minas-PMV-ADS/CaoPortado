@@ -16,7 +16,7 @@ namespace PetHotel.Models
         public string Nome { get; set; }
         
         [Required(ErrorMessage = ("Obrigatório informar a idade!"))]
-        public int Idade { get; set; }
+        public int AnoNascimento { get; set; }
 
         [Required(ErrorMessage = ("Obrigatório informar o porte!"))]
         public string Porte { get; set; }
