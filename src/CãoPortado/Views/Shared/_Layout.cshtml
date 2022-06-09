@@ -43,10 +43,16 @@
                     </ul>
                   </div>  
                   
-                   @if (User.Identity.IsAuthenticated)
+                  @if (User.Identity.IsAuthenticated)
                         {
-                            
-                           
+                            <!--
+                                <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index"></a>
+                            </li>-->
+
                             
                             @if ((User.IsInRole("Admin")))
                             {
@@ -56,6 +62,8 @@
                             }
 
                         }
+                            
+                            
                     </ul>
 
 
