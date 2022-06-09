@@ -6,7 +6,6 @@
 }
 
 body {
-    
     background-color: #C5DBD9;
     font-family: Tahoma, Geneva, Verdana, sans-serif;
     height: 100vh;
@@ -22,8 +21,8 @@ body {
     width: 0.1px;
     top: -15px;
     height: 0.1px;
-    right:87px;
-    
+    right: 87px;
+    z-index: 2;
 }
 
     .action .profile {
@@ -33,8 +32,6 @@ body {
         overflow: hidden;
         position: relative;
         width: 60px;
-       
-
     }
 
         .action .profile img {
@@ -127,7 +124,3 @@ body {
             .action .menu ul li:hover a {
                 color: #ff00ff;
             }
-
-
-
-           
