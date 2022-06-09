@@ -53,6 +53,27 @@ namespace PetHotel.Controllers
             return View();
         }
 
+        public IActionResult Serviços()
+        {
+            return View();
+        }
+
+        public IActionResult agendaadest()
+        {
+            return View();
+        }
+
+        public IActionResult agendacreche()
+        {
+            return View();
+        }
+
+        public IActionResult agendahotel()
+        {
+            return View();
+        }
+
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()

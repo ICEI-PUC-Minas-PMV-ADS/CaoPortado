@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "eFwJ1D88OML6yngugLgUZeDU8ydwsrx58XzZN8QKowI=",
+  "Hash": "9fBykWx2FmT4/vb0U4puxsHgumk2OBnZSjkPfsyRWGo=",
   "Source": "PetHotel",
   "BasePath": "_content/PetHotel",
   "Mode": "Default",
@@ -901,6 +901,23 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
+      "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\menu-servico.css",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "css/menu-servico.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\menu-servico.css"
+    },
+    {
       "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\MeuPerfil.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
@@ -1751,6 +1768,40 @@
       "OriginalItemSpec": "wwwroot\\img\\hero_3.jpg"
     },
     {
+      "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\icons8-facebook-48 (1).png",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "img/icons8-facebook-48 (1).png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons8-facebook-48 (1).png"
+    },
+    {
+      "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\icons8-instagram-48.png",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "img/icons8-instagram-48.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\icons8-instagram-48.png"
+    },
+    {
       "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\laula-co-pdKPFBysSfA-unsplash.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
@@ -1870,6 +1921,23 @@
       "OriginalItemSpec": "wwwroot\\img\\pet-icon.png"
     },
     {
+      "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\pixlr-bg-result.png",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "img/pixlr-bg-result.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\pixlr-bg-result.png"
+    },
+    {
       "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\reserva-icon.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
@@ -1902,6 +1970,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\Sem_titulo-1.png"
+    },
+    {
+      "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\Sem_titulo-1-removebg-preview.png",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "img/Sem_titulo-1-removebg-preview.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\Sem_titulo-1-removebg-preview.png"
     },
     {
       "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\sobre-adest1.jpg",
