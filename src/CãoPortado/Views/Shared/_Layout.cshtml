@@ -35,9 +35,9 @@
                           Serviços
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                          <a class="dropdown-item" asp-controller="Home" asp-action="#">Creche</a>
-                          <a class="dropdown-item" asp-controller="Home" asp-action="#">Hotelzinho</a>
-                          <a class="dropdown-item" asp-controller="Home" asp-action="#">Adestramento</a>
+                          <a class="dropdown-item" asp-controller="Reservations" asp-action="Create">Creche</a>
+                          <a class="dropdown-item" asp-controller="Reservations" asp-action="Create">Hotelzinho</a>
+                          <a class="dropdown-item" asp-controller="Reservations" asp-action="Create">Adestramento</a>
                         </div>
                       </li>
                     </ul>
@@ -57,7 +57,7 @@
                             @if ((User.IsInRole("Admin")))
                             {
                                 <li class="nav-link">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Usuarios</a>
+                                    <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Usuários</a>
                                 </li>
                             }
 

@@ -1,7 +1,11 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\CãoPortado",
+    "\\src\\CãoPortado\\wwwroot",
+    "\\src\\CãoPortado\\wwwroot\\css"
   ],
-  "SelectedNode": "\\PetHotel.sln",
+  "SelectedNode": "\\src\\CãoPortado\\PetHotel.sln",
   "PreviewInSolutionExplorer": false
 }
