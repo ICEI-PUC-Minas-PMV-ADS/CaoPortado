@@ -13,17 +13,24 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 |---|---|
 | Requisitos Associados|•RF-05 A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, data de nascimento, endereço e telefone; |
 |Objetivo de Teste | Verificar se o banco de dados está registrando as informações dos clientes corretamente.|
-| Passos | 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão de _login_, localizado no menu de navegação; <br/> 4) Clique na opção de _Registre-se_;<br/> 5) Preencha os campos com as informações requeridas;<br/> 6) Clique novamanete no botão de _login_, localizado no menu de navegação; <br/> 7)Preencha os campos com o e-mail e senha cadastrados;<br/> 8) Clique em _entrar_.|
-|Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. Sendo assim, o cliente já pode realizar o login na plataforma com as informações inseridas no cadastro. |
+| Passos | 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão _Entrar_, localizado no menu de navegação; <br/> 4) Clique na opção de _Registre-se agora_;<br/> 5) Preencha os campos com as informações requeridas.|
+|Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. |
 
-| **Caso de Teste** | **CT-02 Cadastro do Pet**|
+| **Caso de Teste** | **CT-02 Login**|
+|---|---|
+| Requisitos Associados|•RF-09 A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; |
+|Objetivo de Teste | Verificar se o cliente conseguirá acessar sua conta.|
+| Passos | 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão _Entrar_, localizado no menu de navegação; <br/> 4)  Preencha os campos com as informações requeridas (e-mail e senha cadastrados);<br/> 5) Clique em _entrar_.|
+|Critéritos de Êxito| • O cliente será redirecionado á página Home. |
+
+| **Caso de Teste** | **CT-03 Cadastro do Pet**|
 |---|---|
 | Requisitos Associados|•RF-06 A aplicação deve ter um formulário de cadastro do Pet, informando a idade, o porte do animal, informações das vacinas, CPF do dono cadastrado; (Polivalente V8 ou V10, Raiva e Giárdia);<br> •RF-07 O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono; |
 |Objetivo de Teste | Verificar se o banco de dados está registrando as informações dos pets corretamente.|
 | Passos |1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/>  4) Clique no botão de _Cadastro do Pet_, localizado no menu de navegação;  <br/> 5) Preencha os campos com as informações requeridas; <br/> 6) Clique em _Finalizar cadastro_.
 |Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. |
 
-| **Caso de Teste** | **CT-03 Serviço de Agendas**|
+| **Caso de Teste** | **CT-04 Serviço de Agendas**|
 |---|---|
 | Requisitos Associados |•RF-03 A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem e disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line;<br> •RF-04 O sistema deve conter um limitador de vagas;  |
 |Objetivo de Teste | Verificar se a pagina de agendamento esta em pleno funcionamento |
@@ -31,7 +38,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 |Critéritos de Êxito| •Todos sistema de Agendas esteja funcionando corretamento.|
 
 
-|**Caso de Teste** | **CT-04 Informações sobre a empresa**|
+|**Caso de Teste** | **CT-05 Informações sobre a empresa**|
 |---|---|
 | Requisitos Associados |RF-02 A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local; |
 |Objetivo de Teste | Verificar se a pagina de Informaçôes, está em pleno funcionamento |
