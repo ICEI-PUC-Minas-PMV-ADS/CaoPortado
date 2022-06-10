@@ -37,8 +37,6 @@ Fernanda Araújo Macieira
 
 Arthur Victor de Paula
 
-Luiz Guilherme Martins Franchim
-
 ● **Equipe de Design** :
 
 Helen Tito Gomes Belinassi
