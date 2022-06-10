@@ -36,7 +36,7 @@ Os requisitos funcionais representam as necessidades, características e recurso
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|----------------------------------------|----  |
-|RF-01| A aplicação deve permitir que o cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários; | BAIXA |
+|RF-01| A aplicação deve conter uma área em que o cliente veja avaliações e feedbacks enviados por outros clientes á empresa; | BAIXA |
 |RF-02| A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
 |RF-03| A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem e disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line; | ALTA |
 |RF-04| A aplicação deve conter um limitador de vagas;| MÉDIA |
