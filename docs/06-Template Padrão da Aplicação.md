@@ -10,3 +10,10 @@ A tela do sistema abaixo apresenta uma estrutura comum, que é retratada na Figu
 
 ![Fluxo 01](https://thumbs2.imgbox.com/30/ee/BYhZy8fx_t.png)
 <br/>
+
+### Paleta de cores 
+Esta tabela representa o padrão de cores utilizado em toda aplicação, que foi criado a partir do logotipo da empresa.
+
+![Paleta](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/paleta-cp.png)
+<br/>
+
