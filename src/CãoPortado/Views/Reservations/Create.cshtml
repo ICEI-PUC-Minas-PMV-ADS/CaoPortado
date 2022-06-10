@@ -43,11 +43,11 @@
 			@Html.AntiForgeryToken()
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-user" aria-hidden="true"></i> Nome :</label>
-				<input type="text" name="Name" placeholder="@User.Identity.Name" required=""/>
+				<input type="text" name="Name" placeholder="Nome Completo!" required=""/>
 			</div>
-			<div class="form-left-agileits-w3layouts">
-				<label><i class="fa fa-users" aria-hidden="true"></i> Meus pets :</label>
-				@Html.DropDownListFor(m=>m.SelecioneOPet, new SelectList(ViewBag.SelecioneOPet,"Value","Text"),new { @class = "form-control"})
+			<div class="form-date-w3-agileits">
+				<label><i class="fa fa-envelope" aria-hidden="true"></i> Email :</label>
+				<input type="email" name="Email" placeholder="Digite seu E-mail!" required=""/>
 			</div>
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de Chegada :</label>
@@ -68,10 +68,15 @@
 			<div class="form-left-agileits-w3layouts bottom-w3ls">
 				<label><i class="fa fa-home" aria-hidden="true"></i> Serviços :</label>
 				@Html.DropDownListFor(m=>m.Serviços, new SelectList(ViewBag.Serviços,"Value","Text"),new { @class = "form-control"})
+				    
+			</div>
+			<div class="form-left-agileits-w3layouts">
+				<label><i class="fa fa-users" aria-hidden="true"></i> Quantos Cachorros ? :</label>
+				@Html.DropDownListFor(m=>m.QuantidadeDePets, new SelectList(ViewBag.QuantidadeDePets,"Value","Text"),new { @class = "form-control"})
 			</div>
 			<div class="clear"> </div>
 			<div class="make">
-				<input type="submit" value="Reservar">
+				<input type="submit" value="Reservar ">
 			</div>
 
 		}
