@@ -7,7 +7,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida. ??????? CORRIGIR
+O diagrama apresenta o estudo do fluxo de interação do usuário com o sistema interativo e  muitas vezes sem a necessidade do desenho do design das telas da interface. Isso permite que o design das interações seja bem planejado e gere impacto na qualidade no design do wireframe interativo que será desenvolvido logo em seguida. 
 
 ![Fluxo](https://user-images.githubusercontent.com/90113699/162631082-dc2aa0a4-fd80-4bdb-88d0-1ac82591f334.PNG)
 
@@ -36,14 +36,14 @@ O bloco do home-page traz quatro elementos distintos:
 
 ### Tela de Serviços ###
 
-O serviço contém uma lista de serviços com categorias específicas, à escolha do usuário. O Bloco também apresenta os mesmos elementos fixos (cabeçalho e rodapé).
+O serviço contém uma lista de serviços com categorias específicas, à escolha do usuário logado. O Bloco também apresenta os mesmos elementos fixos (cabeçalho e rodapé).
 
 ![serviços](https://user-images.githubusercontent.com/90113699/162638266-4235af1e-d531-4e0f-801f-0f2837e9974c.PNG)
 <br/>
 
 ### Tela de Depoimentos ###
 
-Permite que o usuário faça comentários e avaliações sobre o trabalho prestado pela empresa.
+Onde será exposto comentários dos usuários, que não poderá ser realizado de forma direta no site (apenas os desenvolvedores poderão adicioná-los).
 
 ![Depoimentos](https://user-images.githubusercontent.com/90113699/162638675-dbd353fa-5043-4190-bbe5-cb1b47c24116.PNG)
 <br/>
