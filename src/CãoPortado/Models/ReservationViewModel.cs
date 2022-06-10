@@ -6,8 +6,6 @@ namespace PetHotel.Models
 {
     public class ReservationViewModel
     {
-        internal object SelecioneOPet;
-
         public int Id { get; set; }
         [StringLength(100)]
 

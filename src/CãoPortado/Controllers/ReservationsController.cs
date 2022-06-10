@@ -54,15 +54,15 @@ namespace PetHotel.Controllers
             Serviços.Add(new SelectListItem() { Text = "Pet Hotel", Value = "Pet Hotel" });
             Serviços.Add(new SelectListItem() { Text = "Creche", Value = "Creche" });
             ViewBag.Serviços = Serviços;
-            List<SelectListItem> SelecioneOPet = new List<SelectListItem>();
-            SelecioneOPet.Add(new SelectListItem() { Text = "SelecioneOPet", Value = "0" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "1 Pet", Value = "1" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "2 Pets", Value = "2" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "3 Pets", Value = "3" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "4 Pets", Value = "4" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "5 Pets", Value = "5" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "More", Value = "6" });
-            ViewBag.SelecioneOPet = SelecioneOPet;
+            List<SelectListItem> QuantidadeDePets = new List<SelectListItem>();
+            QuantidadeDePets.Add(new SelectListItem() { Text = "QuantidadeDePets", Value = "0" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "1 Pet", Value = "1" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "2 Pets", Value = "2" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "3 Pets", Value = "3" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "4 Pets", Value = "4" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "5 Pets", Value = "5" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "More", Value = "6" });
+            ViewBag.QuantidadeDePets = QuantidadeDePets;
             return View(new ReservationViewModel());
         }
 
@@ -77,8 +77,9 @@ namespace PetHotel.Controllers
             {
                 Reservation obj = new Reservation()
                 {
-                    Name = model.Name, SelecioneOPet = model.SelecioneOPet, DataDeChegadaHora = model.DataDeChegadaHora,
-                    DataDePartidaHora = model.DataDePartidaHora, Serviços = model.Serviços
+                    Name = model.Name, Email = model.Email, DataDeChegadaHora = model.DataDeChegadaHora,
+                    DataDePartidaHora = model.DataDePartidaHora, Serviços = model.Serviços,
+                    QuantidadeDePets = model.QuantidadeDePets
                 };
 
                 _context.Reservation.Add(obj);
@@ -92,15 +93,15 @@ namespace PetHotel.Controllers
             Serviços.Add(new SelectListItem() { Text = "Pet Hotel", Value = "Pet Hotel" });
             Serviços.Add(new SelectListItem() { Text = "Creche", Value = "Creche" });
             ViewBag.Serviços = Serviços;
-            List<SelectListItem> SelecioneOPet = new List<SelectListItem>();
-            SelecioneOPet.Add(new SelectListItem() { Text = "SelecioneOPet", Value = "0" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "1 Pet", Value = "1" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "2 Pets", Value = "2" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "3 Pets", Value = "3" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "4 Pets", Value = "4" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "5 Pets", Value = "5" });
-            SelecioneOPet.Add(new SelectListItem() { Text = "More", Value = "6" });
-            ViewBag.SelecioneOPet = SelecioneOPet;
+            List<SelectListItem> QuantidadeDePets = new List<SelectListItem>();
+            QuantidadeDePets.Add(new SelectListItem() { Text = "QuantidadeDePets", Value = "0" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "1 Pet", Value = "1" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "2 Pets", Value = "2" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "3 Pets", Value = "3" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "4 Pets", Value = "4" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "5 Pets", Value = "5" });
+            QuantidadeDePets.Add(new SelectListItem() { Text = "More", Value = "6" });
+            ViewBag.QuantidadeDePets = QuantidadeDePets;
 
             return View(model);
         }
@@ -127,7 +128,7 @@ namespace PetHotel.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,SelecioneOPet,DataDeChegadaHora,DataDePartidaHora,Serviços")] Reservation reservation)
+        public async Task<IActionResult> Edit(int id, [Bind("Id,Name,Email,DataDeChegadaHora,DataDePartidaHora,Serviços,QuantidadeDePets")] Reservation reservation)
         {
             if (id != reservation.Id)
             {
