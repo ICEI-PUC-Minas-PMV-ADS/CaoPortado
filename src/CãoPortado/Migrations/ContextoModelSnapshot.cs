@@ -25,15 +25,15 @@ namespace PetHotel.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int>("AnoNascimento")
+                        .HasColumnType("int");
+
                     b.Property<string>("CPF_Usuario")
                         .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<bool>("Giárdia")
                         .HasColumnType("tinyint(1)");
-
-                    b.Property<int>("Idade")
-                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()

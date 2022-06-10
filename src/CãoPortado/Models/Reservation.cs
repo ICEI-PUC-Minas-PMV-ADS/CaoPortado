@@ -35,7 +35,6 @@ namespace PetHotel.Models
 
     public string HoraDePartidar => DataDePartidaHora.ToString("h : mm tt");
 
-
-
-}
+        public object SelecioneOPet { get; internal set; }
+    }
 }

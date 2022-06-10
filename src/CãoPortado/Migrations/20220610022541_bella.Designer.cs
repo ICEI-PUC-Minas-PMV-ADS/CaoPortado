@@ -11,8 +11,8 @@ using PetHotel.Data;
 namespace PetHotel.Migrations
 {
     [DbContext(typeof(Contexto))]
-    [Migration("20220528033122_socorro")]
-    partial class socorro
+    [Migration("20220610022541_bella")]
+    partial class bella
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,15 +27,15 @@ namespace PetHotel.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
+                    b.Property<int>("AnoNascimento")
+                        .HasColumnType("int");
+
                     b.Property<string>("CPF_Usuario")
                         .IsRequired()
                         .HasColumnType("longtext");
 
                     b.Property<bool>("Giárdia")
                         .HasColumnType("tinyint(1)");
-
-                    b.Property<int>("Idade")
-                        .HasColumnType("int");
 
                     b.Property<string>("Nome")
                         .IsRequired()

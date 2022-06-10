@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace PetHotel.Migrations
 {
-    public partial class socorro : Migration
+    public partial class bella : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -23,7 +23,7 @@ namespace PetHotel.Migrations
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Nome = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
-                    Idade = table.Column<int>(type: "int", nullable: false),
+                    AnoNascimento = table.Column<int>(type: "int", nullable: false),
                     Porte = table.Column<string>(type: "longtext", nullable: false)
                         .Annotation("MySql:CharSet", "utf8mb4"),
                     Raca = table.Column<string>(type: "longtext", nullable: false)
