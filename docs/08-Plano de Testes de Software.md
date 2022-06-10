@@ -13,14 +13,14 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 |---|---|
 | Requisitos Associados|•RF-8 O sistema deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, data de nascimento, endereço e contato de WhatsApp; |
 |Objetivo de Teste | Verificar se o banco de dados está registrando as informações dos clientes corretamente.|
-| Passos | 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão de _login_, localizado no menu de navegação; <br/> 4) Clique na opção de _Cadastre-se_;<br/> 5) Preencha os campos com as informações requeridas;<br/> 6) Clique novamanete no botão de _login_, localizado no menu de navegação; <br/> 7)Preencha os campos com o e-mail e senha cadastrados;<br/> 8) Clique em _entrar_.|
+| Passos | 1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão de _login_, localizado no menu de navegação; <br/> 4) Clique na opção de _Registre-se_;<br/> 5) Preencha os campos com as informações requeridas;<br/> 6) Clique novamanete no botão de _login_, localizado no menu de navegação; <br/> 7)Preencha os campos com o e-mail e senha cadastrados;<br/> 8) Clique em _entrar_.|
 |Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. Sendo assim, o cliente já pode realizar o login na plataforma com as informações inseridas no cadastro. |
 
 | **Caso de Teste** | **CT-02 Cadastro do Pet**|
 |---|---|
 | Requisitos Associados|•RF-9 O sistema deve ter um formulário de cadastro do Pet, informando o porte do animal e as datas e informações das vacinas (Polivalente V8 ou V10, Raiva e Giárdia);<br> •RF-10 O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono; |
 |Objetivo de Teste | Verificar se o banco de dados está registrando as informações dos pets corretamente.|
-| Passos |1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _Cadastro do Pet_, localizado no menu de navegação;  <br/> 4) Preencha os campos com as informações requeridas; <br/> 5) Clique em _Finalizar cadastro_.
+| Passos |1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/>  4) Clique no botão de _Cadastro do Pet_, localizado no menu de navegação;  <br/> 5) Preencha os campos com as informações requeridas; <br/> 6) Clique em _Finalizar cadastro_.
 |Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. |
 
 | **Caso de Teste** | **CT-03 Serviço de Agendas**|
@@ -37,18 +37,6 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 |Objetivo de Teste | Verificar se a pagina de Informaçôes, está em pleno funcionamento |
 | Passos | 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no Botão "A Empresa"; |
 |Critéritos de Êxito| •Página carregar todo texto e a imagem. |
-
-
-
-
- |**Caso de Teste** | **CT-05 Depoimentos**|
-|---|---|
-| Requisitos Associados | RF-01 O sistema deve permitir que o cliente do Pet Hotel avaliem a empresa atribuindo estrelas e comentários;|
-|Objetivo de Teste | Verificar se a pagina de depoimentos esta funcionado corretamento |
-| Passos |  1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão de _login_;  <br/> 4) Realize _login_;<br/> 5) Clique no item de navegação de nome "DEPOIMENTOS";<br/> 6) Realize um feedback;<br/> 7) Clique em Enviar.|
-|Critéritos de Êxito| • A funcionalidade Depoimentos esta em pleno funcionamento.|
-
-
 
  |**Caso de Teste** | **CT-06-Responsividade, compatibilidade, cores e contraste**|
 |---|---|
