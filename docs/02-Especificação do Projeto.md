@@ -40,18 +40,15 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-02| A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;| BAIXA |
 |RF-03| A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem e disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line; | ALTA |
 |RF-04| A aplicação deve conter um limitador de vagas;| MÉDIA |
-|RF-05| A aplicação deve realizar o cálculo do valor da hospedagem, considerando o preço fixo da diária, a quantidade de dias e o porte do animal;| ALTA |
-|RF-06| A aplicação deve conter um alert (pop-up), informando se a reserva foi concluída com sucesso;| ALTA |
-|RF-07| A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, data de nascimento, endereço e telefone;| ALTA |
-|RF-08| A aplicação deve ter um formulário de cadastro do Pet, informando a idade, o porte do animal, informações das vacinas, CPF do dono cadastrado; (Polivalente V8 ou V10, Raiva e Giárdia);|MÉDIA|
-|RF-09| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
-|RF-10| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
-|RF-11| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| MÉDIA |
-|RF-12| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail;| MÉDIA |
-|RF-13| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
-|RF-14| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
-|RF-15| A aplicação deve permitir que o Administrador gerencie valores e pacotes; | ALTA|
-|RF-16| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet. | ALTA|
+|RF-05| A aplicação deve ter um formulário de cadastro do cliente, para coletar o nome completo, CPF, data de nascimento, endereço e telefone;| ALTA |
+|RF-06| A aplicação deve ter um formulário de cadastro do Pet, informando a idade, o porte do animal, informações das vacinas, CPF do dono cadastrado; (Polivalente V8 ou V10, Raiva e Giárdia);|MÉDIA|
+|RF-07| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
+|RF-09| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
+|RF-09| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| MÉDIA |
+|RF-10| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail;| MÉDIA |
+|RF-11| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
+|RF-12| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
+|RF-13| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet. | ALTA|
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
@@ -78,41 +75,32 @@ O diagrama de casos de uso é o seguinte passo após a elicitação dos Requisit
 
 ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/DiagramadeCasodeUso.png)
 
-Tabela - Casos de Uso
-
-|ATOR             | DESCRIÇÃO                                                                                        |
-|-----------------|--------------------------------------------------------------------------------------------------|
-|Usuário Cadastrado| Pessoa que possui um cadastro no sistema;|
-|Usuário Não Cadastrado| Pessoa que não possui um cadastro no sistema;|
-|Usuário e Usuário Não Cadastrado| Ambos têm os mesmos limites, com exceção do acesso "extra" que Usuário teria, já que realizou o seu cadastro no site;|
-|Administrador| Pessoa que gerencia e tem acesso a todas as funcionalidades do sistema.|
-
-
 <br>
 
 |CASO DE USO                    | DESCRIÇÃO                                                                                                | REQUISITO FUNCIONAL  |
 |-------------------------------|----------------------------------------------------------------------------------------------------------|----------------------|
-|Obter informações sobre o PetHotel | O usuário pode obter informações referentes a empresa e sua quipe, além de conseguir ver fotos e vídeos do local e dos pets;                          | RF-02 |
+|Obter informações sobre o PetHotel | O usuário pode obter informações referentes a empresa e sua quipe, além de conseguir ver fotos e vídeos do local e dos pets;                                                                                                                                                | RF-02 |
 |Fazer reserva                  | O usuário deve conseguir contratar os serviços oferecidos pela empresa, realizando o agendamto online;   | RF-03 |
-|Criar conta                    | O usuário deve conseguir criar uma conta para, assim, utilizar todos os recursos disponíveis no sistema;  | RF-07 |
-|Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, data de nascimento, nome e raça);                      | RF-08 |
-|Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta;                                    | RF-10 |
-|Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais, tais como: telefone, endereço, e-mail e senha;               | RF-12 |
-|Consultar reservas             | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário;                         | RF-13 |
-|Gerenciar Valores e Pacotes    | O Administrador pode gerenciar valores e pacotes;                                                      | RF-15 |
-|Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-16 |
+|Criar conta                    | O usuário deve conseguir criar uma conta para, assim, utilizar todos os recursos disponíveis no sistema; | RF-05 |
+|Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, data de nascimento, nome e raça);                                                                                                                                                                  | RF-06 |
+|Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta;                                     | RF-09 |
+|Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais, tais como: telefone, endereço, e-mail e senha;             | RF-10 |
+|Consultar reservas             | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário;                         | RF-12 |
+|Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-13 |
 
 <br>
 
 |RELACIONAMENTO| DESCRIÇÃO                                                                                                                                          |
 |--------------|----------------------------------------------------------------------------------------------------------------------------------------------------|
 |INCLUSÃO      |                                                                                                                                                    |
-|              | Para efetivar o cadastro do Pet, o usuário deve fazer o Login;                                                           |
-|              | Para avaliar o estabelecimento, o usuário deve fazer o Login;                                                                                   |
-|              | Para agendar uma diária, o usuário deve contratar um serviço;                                                                                      |
-|              |                                                                                 
+|              | Para logar no site, o usuário deve ter criado uma conta.                                                                                           |                                                                           
 |EXTENSÃO      |                                                                                                                                                    |
-|              | O usuário pode alterar seus dados cadastrais, se fizer Login;                                                               |
-|              | O usuário pode alterar reservas, se agendar uma diária. |
+|              | O usuário pode alterar seus dados cadastrais, se fizer Login;                                                                                      |
+|              | O usuário pode consultar suas reservas, se agendar uma diária;                                                                                     |
+|              | Para agendar uma diária, o usuário deve contratar um serviço;                                                                                      |
+|              | Para efetivar o cadastro do Pet, o usuário deve fazer o Login;                                                                                     |
+|              | O usuário poderá Visualizar erro de login, caso erre sua senha cadastrada;                                                                         |
+|              | O administrador poderá visualizar acessar as reservas, caso esteja logado;                                                                         |
+|              | O administrador poderá gerenciar dados do pet e do usuário, caso esteja logado.                                                                    |
 
 Fonte: Elaborado pelos autores do projeto
