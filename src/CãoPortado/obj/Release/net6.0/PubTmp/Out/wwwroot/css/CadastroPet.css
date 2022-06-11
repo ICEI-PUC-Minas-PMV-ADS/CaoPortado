@@ -13,7 +13,7 @@
 
 
 .formCadastro > legend {
-    margin-left:30px;
+    margin-left: 30px;
     text-align: right;
     padding-left: 90px;
     font-weight: bold;
@@ -23,6 +23,17 @@
     margin-top: 30px;
 }
 
+    .formCadastro > legend p {
+        font-size: 35px;
+        text-align: left;
+        padding-left: 68px;
+    }
+
+select {
+    background: #F1ECE9;
+    color: #006400;
+    border-radius: 6px;
+}
 
 .container {
     display: block;
@@ -32,14 +43,14 @@
     cursor: pointer;
 }
 
-.container input .vacina {
-    position: absolute;
-    cursor: pointer;
-}
+    .container input .form-check-input {
+        position: absolute;
+        cursor: pointer;
+    }
 
-.container .vacina {
-    opacity:0;
- }
+    .container .form-check-input {
+        opacity: 0;
+    }
 
 .check {
     left: 0;
@@ -47,7 +58,8 @@
     width: 25px;
     height: 25px;
     background-color: #F1ECE9;
-    position: absolute
+    position: absolute;
+    border-radius: 6px;
 }
 
 .container input:checked ~ .check {
@@ -69,11 +81,11 @@
 .check:after {
     content: "";
     position: absolute;
-    display:none;
+    display: none;
 }
 
 .container input:checked ~ .check:after {
-    display:block;
+    display: block;
 }
 
 fieldset {
@@ -189,7 +201,7 @@ fieldset {
 
 @media screen and (max-width:576px) {
 
-   
+
     #header > img {
         width: 160px;
         height: 60px;
@@ -211,7 +223,7 @@ fieldset {
         fieldset > input {
             width: 300px;
         }
-   
+
     #nomeCheckCad {
         font-size: 12px;
     }

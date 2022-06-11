@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
 (options => options.UseMySql(
-    "server=localhost;initial catalog=Tb_Clientes;uid=root;pwd=123456",
+    "server=localhost;port=3306;database=heroku_d1351a6676aa7ed;user=root;password=123456",
     Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.29-mysql")));
 
 

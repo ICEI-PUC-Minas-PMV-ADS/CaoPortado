@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\CãoPortado"
   ],
-  "SelectedNode": "\\PetHotel.sln",
+  "SelectedNode": "\\src\\CãoPortado\\appsettings.Development.json",
   "PreviewInSolutionExplorer": false
 }

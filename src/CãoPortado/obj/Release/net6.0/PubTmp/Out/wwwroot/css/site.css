@@ -1,25 +1,33 @@
-html {
-  font-size: 14px;
-  
 
+
+/* slids */
+.swiffy-slider {
+    width: 1200px;
+    height: 360px;
+    background-color: black;
+    overflow: hidden;
 }
 
-@media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+.swiffy-slider .slider-container {
+    width: 1200px;
+    animation-name: animacao;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
 }
 
-html {
-  position: relative;
-  min-height: 100%;
+.about_map {
+    display: flex;
+    /* função para deixar um conteúdo e um lado e outro do outro*/
+    justify-content: space-between;
+    
 }
-
-body {
-  margin-bottom: 60px;
+.texto_sobre {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 10px;
+    
 }
-
-Login, text-center {
-  background-color: red;
-  color: red;
+.mapa {
+    padding-left:10px;
+   
 }
