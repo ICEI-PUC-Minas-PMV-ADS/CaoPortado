@@ -30,7 +30,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 | Passos |1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão _Entrar_;  <br/>  5)Preencha os campos com as informações requeridas (e-mail e senha cadastrados); <br/> 6)Clique no botão de _Cadastro do Pet_, localizado no menu de navegação;  <br/> 7) Preencha os campos com as informações requeridas; <br/> 8) Clique em _Finalizar cadastro_.
 |Critéritos de Êxito| •A plataforma deve retornar um pop-up de confirmação do cadastro. |
 
-| **Caso de Teste** | **CT-04 Serviço de Agendas**|
+| **Caso de Teste** | **CT-04 Agenar serviço**|
 |---|---|
 | Requisitos Associados |•RF-03 A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem e disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line;<br> •RF-04 O sistema deve conter um limitador de vagas;  |
 |Objetivo de Teste | Verificar se a pagina de agendamento esta em pleno funcionamento |
