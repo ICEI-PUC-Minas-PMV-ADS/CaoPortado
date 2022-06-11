@@ -8,11 +8,11 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = PetHotel
 build_property.RootNamespace = PetHotel
-build_property.ProjectDir = C:\Users\Tuzin\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado\
+build_property.ProjectDir = C:\Users\Tuzin\source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Tuzin\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado
+build_property.MSBuildProjectDirectory = C:\Users\Tuzin\source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado
 build_property._RazorSourceGeneratorDebug = 
 
 [C:/Users/Tuzin/Source/Repos/ICEI-PUC-Minas-PMV-ADS/CaoPortado/src/CãoPortado/Views/CadPet/Create.cshtml]
