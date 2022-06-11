@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "mV1S7sfO6HsQZyQvEUAQKyLNjmdiP29OWhyCsqaeTlg=",
+  "Hash": "fzjS2GeaTU+Jdl9ZJ5S8/b/AHagfGCTICZasQ/zAyGM=",
   "Source": "PetHotel",
   "BasePath": "_content/PetHotel",
   "Mode": "Default",
@@ -17,10 +17,10 @@
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PetHotel.styles.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PetHotel.styles.css",
       "SourceId": "PetHotel",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/PetHotel",
       "RelativePath": "PetHotel.styles.css",
       "AssetKind": "All",
@@ -31,13 +31,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PetHotel.styles.css"
+      "OriginalItemSpec": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\bundle\\PetHotel.styles.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PetHotel.bundle.scp.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PetHotel.bundle.scp.css",
       "SourceId": "PetHotel",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/PetHotel",
       "RelativePath": "PetHotel.bundle.scp.css",
       "AssetKind": "All",
@@ -48,10 +48,10 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PetHotel.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\PetHotel.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\_Layout.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\_Layout.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -68,7 +68,7 @@
       "OriginalItemSpec": "wwwroot\\css\\_Layout.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\AEmpresa.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\AEmpresa.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -85,7 +85,7 @@
       "OriginalItemSpec": "wwwroot\\css\\AEmpresa.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\cadastro.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\cadastro.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -102,7 +102,7 @@
       "OriginalItemSpec": "wwwroot\\css\\cadastro.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\CadastroPet.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\CadastroPet.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -119,7 +119,7 @@
       "OriginalItemSpec": "wwwroot\\css\\CadastroPet.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\Carousel.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\Carousel.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -136,7 +136,7 @@
       "OriginalItemSpec": "wwwroot\\css\\Carousel.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\Depoimentos.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\Depoimentos.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -153,7 +153,7 @@
       "OriginalItemSpec": "wwwroot\\css\\Depoimentos.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\fEv.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\fEv.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -170,7 +170,7 @@
       "OriginalItemSpec": "wwwroot\\css\\fEv.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\bootstrapmin.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\bootstrapmin.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -187,7 +187,7 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\bootstrapmin.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\carousel.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\carousel.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -204,7 +204,7 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\carousel.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\carrossel-empresa.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\carrossel-empresa.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -221,7 +221,7 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\carrossel-empresa.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\jquery.sticky.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\jquery.sticky.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -238,7 +238,7 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\jquery.sticky.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\jquery-3.3.1.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\jquery-3.3.1.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -255,7 +255,7 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\jquery-3.3.1.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\main.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\main.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -272,7 +272,7 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\main.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\owl.carousel.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\owl.carousel.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -289,7 +289,7 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\owl.carousel.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\popper.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\popper.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -306,7 +306,7 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\popper.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\site.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\js\\site.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -323,7 +323,7 @@
       "OriginalItemSpec": "wwwroot\\css\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -340,7 +340,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -357,7 +357,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -374,7 +374,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -391,7 +391,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -408,7 +408,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -425,7 +425,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -442,7 +442,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -459,7 +459,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -476,7 +476,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -493,7 +493,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -510,7 +510,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -527,7 +527,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -544,7 +544,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -561,7 +561,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -578,7 +578,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -595,7 +595,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -612,7 +612,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -629,7 +629,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -646,7 +646,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -663,7 +663,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\bootstrap\\LICENSE",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -680,7 +680,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -697,7 +697,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -714,7 +714,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -731,7 +731,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -748,7 +748,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -765,7 +765,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -782,7 +782,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -799,7 +799,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -816,7 +816,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -833,7 +833,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -850,7 +850,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -867,7 +867,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -884,7 +884,7 @@
       "OriginalItemSpec": "wwwroot\\css\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\Login.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\Login.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -901,7 +901,7 @@
       "OriginalItemSpec": "wwwroot\\css\\Login.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\menu-servico.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\menu-servico.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -918,7 +918,7 @@
       "OriginalItemSpec": "wwwroot\\css\\menu-servico.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\MeuPerfil.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\MeuPerfil.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -935,7 +935,7 @@
       "OriginalItemSpec": "wwwroot\\css\\MeuPerfil.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\MeuPet.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\MeuPet.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -952,7 +952,7 @@
       "OriginalItemSpec": "wwwroot\\css\\MeuPet.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\owl.carousel.min.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\owl.carousel.min.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -969,7 +969,7 @@
       "OriginalItemSpec": "wwwroot\\css\\owl.carousel.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\site.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -986,7 +986,7 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\videos.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\videos.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1003,7 +1003,7 @@
       "OriginalItemSpec": "wwwroot\\css\\videos.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\favicon.ico",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1020,7 +1020,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\.DS_Store",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\.DS_Store",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1037,7 +1037,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\.DS_Store"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\demo.html",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\demo.html",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1054,7 +1054,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\demo.html"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\demo-files\\demo.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\demo-files\\demo.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1071,7 +1071,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\demo-files\\demo.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\demo-files\\demo.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\demo-files\\demo.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1088,7 +1088,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\demo-files\\demo.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.eot",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.eot",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1105,7 +1105,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\fonts\\icomoon.eot"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.svg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.svg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1122,7 +1122,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\fonts\\icomoon.svg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.ttf",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.ttf",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1139,7 +1139,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\fonts\\icomoon.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.woff",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\fonts\\icomoon.woff",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1156,7 +1156,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\fonts\\icomoon.woff"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\Read Me.txt",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\Read Me.txt",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1173,7 +1173,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\Read Me.txt"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\selection.json",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\selection.json",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1190,7 +1190,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\selection.json"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\style.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\fonts\\icomoon\\style.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1207,7 +1207,7 @@
       "OriginalItemSpec": "wwwroot\\fonts\\icomoon\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\adestrar-cachorro.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\adestrar-cachorro.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1224,7 +1224,7 @@
       "OriginalItemSpec": "wwwroot\\img\\adestrar-cachorro.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\Banner_dog1.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\Banner_dog1.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1241,7 +1241,7 @@
       "OriginalItemSpec": "wwwroot\\img\\Banner_dog1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\book.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\book.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1258,7 +1258,7 @@
       "OriginalItemSpec": "wwwroot\\img\\book.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cadastro.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cadastro.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1275,7 +1275,7 @@
       "OriginalItemSpec": "wwwroot\\img\\cadastro.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cadpet.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cadpet.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1292,7 +1292,7 @@
       "OriginalItemSpec": "wwwroot\\img\\cadpet.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cars.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cars.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1309,7 +1309,7 @@
       "OriginalItemSpec": "wwwroot\\img\\cars.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cars1.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cars1.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1326,7 +1326,7 @@
       "OriginalItemSpec": "wwwroot\\img\\cars1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cars2.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cars2.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1343,7 +1343,7 @@
       "OriginalItemSpec": "wwwroot\\img\\cars2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cars3.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\cars3.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1360,7 +1360,7 @@
       "OriginalItemSpec": "wwwroot\\img\\cars3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\Cdastropet.jpeg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\Cdastropet.jpeg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1377,7 +1377,7 @@
       "OriginalItemSpec": "wwwroot\\img\\Cdastropet.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dog-adest.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dog-adest.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1394,7 +1394,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dog-adest.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog1.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog1.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1411,7 +1411,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog10.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog10.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1428,7 +1428,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog10.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog11.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog11.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1445,7 +1445,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog11.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog12.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog12.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1462,7 +1462,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog12.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog13.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog13.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1479,7 +1479,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog13.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog14.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog14.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1496,7 +1496,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog14.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog15.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog15.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1513,7 +1513,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog15.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog16.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog16.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1530,7 +1530,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog16.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog2.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog2.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1547,7 +1547,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog3.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog3.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1564,7 +1564,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog4.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog4.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1581,7 +1581,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog4.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog5.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog5.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1598,7 +1598,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog5.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog6.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog6.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1615,7 +1615,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog6.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog7.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog7.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1632,7 +1632,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog7.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog8.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog8.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1649,7 +1649,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog8.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog9.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\dogs\\dog9.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1666,7 +1666,7 @@
       "OriginalItemSpec": "wwwroot\\img\\dogs\\dog9.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\edit-profile.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\edit-profile.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1683,7 +1683,7 @@
       "OriginalItemSpec": "wwwroot\\img\\edit-profile.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\favicon.ico",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\favicon.ico",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1700,7 +1700,7 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\footprints-video.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\footprints-video.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1717,7 +1717,7 @@
       "OriginalItemSpec": "wwwroot\\img\\footprints-video.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\happy-dog-2.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\happy-dog-2.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1734,7 +1734,7 @@
       "OriginalItemSpec": "wwwroot\\img\\happy-dog-2.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\hero_1.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\hero_1.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1751,7 +1751,7 @@
       "OriginalItemSpec": "wwwroot\\img\\hero_1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\hero_3.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\hero_3.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1768,7 +1768,7 @@
       "OriginalItemSpec": "wwwroot\\img\\hero_3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\icons8-facebook-48 (1).png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\icons8-facebook-48 (1).png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1785,7 +1785,7 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-facebook-48 (1).png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\icons8-instagram-48.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\icons8-instagram-48.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1802,7 +1802,7 @@
       "OriginalItemSpec": "wwwroot\\img\\icons8-instagram-48.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\laula-co-pdKPFBysSfA-unsplash.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\laula-co-pdKPFBysSfA-unsplash.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1819,7 +1819,7 @@
       "OriginalItemSpec": "wwwroot\\img\\laula-co-pdKPFBysSfA-unsplash.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\log-out.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\log-out.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1836,7 +1836,7 @@
       "OriginalItemSpec": "wwwroot\\img\\log-out.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\maxresdefault.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\maxresdefault.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1853,7 +1853,7 @@
       "OriginalItemSpec": "wwwroot\\img\\maxresdefault.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\persona1.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\persona1.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1870,7 +1870,7 @@
       "OriginalItemSpec": "wwwroot\\img\\persona1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\persona2.jpeg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\persona2.jpeg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1887,7 +1887,7 @@
       "OriginalItemSpec": "wwwroot\\img\\persona2.jpeg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\persona3.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\persona3.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1904,7 +1904,7 @@
       "OriginalItemSpec": "wwwroot\\img\\persona3.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\pet-icon.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\pet-icon.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1921,7 +1921,7 @@
       "OriginalItemSpec": "wwwroot\\img\\pet-icon.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\pixlr-bg-result.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\pixlr-bg-result.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1938,7 +1938,7 @@
       "OriginalItemSpec": "wwwroot\\img\\pixlr-bg-result.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\reserva-icon.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\reserva-icon.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1955,7 +1955,7 @@
       "OriginalItemSpec": "wwwroot\\img\\reserva-icon.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\Sem_titulo-1.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\Sem_titulo-1.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1972,7 +1972,7 @@
       "OriginalItemSpec": "wwwroot\\img\\Sem_titulo-1.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\Sem_titulo-1-removebg-preview.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\Sem_titulo-1-removebg-preview.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -1989,7 +1989,7 @@
       "OriginalItemSpec": "wwwroot\\img\\Sem_titulo-1-removebg-preview.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\sobre-adest1.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\sobre-adest1.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2006,7 +2006,7 @@
       "OriginalItemSpec": "wwwroot\\img\\sobre-adest1.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\star.svg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\star.svg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2023,7 +2023,7 @@
       "OriginalItemSpec": "wwwroot\\img\\star.svg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\user.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\user.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2040,7 +2040,7 @@
       "OriginalItemSpec": "wwwroot\\img\\user.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\wade-austin-ellis-FtuJIuBbUhI-unsplash.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\img\\wade-austin-ellis-FtuJIuBbUhI-unsplash.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2057,7 +2057,7 @@
       "OriginalItemSpec": "wwwroot\\img\\wade-austin-ellis-FtuJIuBbUhI-unsplash.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\js\\site.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2074,7 +2074,7 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2091,7 +2091,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2108,7 +2108,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2125,7 +2125,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2142,7 +2142,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2159,7 +2159,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2176,7 +2176,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2193,7 +2193,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2210,7 +2210,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2227,7 +2227,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2244,7 +2244,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2261,7 +2261,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2278,7 +2278,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2295,7 +2295,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2312,7 +2312,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2329,7 +2329,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2346,7 +2346,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2363,7 +2363,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2380,7 +2380,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2397,7 +2397,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2414,7 +2414,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2431,7 +2431,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2448,7 +2448,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2465,7 +2465,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2482,7 +2482,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2499,7 +2499,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2516,7 +2516,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2533,7 +2533,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2550,7 +2550,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2567,7 +2567,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2584,7 +2584,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2601,7 +2601,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2618,7 +2618,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2635,7 +2635,7 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - adestramento.mp4",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - adestramento.mp4",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2652,7 +2652,7 @@
       "OriginalItemSpec": "wwwroot\\videos\\video - adestramento.mp4"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - adestramento-obediencia.mp4",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - adestramento-obediencia.mp4",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2669,7 +2669,7 @@
       "OriginalItemSpec": "wwwroot\\videos\\video - adestramento-obediencia.mp4"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - adestramento-protecao.mp4",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - adestramento-protecao.mp4",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2686,7 +2686,7 @@
       "OriginalItemSpec": "wwwroot\\videos\\video - adestramento-protecao.mp4"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - afonso - adestramento.mp4",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - afonso - adestramento.mp4",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2703,7 +2703,7 @@
       "OriginalItemSpec": "wwwroot\\videos\\video - afonso - adestramento.mp4"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - carinho no Pingo.mp4",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - carinho no Pingo.mp4",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2720,7 +2720,7 @@
       "OriginalItemSpec": "wwwroot\\videos\\video - carinho no Pingo.mp4"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - São lindos!.mp4",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\videos\\video - São lindos!.mp4",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2737,7 +2737,7 @@
       "OriginalItemSpec": "wwwroot\\videos\\video - São lindos!.mp4"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\bootstrap-datepicker.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\bootstrap-datepicker.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2754,7 +2754,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\css\\bootstrap-datepicker.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\font-awesome.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\font-awesome.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2771,7 +2771,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\css\\font-awesome.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\jquery-ui.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\jquery-ui.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2788,7 +2788,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\css\\jquery-ui.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\style.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\style.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2805,7 +2805,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\css\\style.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\wickedpicker.css",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\css\\wickedpicker.css",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2822,7 +2822,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\css\\wickedpicker.css"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\FontAwesome.otf",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\FontAwesome.otf",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2839,7 +2839,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\FontAwesome.otf"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.eot",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.eot",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2856,7 +2856,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\fontawesome-webfont.eot"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.svg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.svg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2873,7 +2873,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\fontawesome-webfont.svg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.ttf",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2890,7 +2890,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\fontawesome-webfont.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.woff",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.woff",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2907,7 +2907,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\fontawesome-webfont.woff"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.woff2",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontawesome-webfont.woff2",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2924,7 +2924,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\fontawesome-webfont.woff2"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontello.eot",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontello.eot",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2941,7 +2941,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\fontello.eot"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontello.svg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontello.svg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2958,7 +2958,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\fontello.svg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontello.ttf",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontello.ttf",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2975,7 +2975,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\fontello.ttf"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontello.woff",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\fonts\\fontello.woff",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -2992,7 +2992,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\fonts\\fontello.woff"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\images\\Agenda.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\images\\Agenda.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -3009,7 +3009,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\images\\Agenda.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\images\\c-arrows.png",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\images\\c-arrows.png",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -3026,7 +3026,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\images\\c-arrows.png"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\images\\LogoAgendamentos.jpg",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\images\\LogoAgendamentos.jpg",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -3043,7 +3043,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\images\\LogoAgendamentos.jpg"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\index.html",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\index.html",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -3060,7 +3060,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\index.html"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\bootstrap-datepicker.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\bootstrap-datepicker.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -3077,7 +3077,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\js\\bootstrap-datepicker.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\bootstrap-datepicker.pt-BR.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\bootstrap-datepicker.pt-BR.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -3094,7 +3094,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\js\\bootstrap-datepicker.pt-BR.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\jquery-2.1.4.min.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\jquery-2.1.4.min.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -3111,7 +3111,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\js\\jquery-2.1.4.min.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\jquery-ui.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\jquery-ui.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -3128,7 +3128,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\js\\jquery-ui.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\wickedpicker.js",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\js\\wickedpicker.js",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
@@ -3145,7 +3145,7 @@
       "OriginalItemSpec": "wwwroot\\W3\\js\\wickedpicker.js"
     },
     {
-      "Identity": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\w3layouts-License.txt",
+      "Identity": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\W3\\w3layouts-License.txt",
       "SourceId": "PetHotel",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\Tuzin\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
