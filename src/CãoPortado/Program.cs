@@ -9,10 +9,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
 (options => options.UseMySql(
-    "server=localhost;initial catalog=Tb_Clientes;uid=root;pwd=123456",
+    "server=us-cdbr-east-05.cleardb.net;initial catalog=Tb_Clientes;uid=root;pwd=52b9492e",
     Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.29-mysql")));
-
-
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)
     .AddCookie(options =>
@@ -57,3 +55,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+
