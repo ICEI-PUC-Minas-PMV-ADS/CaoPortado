@@ -1,6 +1,12 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\src",
+    "\\src\\CãoPortado"
   ],
+<<<<<<< HEAD
+=======
+  "SelectedNode": "\\src\\CãoPortado\\PetHotel.sln",
+>>>>>>> afd867901ba4d6670a8f784d8f9938b2f4fe232d
   "PreviewInSolutionExplorer": false
 }
