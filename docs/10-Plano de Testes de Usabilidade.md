@@ -53,18 +53,12 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 
 A análise do resultado do teste de usabilidade à distância deve ser igual ao de um teste presencial, para registro será utilizada uma planilha conforme exemplo abaixo:
 
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
+| **Usuário** 	| **Idade** | **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| 0	| ---	| 00:00:00 | 0  | 0 | --- | --- |
+| Usuário 2 | 0	| ---	| 00:00:00 | 0  | 0 | --- | --- |
+| Usuário 3	| 0	| ---	| 00:00:00 | 0  | 0 | --- | --- |
+| Usuário 4	| 0 | ---	| 00:00:00 | 0  | 0 | ---  | --- |
+| Usuário 5	| 0	| ---	| 00:00:00 | 0  | 0 | --- | --- |
 
-| **Usuário** 	| **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
-| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 2 | --- 	| --- | ---  | --- | --- | --- |
-| Usuário 3	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 4	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 5	| --- 	| --- | ---  | --- | --- | --- |
+
