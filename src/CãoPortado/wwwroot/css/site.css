@@ -1,20 +1,4 @@
 
-
-/* slids */
-.swiffy-slider {
-    width: 1200px;
-    height: 360px;
-    background-color: black;
-    overflow: hidden;
-}
-
-.swiffy-slider .slider-container {
-    width: 1200px;
-    animation-name: animacao;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-}
-
 .about_map {
     display: flex;
     /* função para deixar um conteúdo e um lado e outro do outro*/
