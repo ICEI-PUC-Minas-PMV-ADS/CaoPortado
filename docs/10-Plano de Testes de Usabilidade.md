@@ -21,7 +21,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 
 | `Caso de teste ` | ` CT-03 Formulário de cadastro  `                    | 
 |--------------------|--------------------------------------------------------| 
-| Objetivo do teste            | Verificar se as informações para preenchimento são sugestivas e de fácil entendimento |  
+| Objetivo do teste            | Verificar se as informações para preenchimento são intuitivas e de fácil entendimento |  
 | Critérios de Êxito           | Usuário preenche os campos corretamente  | 
 
 | `Caso de teste ` | ` CT-04 Campos obrigatórios no formulário de cadastro   `                    | 
@@ -46,7 +46,7 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 
 | `Caso de teste ` | ` CT-08 formulário de cadastro do Pet  `                    | 
 |--------------------|--------------------------------------------------------| 
-| Objetivo do teste            | Verificar se as informações para preenchimento são sugestivas e de fácil entendimento |  
+| Objetivo do teste            | Verificar se as informações para preenchimento são intuitivas e de fácil entendimento |  
 | Critérios de Êxito           | Usuário preenche os campos corretamente  | 
 
 ## Análise do teste e resultados
