@@ -9,7 +9,7 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
 (options => options.UseMySql(
-    "server=us-cdbr-east-05.cleardb.net;initial catalog=Tb_Clientes;uid=be4ef612885afa;pwd=52b9492e",
+    "server=us-cdbr-east-05.cleardb.net;initial catalog=Tb_Clientes;uid=root;pwd=52b9492e",
     Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.29-mysql")));
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

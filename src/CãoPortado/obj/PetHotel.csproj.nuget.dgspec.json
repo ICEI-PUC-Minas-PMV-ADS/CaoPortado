@@ -1,33 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fernanda\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj": {}
+    "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fernanda\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj": {
+    "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fernanda\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj",
+        "projectUniqueName": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj",
         "projectName": "PetHotel",
-        "projectPath": "C:\\Users\\Fernanda\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj",
-        "packagesPath": "C:\\Users\\Fernanda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fernanda\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\",
+        "projectPath": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\PetHotel.csproj",
+        "packagesPath": "C:\\Users\\Tuzin\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tuzin\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Fernanda\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Tuzin\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\6.0.300\\Sdks\\Microsoft.NET.Sdk\\targets": {},
-          "C:\\Users\\Fernanda\\source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado": {},
-          "http://api.nuget.org/v3-flatcontainer/microsoft.extensions.logging/3.1.4/microsoft.extensions.logging.3.1.4.nupkg": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
