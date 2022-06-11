@@ -6,9 +6,15 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 |:---:	|:---:	|
 |	Vídeo 	| <video src="> |
 |  	|  	|
-| Testes 	| CT-04 Informações sobre a empresa	|
+| Testes 	| CT-03 Cadastro do Pet	|
 |	Vídeo 	| <video src="> |
 |  	|  	|
+| Testes 	| CT-04 Agendar serviço |
+|	Vídeo 	| <video src="> |
+|  	|  	|
+| Testes 	| CT-05 Informações sobre a empresa	|
+|	Vídeo 	| <video src="> |
+
   
 | Testes 	| CT-06-Responsividade, compatibilidade, cores e contraste | 
 |:---:	|:---:	|
@@ -30,14 +36,6 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 |  	|  	|
 |	Imagem | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/galeria%20de%20fotos%20s8%20CT-06.png) |
 |  	|  	|
-  
-  
-  
-  
-  
-  
-  
-  
   
   
 ## Avaliação
