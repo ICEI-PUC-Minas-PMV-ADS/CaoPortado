@@ -1,14 +1,19 @@
-#main {
-    background-color: #FFF;
+* {
+    padding: 0;
+    margin: 0;
 }
 
+body {
+    background-color: #C5DBD9;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
 
 #fotoCadastro {
     padding-top: 50px;
     padding-left: 50px;
     padding-bottom: 50px;
     border-radius: 32px;
-    background-color: #FFF;
+    
 }
 
 
@@ -17,7 +22,7 @@
     text-align: right;
     padding-left: 90px;
     font-weight: bold;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-size: 48px;
     line-height: 20px;
     margin-top: 30px;
@@ -31,7 +36,7 @@
 
 select {
     background: #F1ECE9;
-    color: #006400;
+    color: #6ac7bc;
     border-radius: 6px;
 }
 
@@ -63,7 +68,7 @@ select {
 }
 
 .container input:checked ~ .check {
-    background: #006400;
+    background-color: #6ac7bc;
 }
 
 .container .check:after {
@@ -89,7 +94,7 @@ select {
 }
 
 fieldset {
-    font-family: 'Quicksand', sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     line-height: 30px;
     position: relative;
@@ -126,7 +131,7 @@ fieldset {
     font-weight: bold;
     font-size: 18px;
     transition: all .3s ease-in-out;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     height: 40px;
 }
 
@@ -148,12 +153,12 @@ fieldset {
     font-weight: bold;
     font-size: 18px;
     transition: all .3s ease-in-out;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
     height: 40px;
 }
 
     #botaoCad:hover {
-        background-color: #006400;
+        background-color: #6ac7bc;
         box-shadow: 0px 8px 10px #000;
         color: black;
         transform: translateY(-7px);
