@@ -1640,7 +1640,3 @@ C:\Users\Fernanda\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado
 C:\Users\Fernanda\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado\obj\Debug\net6.0\PetHotel.pdb
 C:\Users\Fernanda\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado\obj\Debug\net6.0\PetHotel.genruntimeconfig.cache
 C:\Users\Fernanda\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado\obj\Debug\net6.0\ref\PetHotel.dll
-C:\Users\Hector\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado\bin\Debug\net6.0\MailKit.dll
-C:\Users\Hector\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado\bin\Debug\net6.0\MimeKit.dll
-C:\Users\Hector\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado\bin\Debug\net6.0\NETCore.MailKit.dll
-C:\Users\Hector\Source\Repos\ICEI-PUC-Minas-PMV-ADS\CaoPortado\src\CãoPortado\bin\Debug\net6.0\BouncyCastle.Crypto.dll
