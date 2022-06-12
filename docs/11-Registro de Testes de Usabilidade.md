@@ -5,7 +5,7 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | **Usuário** 	| **Idade** | **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- 	| --- | ---  | --- | --- | --- |
 | Usuário 1	| 17 anos	| CT-01<br/>CT-02<br/>CT-03<br/>CT-04<br/>CT-05	| 02:03:80 |  28 | 1 (Senhas não conferem) | Sim, reescreveu o campo | Usuário achou a aplicação intuitiva |
-| Usuário 2 | 69 anos	| CT-01<br/>CT-02<br/>CT-03<br/>CT-04<br/>CT-05	| 04:56:93 | 32  | 2 (Não digitou o telefone e senhas não conferem ) |  Sim, preencheu o campo faltante e reescreveu a senha | Pela falta de conhecimento da intrnet, não achou intuitivo |
+| Usuário 2 | 69 anos	| CT-01<br/>CT-02<br/>CT-03<br/>CT-04<br/>CT-05	| 04:56:93 | 32  | 2 (Não digitou o telefone e senhas não conferem ) |  Sim, preencheu o campo faltante e reescreveu a senha | Pela falta de conhecimento da internet, não achou intuitivo |
 | Usuário 3	| 26	anos | CT-01<br/>CT-02<br/>CT-03<br/>CT-04<br/>CT-05	| 01:15:67 | 15  | 0 | N/A | Usuário achou a aplicação intuitiva |
 | Usuário 4	| 45 anos| CT-01<br/>CT-02<br/>CT-03<br/>CT-04<br/>CT-05  | 00:00:00 | 0  | 0 | --- | Usuário conseguiu realizar todo o teste sem dificuldade |
 | Usuário 5	| 47	anos | CT-01<br/>CT-02<br/>CT-03<br/>CT-04<br/>CT-05| 00:00:00 | 0  | 0 | --- | Usuário atento, realizou todo o processo com atenção e cautela |
