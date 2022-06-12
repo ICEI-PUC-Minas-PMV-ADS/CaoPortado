@@ -64,7 +64,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 | Requisitos Associados |RF-02 A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;|
 |Objetivo de Teste | Verificar se a galeria de vídeos, está em pleno funcionamento. |
 | Passos | 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no Botão "A Empresa" <br/>  4) Clicar na imagem do álbum de fotos.|
-|Critéritos de Êxito| •	Página carrega com todos os védeos.|
+|Critéritos de Êxito| •	Página carrega com todos os vídeos.|
 
 
 
