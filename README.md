@@ -25,7 +25,7 @@ Este projeto trata-se do desenvolvimento de um site, responsivo e funcional, par
 
 ## Instruções de utilização
 
-Para acessar a primeira versão da aplicação <a href="https://caoportado.azurewebsites.net/" target="_blank">clique aqui<a/> e será redirecionado ao site.
+Para acessar a primeira versão da aplicação <a href="https://caoportado.azurewebsites.net/" target="_blank">clique aqui</a> e será redirecionado ao site.
 
 # Documentação
 
