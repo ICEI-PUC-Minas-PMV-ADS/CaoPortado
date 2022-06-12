@@ -81,7 +81,7 @@
 			</div>
 			<div class="clear"> </div>
 			<div class="make">
-				<input type="submit" value="Reservar" asp-controller="Reservations" asp-action="Index">
+				<a asp-action="Delete" type="button" class="btn btn-primary" asp-route-id="@item.Id">Deletar reserva</a>
 			</div>
 
 }
