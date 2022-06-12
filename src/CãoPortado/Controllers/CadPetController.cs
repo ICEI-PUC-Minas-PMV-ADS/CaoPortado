@@ -90,28 +90,35 @@ namespace PetHotel.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> EditPost(int? id)
         {
+            // Verifica se o Id da página está null (asp-route-id)
             if (id == null)
             {
                 return NotFound();
             }
 
-            
+            // Busca no banco de dados o Pet que sofrerá a modificação
             var cadToUpdate = await _context.CadPet.FirstOrDefaultAsync(c => c.Id == id);
+
+            // Tenta atualizar o model localmente antes de enviar para o banco de dados
+            // Colocar todas as colunas da tabela que podem sofrer alterações
             if (await TryUpdateModelAsync<CadPet>(cadToUpdate, "", c => c.Raiva, c => c.Giárdia, c => c.PolivalenteV8ouV10)) 
             {
+                // Colocar dentro do try catch
                 try
                 {
+                    // Aqui está executando o envio para o banco de dados
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    
+                    // Se der erro, irá cair aqui
                     throw;
                     
                 }
+                // Se salvar com sucesso, retorna para tela anterior
                 return RedirectToAction(nameof(Index));
             }
-
+            // Se não atualizar o model localmente, a tela voltará ao estado inicial
             return View(cadToUpdate);
         }
 
