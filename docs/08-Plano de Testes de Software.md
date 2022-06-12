@@ -47,10 +47,24 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 
  |**Caso de Teste** | **CT-06-Responsividade, compatibilidade, cores e contraste**|
 |---|---|
-| Requisitos Associados |RNF-02 O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; 
+| Requisitos Associados |RNF-02 O site deverá ser responsivo, permitindo a visualização em um celular de forma adequada; |
 |Objetivo de Teste | Verificar a responsividade em dispositivo mobile, compatibilidade com diversos navegadores e as cores/contraste dos elementos visuais. |
 | Passos |  1) Utilizar a ferramenta de responsividade do navegador (inspecionar).|
 |Critéritos de Êxito| •	Página responsiva e compatível. <br> •Imagens visíveis e agradáveis.|
+
+ |**Caso de Teste** | **CT-07-Álbum de fotos**|
+|---|---|
+| Requisitos Associados |RF-02 A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local; |
+|Objetivo de Teste | Verificar se a galeria de fotos, está em pleno funcionamento.  |
+| Passos | 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no Botão "A Empresa"; <br/> 4) Clicar na imagem do álbum de fotos. |
+|Critéritos de Êxito| •	Página carrega com todos os védeos.|
+
+ |**Caso de Teste** | **CT-08-Playlist de vídeos**|
+|---|---|
+| Requisitos Associados |RF-02 A aplicação deve conter uma área de “Sobre a empresa”, onde contenha informações da empresa e da equipe, além de ter fotos e vídeos dos animais e do local;|
+|Objetivo de Teste | Verificar se a galeria de vídeos, está em pleno funcionamento. |
+| Passos | 1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no Botão "A Empresa" <br/>  4) Clicar na imagem do álbum de fotos.|
+|Critéritos de Êxito| •	Página carrega com todos os védeos.|
 
 
 
