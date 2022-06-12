@@ -47,27 +47,27 @@
                 @foreach (var item in Model) {
                 <div class="form-group">
                   <label class="form-label">CPF do dono</label>
-                  <input id="campoCPF" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.CPF_Usuario)">
+                  <input id="campoCPF" type="text" class="form-control" readonly="readonly" value="@Html.DisplayFor(modelItem => item.CPF_Usuario)">
                 </div>
 
                <div class="form-group">
                   <label class="form-label">Nome </label>
-                  <input id="campoNome" type="text" class="form-control" value=" @Html.DisplayFor(modelItem => item.Nome)">
+                  <input id="campoNome" type="text" class="form-control" readonly="readonly" value=" @Html.DisplayFor(modelItem => item.Nome)">
                 </div>
             
                 <div class="form-group">
                   <label class="form-label">Ano de nascimento</label>
-                  <input id="campoAno" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.AnoNascimento)">
+                  <input id="campoAno" type="text" class="form-control" readonly="readonly" value="@Html.DisplayFor(modelItem => item.AnoNascimento)">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Porte</label>
-                  <input id="porte" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.Porte)">
+                  <input id="porte" type="text" class="form-control" readonly="readonly" value="@Html.DisplayFor(modelItem => item.Porte)">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Raça</label>
-                  <input id="campoRaca" type="text" class="form-control" value="@Html.DisplayFor(modelItem => item.Raca)">
+                  <input id="campoRaca" type="text" class="form-control" readonly="readonly" value="@Html.DisplayFor(modelItem => item.Raca)">
                 </div>
 
                 <div class="form-group">
@@ -109,3 +109,16 @@
 
 </div>
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
