@@ -10,10 +10,10 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit" class="formCadastro" name="Cadastro" method="put">
+        <form asp-action="Edit" name="Cadastro" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
-            
+
             <div class="form-group form-check">
                 <label class="form-check-label">
                     <input class="form-check-input" asp-for="Raiva" /> @Html.DisplayNameFor(model => model.Raiva)

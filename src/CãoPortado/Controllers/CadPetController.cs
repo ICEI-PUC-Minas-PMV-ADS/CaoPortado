@@ -86,36 +86,33 @@ namespace PetHotel.Controllers
         // POST: CadPet/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("Id,CPF_Usuario,Nome,Idade,Porte,Raca,Raiva,Giárdia,PolivalenteV8ouV10")] CadPet cadPet)
+        public async Task<IActionResult> EditPost(int? id)
         {
-            if (id != cadPet.Id)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            if (ModelState.IsValid)
+            
+            var cadToUpdate = await _context.CadPet.FirstOrDefaultAsync(c => c.Id == id);
+            if (await TryUpdateModelAsync<CadPet>(cadToUpdate, "", c => c.Raiva, c => c.Giárdia, c => c.PolivalenteV8ouV10)) 
             {
                 try
                 {
-                    _context.Update(cadPet);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!CadPetExists(cadPet.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
+                    
+                    throw;
+                    
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(cadPet);
+
+            return View(cadToUpdate);
         }
 
         // GET: CadPet/Delete/5
