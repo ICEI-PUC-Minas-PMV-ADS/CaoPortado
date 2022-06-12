@@ -49,35 +49,35 @@
                 @Html.AntiForgeryToken()
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-user" aria-hidden="true"></i> Nome :</label>
-				<input type="text" name="Name" value="@Html.DisplayNameFor(model => model.Name)" readonly="readonly"/>
+				<input type="text" name="Name" value="@item.Name" readonly="readonly"/>
 			</div>
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-envelope" aria-hidden="true"></i> E-mail :</label>
-				<input type="email" name="Email" value="@Html.DisplayNameFor(model => model.Email)" readonly="readonly"/>
+				<input type="email" name="Email" value="@item.Email" readonly="readonly"/>
 			</div>
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de chegada :</label>
-				<input id="campoData" name="DataDeChegada" value="@Html.DisplayNameFor(model => model.DataDeChegada)" type="text" readonly="readonly">
+				<input id="campoData" name="DataDeChegada" value="@item.DataDeChegada" type="text" readonly="readonly">
 			</div>
 			<div class="form-time-w3layouts">
 				<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora da chegada :</label>
-				<input type="text" name="HoraDeChegada" class="timepicker form-control" value="@Html.DisplayNameFor(model => model.HoraDeChegada)" readonly="readonly">
+				<input type="text" name="HoraDeChegada" class="timepicker form-control" value="@item.HoraDeChegada" readonly="readonly">
 			</div>
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de saída :</label>
-				<input id="campoData" name="DataDePartida" type="text" value="@Html.DisplayNameFor(model => model.DataDePartida)" readonly="readonly">
+				<input id="campoData" name="DataDePartida" type="text" value="@item.DataDePartida" readonly="readonly">
 			</div>
 			<div class="form-time-w3layouts">
 				<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora da saída :</label>
-				<input type="text" name="HoraDePartidar" class="timepicker form-control" value="@Html.DisplayNameFor(model => model.HoraDePartidar)" readonly="readonly">
+				<input type="text" name="HoraDePartidar" class="timepicker form-control" value="@item.HoraDePartidar" readonly="readonly">
 			</div>
 			<div class="form-left-agileits-w3layouts bottom-w3ls">
 				<label><i class="fa fa-home" aria-hidden="true"></i> Serviços :</label>
-                <input type="text" name="servicos" class="fa fa-calendar" aria-hidden="true" value="@Html.DisplayNameFor(model => model.Serviços)" readonly="readonly">
+                <input type="text" name="servicos" class="fa fa-calendar" aria-hidden="true" value="@item.Serviços" readonly="readonly">
 			</div>
 			<div class="form-left-agileits-w3layouts">
 				<label><i class="fa fa-users" aria-hidden="true"></i> Quantos Cachorros? :</label>
-                <input type="number" name="quantidadedepets" class="fa fa-calendar" aria-hidden="true" value="@Html.DisplayNameFor(model => model.HoraDePartidar)" readonly="readonly">
+                <input type="number" name="quantidadedepets" class="fa fa-calendar" aria-hidden="true" value="@item.QuantidadeDePets" readonly="readonly">
 			</div>
 			<div class="clear"> </div>
 			<div class="make">
