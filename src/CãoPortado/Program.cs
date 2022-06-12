@@ -9,8 +9,8 @@ builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<Contexto>
 (options => options.UseMySql(
-    //"server=localhost;initial catalog=Tb_Clientes;uid=bella;pwd=123456",
-    "Server=portadodb.mysql.database.azure.com; Port=3306; Database=tb_clientes; Uid=caoadmin@portadodb; Pwd=PiuPiu123; SslMode=Preferred;",
+    "server=localhost;initial catalog=Tb_Clientes;uid=bella;pwd=123456",
+    // "Server=portadodb.mysql.database.azure.com; Port=3306; Database=tb_clientes; Uid=caoadmin@portadodb; Pwd=PiuPiu123; SslMode=Preferred;",
     Microsoft.EntityFrameworkCore.ServerVersion.Parse("8.0.29-mysql")));
 
 builder.Services.AddAuthentication(CookieAuthenticationDefaults.AuthenticationScheme)

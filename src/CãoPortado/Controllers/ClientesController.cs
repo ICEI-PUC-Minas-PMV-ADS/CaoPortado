@@ -57,6 +57,7 @@ namespace PetHotel.Controllers
                 {
                     new Claim(ClaimTypes.Name, user.Nome),
                     new Claim("CPF", user.CPF),
+                    new Claim("Id", user.Id.ToString()),
                     new Claim(ClaimTypes.Role, user.Perfil.ToString())
                 };
 
@@ -103,7 +104,7 @@ namespace PetHotel.Controllers
 
 
         // GET: Clientes
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> MyProfile()
         {
             return View(await _context.Clientes.ToListAsync());
         }
