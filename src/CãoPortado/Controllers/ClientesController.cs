@@ -56,7 +56,7 @@ namespace PetHotel.Controllers
                 var claims = new List<Claim>
                 {
                     new Claim(ClaimTypes.Name, user.Nome),
-                    new Claim(ClaimTypes.NameIdentifier, user.Nome),
+                    new Claim("CPF", user.CPF),
                     new Claim(ClaimTypes.Role, user.Perfil.ToString())
                 };
 
