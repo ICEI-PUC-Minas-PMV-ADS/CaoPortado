@@ -8,7 +8,8 @@
 
 `Eixo 2`
 
-Este projeto trata-se do desenvolvimento de um site, responsivo e funcional, para o hotel e creche de cachorros da empresa CãoPortado, com a finalidade de facilitar para que o usuário do site realize o agendamento da diária do seu Pet, além de encontrar informações e ver fotos e vídeos do lugar e, posteriormente, avaliar o atendimento recebido. 
+Este projeto trata-se do desenvolvimento de um site, responsivo e funcional, para o hotel e creche de cachorros da empresa CãoPortado, com a finalidade de facilitar para que o usuário do site realize o agendamento da diária do seu Pet, além de encontrar informações e ver fotos e vídeos do lugar e, posteriormente, avaliar o atendimento recebido.<br/> 
+A aplicação pode ser acessada através da URL: https://caoportado.azurewebsites.net/
 
 ## Integrantes
 
