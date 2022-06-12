@@ -4,14 +4,31 @@ Relatório com as evidências dos testes de software realizados no sistema pela 
 
 | Testes 	| CT-01 – Cadastro do usuário e CT-02 Login   |
 |:---:	|:---:	|
-|	Vídeo 	| <video src="> |
-|  	|  	|
+
+
+https://user-images.githubusercontent.com/98633549/173257449-0bf036a9-ef17-4e78-8691-5267f7029f0a.mp4
+
+| Testes 	| CT-02 Login |
+|:---:	|:---:	|
+
+
+https://user-images.githubusercontent.com/98633549/173257592-d49e0ab0-5384-48eb-9c2c-a42ece50a35c.mp4
+
+
+
+
 | Testes 	| CT-03 Cadastro do Pet	|
-|	Vídeo 	| <video src="> |
-|  	|  	|
+|:---:	|:---:	|
+
+
+
+https://user-images.githubusercontent.com/98633549/173257902-8d0b410f-08b6-4692-9730-59bee73e17db.mp4
+
+
+
 | Testes 	| CT-04 Agendar serviço |
-|	Vídeo 	| <video src="> |
-|  	|  	|
+
+
 | Testes 	| CT-05 Informações sobre a empresa	|
 |	Vídeo 	| <video src="> |
 
