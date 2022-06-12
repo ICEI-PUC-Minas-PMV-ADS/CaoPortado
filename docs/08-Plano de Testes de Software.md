@@ -35,7 +35,7 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 | Requisitos Associados |•RF-03 A aplicação deve possibilitar a compra de pacotes de creche, adestramento e hospedagem e disponibilizar um calendário, para que o usuário veja as datas disponíveis e faça o agendamento on-line;<br> •RF-04 O sistema deve conter um limitador de vagas;  |
 |Objetivo de Teste | Verificar se a pagina de agendamento esta em pleno funcionamento |
 | Passos |  1) Abra o navegador;<br/> 2) Informe o endereço do site desejado; <br/> 3) Clique no botão _Entrar_;  <br/> 4) Realize o _login_;<br/> 5) Clique no item de navegação de nome "Serviços", na homepage; <br/> 6) Clique no serviço que deseja agendar, dentro do dropdown; <br/> 7) Selecione a data que deseja agendar; <br/> 8) Confirme se há disponibilidade nesta data;|
-|Critéritos de Êxito| •Todos sistema de Agendas esteja funcionando corretamento.|
+|Critéritos de Êxito| •Todo o sistema de agendamento esteja funcionando corretamente. <br/> •O usuário será redirecionado á tela das suas reservas.|
 
 
 |**Caso de Teste** | **CT-05 Informações sobre a empresa**|
