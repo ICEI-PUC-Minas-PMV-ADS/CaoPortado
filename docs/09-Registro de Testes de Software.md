@@ -29,6 +29,10 @@ https://user-images.githubusercontent.com/98633549/173257902-8d0b410f-08b6-4692-
 | Testes 	| CT-04 Agendar serviço |
 
 
+https://user-images.githubusercontent.com/98633549/173258195-9ab1c3f5-2e3e-40c1-9ed0-df48eb2d5f77.mp4
+
+
+
 | Testes 	| CT-05 Informações sobre a empresa	|
 |	Vídeo 	| <video src="> |
 
