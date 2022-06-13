@@ -20,11 +20,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 
 | **Usuário** 	| **Idade** | **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| 17 anos	| CT-07<br/>CT-08	| 00:00:00 | 0  | 0 | --- | Em desenvolvimento |
-| Usuário 2 | 69 anos| CT-07<br/>CT-08| 00:00:00 | 0  | 0 | --- |--- |
-| Usuário 3	| 26	anos| CT-07<br/>CT-08	| 00:00:00 | 0  | 0 | --- | --- |
-| Usuário 4	| 45 anos| CT-07<br/>CT-08	| 00:00:00 | 0  | 0  | ---  | --- |
-| Usuário 5	| 47	anos| CT-07<br/>CT-08	| 00:00:00 | 0  | 0 | --- | --- |
+| Usuário 1	| 23 anos	| CT-07<br/>CT-08	| 03:15:00 | 32  | 1 Usuário não encontrado | Usuário realizou cadastro | --- |
+| Usuário 2 | 50 anos| CT-07<br/>CT-08| 05:00:25 | 45  | 1 Internet caiu e usuário precisou aguardar e continuar navegação | --- |--- |
+| Usuário 3	| 28	anos| CT-07<br/>CT-08	| 01:32:09 | 15  | 0 | --- | Aplicação intuitiva |
+| Usuário 4	| 26 anos| CT-07<br/>CT-08	| 02:15:03 | 23 | 0  | ---  | Usuário gostou da aplicação |
+| Usuário 5	| 47	anos| CT-07<br/>CT-08	| 04:18:05 | 35  | 0 | --- | --- |
 
 
 <h2>Observações e conclusão</h2>
