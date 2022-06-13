@@ -12,11 +12,11 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 
 | **Usuário** 	| **Idade** | **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- 	| --- | ---  | --- | --- | --- |
-| Usuário 1	| 17 anos	| CT-06	| 00:00:00 | 0  | 0 | --- | Em desenvolvimento |
-| Usuário 2 | 69 anos| CT-06| 00:00:00 | 0  | 0 | --- |--- |
-| Usuário 3	| 26	anos| CT-06	| 00:00:00 | 0  | 0 | --- | --- |
-| Usuário 4	| 45 anos | CT-06	| 00:00:00 | 0  | 0  | ---  | --- |
-| Usuário 5	| 47 anos	| CT-06	| 00:00:00 | 0  | 0 | --- | --- |
+| Usuário 1	| 10 anos	| CT-06	| 02:20:00 | 4  | 0 | N/A | Em desenvolvimento |
+| Usuário 2 | 25 anos| CT-06| 05:30:00 | 7  | 0 | N/A | Usuário |
+| Usuário 3	| 65	anos| CT-06	| 07:27:00 | 15  | 0 | N/A | --- |
+| Usuário 4	| 45 anos | CT-06	| 04:50:00 | 9  | 0  | N/A  | --- |
+| Usuário 5	| 35 anos	| CT-06	| 05:10:00 | 9  | 0 | N/A | --- |
 
 | **Usuário** 	| **Idade** | **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
 | --- 	| --- 	| --- 	| --- | ---  | --- | --- | --- |
