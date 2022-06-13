@@ -1,10 +1,9 @@
 ﻿@model IEnumerable<PetHotel.Models.Clientes>
-
+-
 @{
-    ViewData["Title"] = "Meu Perfil";
+    ViewData["Title"] = "Index";
 }
-<!DOCTYPE html>
-<html lang="pt-br">
+
 
 <head>
     
@@ -49,42 +48,42 @@
 
                 <div class="form-group">
                   <label class="form-label">Nome Completo</label>
-                  <input id="campoNome" type="text" class="form-control" readonly="readonly" value=" @Html.DisplayNameFor(model => model.Nome)">
+                  <input id="campoNome" type="text" class="form-control" readonly="readonly" value="@item.Nome">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">CPF</label>
-                  <input id="campoCPF" type="text" class="form-control" readonly="readonly" value="@Html.DisplayNameFor(model => model.CPF)">
+                  <input id="campoCPF" type="text" class="form-control" readonly="readonly" value="@item.CPF">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Data de nascimento</label>
-                  <input id="campoData" type="datetime" class="form-control" readonly="readonly" value="@Html.DisplayNameFor(model => model.DataDeNascimento)">
+                  <input id="campoData" type="datetime" class="form-control" readonly="readonly" value="@item.DataDeNascimento">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Endereço</label>
-                  <input id="campoEndereco" type="text" class="form-control" value="@Html.DisplayNameFor(model => model.Endereco)">
+                  <input id="campoEndereco" type="text" class="form-control" value="@item.Endereco">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Telefone</label>
-                  <input id="campoTelefone" type="text" class="form-control" value="@Html.DisplayNameFor(model => model.Telefone)">
+                  <input id="campoTelefone" type="text" class="form-control" value="@item.Telefone">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">E-mail</label>
-                  <input id="campoEmail" type="text" class="form-control" value="@Html.DisplayNameFor(model => model.Email)">
+                  <input id="campoEmail" type="text" class="form-control" value="@item.Email">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Senha</label>
-                  <input id="campoEmail" type="password" class="form-control" name="Senha" value="@Html.DisplayNameFor(model => model.Senha)">
+                  <input id="campoEmail" type="password" class="form-control" name="Senha" value="@item.Senha">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Confirme a senha</label>
-                  <input id="campoEmail" type="password" class="form-control" name="Senha2" value="@Html.DisplayNameFor(model => model.Senha2)">
+                  <input id="campoEmail" type="password" class="form-control" name="Senha2" value="@item.Senha2">
                 </div>
 
                

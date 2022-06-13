@@ -102,9 +102,9 @@ namespace PetHotel.Controllers
             return View();
         }
 
-
+      
         // GET: Clientes
-        public async Task<IActionResult> MyProfile()
+        public async Task<IActionResult> Index()
         {
             return View(await _context.Clientes.ToListAsync());
         }
