@@ -46,9 +46,8 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-09| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
 |RF-09| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| MÉDIA |
 |RF-10| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail;| MÉDIA |
-|RF-11| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
-|RF-12| A aplicação deve permitir que o usuário acesse apenas as suas reservas; | BAIXA |
-|RF-13| e permitir que o Administrador acesse todas as reservas. |BAIXA|
+|RF-11| A aplicação deve permitir que o usuário acesse apenas as suas reservas; | BAIXA |
+|RF-12| A aplicação deve permitir que o Administrador acesse todas as reservas. |BAIXA|
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
@@ -86,8 +85,8 @@ O diagrama de casos de uso é o seguinte passo após a elicitação dos Requisit
 |Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, data de nascimento, nome e raça);                                                                                                                                                                  | RF-06 |
 |Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta;                                     | RF-09 |
 |Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais, tais como: telefone, endereço, e-mail e senha;             | RF-10 |
-|Consultar reservas             | O usuário pode consultar as suas reservas;                                                               | RF-12 |
-|Consultar Dados do Usuário/Pet | O Administrador pode consultar todas as reservas.                                                        | RF-13 |
+|Consultar reservas             | O usuário pode consultar as suas reservas;                                                               | RF-11 |
+|Consultar Dados do Usuário/Pet | O Administrador pode consultar todas as reservas.                                                        | RF-12 |
 
 <br>
 
