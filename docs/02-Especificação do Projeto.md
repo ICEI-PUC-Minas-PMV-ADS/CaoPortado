@@ -72,7 +72,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 O diagrama de casos de uso é o seguinte passo após a elicitação dos Requisitos Funcionais. Ele ilustra a interação de possíveis usuários com as funcionalidades primordiais do sistema projetado, utilizando-se de atores para representá-los.
 
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/diagrama%20de%20caso%20de%20uso%20-%20Page%201.jpeg)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/8ad575a94f1ce148d2755311a348bf084a76384e/docs/img/diagrama%20de%20caso%20de%20uso%20-%20Page%201.png)
 
 
 <br>
