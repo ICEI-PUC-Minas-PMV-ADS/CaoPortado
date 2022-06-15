@@ -86,7 +86,7 @@ O diagrama de casos de uso é o seguinte passo após a elicitação dos Requisit
 |Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta;                                     | RF-09 |
 |Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais, tais como: telefone, endereço, e-mail e senha;             | RF-10 |
 |Consultar reservas             | O usuário pode consultar as suas reservas;                                                               | RF-11 |
-|Consultar Dados do Usuário/Pet | O Administrador pode consultar todas as reservas.                                                        | RF-12 |
+|Admin consultar reservas       | O Administrador pode consultar todas as reservas.                                                        | RF-12 |
 
 <br>
 
