@@ -20,6 +20,7 @@ namespace PetHotel.Controllers
         }
 
         // GET: Reservations
+
         public async Task<IActionResult> Index()
         {
               return _context.Reservation != null ? 
@@ -177,6 +178,7 @@ namespace PetHotel.Controllers
         }
 
         // POST: Reservations/Delete/5
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

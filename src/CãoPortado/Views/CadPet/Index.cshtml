@@ -45,6 +45,7 @@
                 
                <div class="table">
                 @foreach (var item in Model) {
+
                 <div class="form-group">
                   <label class="form-label">CPF do dono</label>
                   <input id="campoCPF" type="text" class="form-control" readonly="readonly" value="@Html.DisplayFor(modelItem => item.CPF_Usuario)">

@@ -97,9 +97,9 @@
                                         <li><img src="~/img/pet-icon.png"><a class="nav-link text-dark" asp-area="" asp-controller="CadPet" asp-action="Index">Meu pet</a></li>
 
                                         <li><img src="~/img/reserva-icon.png"><a class="nav-link text-dark" asp-area="" asp-controller="Reservations" asp-action="Index">Reservas</a></li>
-    
+                                        
                                         <li><img src="~/img/log-out.png"><a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Logout">Sair</a></li>
-
+                                        
                                         </ul>
                                  </div>
                                  </div>
@@ -113,6 +113,12 @@
                         }
                     
                     </ul>
+
+            @if ((User.IsInRole("Admin")))
+            {
+                
+            }
+
         </nav>
                <br />
     </header>
