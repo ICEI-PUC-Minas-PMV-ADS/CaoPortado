@@ -61,7 +61,15 @@ https://user-images.githubusercontent.com/98633549/173258380-6930d25d-c0ae-4b64-
 |  	|  	|
 |	Imagem | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/galeria%20de%20fotos%20s8%20CT-06.png) |
 |  	|  	|
-  
+
+| Testes 	| CT-11- Compatibilidade com os navegadores | 
+|:---:	|:---:	|
+|	Microsoft Edge | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/RNF%20-%20Microsoft%20Edge.png) |
+|  	|  	|
+|	Google Chrome | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/RNF%20Chrome.png) |
+|  	|  	|
+|	Firefox | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/RNF%20Firefox.png) |
+|  	|  	|
   
 ## Avaliação
 
