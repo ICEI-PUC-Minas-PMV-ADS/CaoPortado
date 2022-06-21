@@ -72,5 +72,20 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 |Objetivo de Teste | Verificar se o usuário consegue alterar seus dados com facilidade. |
 | Passos |1) Abra o navegador.<br/> 2) Informe o endereço do site desejado. <br/> 3) Clique no botão _Entrar_, localizado no menu de navegação; <br/> 4)  Preencha os campos com as informações requeridas (e-mail e senha cadastrados);<br/> 5) Clique em _entrar_. <br/> 6) Clique em perfil;<br/> 7) Clique em "Meu Perfil"; <br/> 8) Clique no botão "Editar perfil"; <br/> 9) Preencha os campos com os dados que deseja alterar; <br/> 10) Clique no botão "Salvar". |
 
+ |**Caso de Teste** | **CT-10- Hospedagem**|
+|---|---|
+| Requisitos Associados |RNF-01O - O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); |
+|Objetivo de Teste | Verificar se o usuário consegue acessar o site através da sua URL. |
+| Passos |1) Abra o navegador.<br/> 2) Informe o endereço do site desejado.|
 
+ |**Caso de Teste** | **CT-10- Hospedagem**|
+|---|---|
+| Requisitos Associados |RNF-01O - O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); |
+|Objetivo de Teste | Verificar se o usuário consegue acessar o site através da sua URL. |
+| Passos |1) Abra o navegador.<br/> 2) Informe o endereço do site desejado.|
  
+|**Caso de Teste** | **CT-11- Compatibilidade com os navegadores**|
+|---|---|
+| Requisitos Associados |RNF-04	O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).|
+|Objetivo de Teste | Verificar se o usuário consegue acessar o site através da sua URL, utilizando os principais navegadores do mercado. |
+| Passos |1) Abra o seu navegador.<br/> 2) Informe o endereço do site desejado.|
