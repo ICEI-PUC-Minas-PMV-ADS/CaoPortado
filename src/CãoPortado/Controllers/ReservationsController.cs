@@ -23,10 +23,11 @@ namespace PetHotel.Controllers
 
         public async Task<IActionResult> Index()
         {
-              return _context.Reservation != null ? 
-                          View(await _context.Reservation.ToListAsync()) :
-                          Problem("Entity set 'Contexto.Reservation'  is null.");
+            return _context.Reservation != null ?
+                        View(await _context.Reservation.ToListAsync()) :
+                        Problem("Entity set 'Contexto.Reservation'  is null.");
         }
+
 
         // GET: Reservations/Details/5
         public async Task<IActionResult> Details(int? id)
