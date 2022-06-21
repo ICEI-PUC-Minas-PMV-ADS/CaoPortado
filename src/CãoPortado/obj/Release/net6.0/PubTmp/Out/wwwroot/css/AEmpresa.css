@@ -1,0 +1,81 @@
+﻿* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #C5DBD9;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/*Quem somos - topo*/
+
+div.about-top h1 {
+    color: black;
+    text-align: center;
+    font-size: 40px;
+}
+
+div .about-top p {
+    color: black;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*containers serviços*/
+
+div .cont-about {
+    height: 300px;
+    width: 300px;
+    margin-top: 20px;
+    margin-left:60px;
+    display: inline-grid;
+    background-color: #FBFBFC;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+    div .cont-about:hover {
+        background-color: #6AC7BC;
+        transition-duration: 0.5s;
+    }
+
+h3 {
+    text-align: center;
+    padding-top: 0.5em;
+}
+
+div .cont-about p {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    text-align: center;
+}
+
+ /*álbum*/
+
+.h1-class {
+    text-align: center;
+    padding-top: 60px;
+    font-size: 30px;
+    color: black;
+}
+
+.foto-cont img {
+    width: 450px;
+    height: 250px;
+    margin-left:600px;
+    margin-top:-290px;
+    
+}
+
+/*vídeo*/
+
+.video-cont img {
+    width: 250px;
+    height: 250px;
+    margin-top: 60px;
+    margin-left:180px;
+
+}

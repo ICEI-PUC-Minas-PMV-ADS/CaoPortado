@@ -44,7 +44,7 @@
                     <span>Nome</span><br>
                     <input type="text" id="campoNome" name="Nome" value="" required><br>
                     <span>CPF do Dono</span><br>
-                    <input type="text" id="campoCPF" name="CPF_Usuario" value="" required><br>
+                    <input type="text" id="campoCPF" name="CPF_Usuario" readonly="readonly" value="@User.FindFirst("CPF").Value" required><br>
                     <span>Ano de nascimento</span><br>
                     <input type="text" id="campoAno" name="Idade" value="" required><br>
                     <span>Raça</span><br>
@@ -82,7 +82,7 @@
    
     <script>
          jQuery(function($){
-             $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
+             //$("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
              $("#campoAno").mask("9999",{placeholder:"0000"});
              $("#campoTelefone").mask("(99)00000.0000",{placeholder:"(00)00000.0000"});
          });

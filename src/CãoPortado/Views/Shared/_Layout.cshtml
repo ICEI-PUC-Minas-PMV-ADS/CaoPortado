@@ -22,7 +22,7 @@
                   <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                       <li class="nav-item active">
-                        <a class="nav-link" href="Index">Home <span class="sr-only">(current)</span></a>
+                        <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" asp-controller="Home" asp-action="Depoimentos">Depoimentos</a>
@@ -30,7 +30,9 @@
                       <li class="nav-item">
                         <a class="nav-link" asp-controller="Home" asp-action="Empresa">A Empresa</a>
                       </li>
-                      <li class="nav-item dropdown">
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                           Serviços
                         </a>
@@ -40,6 +42,11 @@
                           <a class="dropdown-item" asp-controller="Reservations" asp-action="Create">Adestramento</a>
                         </div>
                       </li>
+                      <li class="nav-item">
+                        <a class="nav-link" asp-controller="CadPet" asp-action="Create">Pet</a>
+                      </li>
+                    }
+                    
                     </ul>
                   </div>  
                   
@@ -57,13 +64,11 @@
                             @if ((User.IsInRole("Admin")))
                             {
                                 <li class="nav-link">
-                                    <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Usuários</a>
+                                    <a class="nav-link text-dark"  asp-controller="Reservations" asp-action="Index">Reservas</a>
                                 </li>
                             }
 
                         }
-                            
-                            
                     </ul>
 
 
@@ -87,19 +92,18 @@
                                     </h3>
                                     <ul>
 
-                                        <li><img src="~/img/edit-profile.png"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="MeuPerfil">Meu perfil</a></li>
+                                        <li><img src="~/img/edit-profile.png"><a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Index">Meu perfil</a></li>
 
-                                        <li><img src="~/img/pet-icon.png"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="MeuPet">Meu pet</a></li>
+                                        <li><img src="~/img/pet-icon.png"><a class="nav-link text-dark" asp-area="" asp-controller="CadPet" asp-action="Index">Meu pet</a></li>
 
-                                        <li><img src="~/img/reserva-icon.png"><a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="#">Reservas</a></li>
-
-                                       <li><img src="~/img/log-out.png"><a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Logout">Sair</a></li>
+                                        <li><img src="~/img/reserva-icon.png"><a class="nav-link text-dark" asp-area="" asp-controller="Reservations" asp-action="Index">Reservas</a></li>
+    
+                                        <li><img src="~/img/log-out.png"><a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Logout">Sair</a></li>
 
                                         </ul>
                                  </div>
                                  </div>
         
-
                         }
                         else
                         {
@@ -107,13 +111,13 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Clientes" asp-action="Login">Entrar</a>
                             </li>
                         }
-                        
+                    
                     </ul>
-                </div>
-            </div>
         </nav>
                <br />
     </header>
+
+
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()
@@ -127,8 +131,8 @@
             <a href="https://www.facebook.com/caoportado.itabira" target="_blank"><img src="~/img/icons8-facebook-48 (1).png"  style="width:30px; padding-top:5px; padding-bottom:5px;"/></a>
             <a href="https://www.instagram.com/cao.portado/" target="_blank"><img src="~/img/icons8-instagram-48.png" style="width:30px; padding-top:5px; padding-bottom:5px;"/></a> 
             &nbsp;   
-            (31) 3834-9723  (31) 9.9394-7834 &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  
-            &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp;  &nbsp;  &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            (31) 3834-9723  (31) 9.9394-7834 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
