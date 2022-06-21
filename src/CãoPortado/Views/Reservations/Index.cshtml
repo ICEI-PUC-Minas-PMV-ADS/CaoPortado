@@ -4,116 +4,74 @@
     ViewData["Title"] = "Index";
 }
 
-<!DOCTYPE html>
-<html lang="pt-br">
+<h1>Index</h1>
 
-<head>
-    
-    <title>Reservas</title>
-    <link rel="stylesheet" href="~/css/MeuPet.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
-</head>
-
-    
-    <div class="container light-style flex-grow-1 container-p-y">
-
-    <h4 class="font-weight-bold py-3 mb-4">
-      Reservas
-    </h4>
-
-    <div class="card overflow-hidden">
-      <div class="row no-gutters row-bordered row-border-light">
-        <div class="col-md-3 pt-0">
-         
-          
-          </div>
-        </div>
-
-        <div class="col-md-9">
-          <div class="tab-content">
-            <div class="tab-pane fade active show" id="account-general">
-
-              <div class="card-body media align-items-center">
-                <img src="https://img.icons8.com/cute-clipart/64/undefined/planner.png" class="d-block ui-w-80">   
-               </div>
-               <hr class="border-light m-0">
-
-           <div class="card-body">
-            <div class="form-group">
-
-                
-               <div class="table">
-                @foreach (var item in Model) {
-
-                @Html.AntiForgeryToken()
-			<div class="form-date-w3-agileits">
-				<label><i class="fa fa-user" aria-hidden="true"></i> Nome :</label>
-				<input type="text" name="Name" value="@item.Name" readonly="readonly"/>
-			</div>
-			<div class="form-date-w3-agileits">
-				<label><i class="fa fa-envelope" aria-hidden="true"></i> E-mail :</label>
-				<input type="email" name="Email" value="@item.Email" readonly="readonly"/>
-			</div>
-			<div class="form-date-w3-agileits">
-				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de chegada :</label>
-				<input id="campoData" name="DataDeChegada" value="@item.DataDeChegada" type="text" readonly="readonly">
-			</div>
-			<div class="form-time-w3layouts">
-				<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora da chegada :</label>
-				<input type="text" name="HoraDeChegada" class="timepicker form-control" value="@item.HoraDeChegada" readonly="readonly">
-			</div>
-			<div class="form-date-w3-agileits">
-				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de saída :</label>
-				<input id="campoData" name="DataDePartida" type="text" value="@item.DataDePartida" readonly="readonly">
-			</div>
-			<div class="form-time-w3layouts">
-				<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora da saída :</label>
-				<input type="text" name="HoraDePartidar" class="timepicker form-control" value="@item.HoraDePartidar" readonly="readonly">
-			</div>
-			<div class="form-left-agileits-w3layouts bottom-w3ls">
-				<label><i class="fa fa-home" aria-hidden="true"></i> Serviços :</label>
-                <input type="text" name="servicos" class="fa fa-calendar" aria-hidden="true" value="@item.Serviços" readonly="readonly">
-			</div>
-			<div class="form-left-agileits-w3layouts">
-				<label><i class="fa fa-users" aria-hidden="true"></i> Quantos Cachorros? :</label>
-                <input type="number" name="quantidadedepets" class="fa fa-calendar" aria-hidden="true" value="@item.QuantidadeDePets" readonly="readonly">
-			</div>
-			<div class="clear"> </div>
-			<div class="make">
-				<a asp-action="Delete" type="button" class="btn btn-primary" asp-route-id="@item.Id">Deletar reserva</a>
-			</div>
-
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataDeChegada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraDeChegada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataDePartida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraDePartidar)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Serviços)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.QuantidadeDePets)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <th>
+                @Html.DisplayNameFor(model => model.DataDeChegada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraDeChegada)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DataDePartida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.HoraDePartidar)
+            </th>
+            <td>
+                @Html.DisplayFor(modelItem => item.Serviços)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.QuantidadeDePets)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
 }
-    
- <script>
-        jQuery(function($){
-            $("#campoData").mask("99/99/9999",{placeholder:"DD/MM/AAAA"});
-        });
-    </script>
-
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
-
-</div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </tbody>
+</table>

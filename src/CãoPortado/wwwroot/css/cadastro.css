@@ -1,12 +1,7 @@
-﻿* {
-    padding: 0;
-    margin: 0;
+﻿#main {
+    background-color: #FFF;
 }
 
-body {
-    background-color: #C5DBD9;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
-}
 
 #header > img {
     width: 200px;
@@ -21,6 +16,7 @@ body {
     padding-left: 50px;
     padding-bottom: 50px;
     border-radius: 32px;
+    background-color: #FFF;
 }
 
 
@@ -28,7 +24,7 @@ body {
     text-align: center;
     padding-left: 90px;
     font-weight: bold;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-size: 48px;
     line-height: 20px;
     margin-top: 30px;
@@ -39,7 +35,7 @@ body {
 }
 
 fieldset {
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     line-height: 30px;
     position: relative;
@@ -75,7 +71,7 @@ fieldset {
     font-weight: bold;
     font-size: 18px;
     transition: all .3s ease-in-out;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     height: 40px;
 }
 
@@ -97,12 +93,12 @@ fieldset {
     font-weight: bold;
     font-size: 18px;
     transition: all .3s ease-in-out;
-    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Quicksand', sans-serif;
     height: 40px;
 }
 
     #botaoCad:hover {
-        background-color: #6ac7bc;
+        background-color: #006400;
         box-shadow: 0px 8px 10px #000;
         color: black;
         transform: translateY(-7px);

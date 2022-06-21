@@ -31,9 +31,11 @@ namespace PetHotel.Models
 
         public string HoraDePartidar { get; set; }
 
-        public DateTime DataDeChegadaHora => DateTime.ParseExact($"{DataDeChegada} {HoraDeChegada}", "dd/MM/yyyy h : mm tt", CultureInfo.InvariantCulture);
+        public DateTime DataDeChegadaHora => DateTime.ParseExact($"{DataDeChegada} {HoraDeChegada}",
+            "dd/MM/yyyy h : mm tt", CultureInfo.CreateSpecificCulture("pt-BR"));
 
-        public DateTime DataDePartidaHora => DateTime.ParseExact($"{DataDePartida} {HoraDePartidar}", "dd/MM/yyyy h : mm tt", CultureInfo.InvariantCulture);
+        public DateTime DataDePartidaHora => DateTime.ParseExact($"{DataDePartida} {HoraDePartidar}",
+            "dd/MM/yyyy h : mm tt", CultureInfo.CreateSpecificCulture("pt-BR"));
 
     }
 }

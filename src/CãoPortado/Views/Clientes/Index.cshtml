@@ -5,121 +5,62 @@
 }
 
 
-<head>
-    
-    <title>Meu perfil</title>
-    <link rel="stylesheet" href="~/css/MeuPerfil.css">
-     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
-</head>
-<body>
+<h1>Index</h1>
 
-    <div class="container light-style flex-grow-1 container-p-y">
-
-    <h4 class="font-weight-bold py-3 mb-4">
-      Perfil do usuário
-    </h4>
-
-    <div class="card overflow-hidden">
-      <div class="row no-gutters row-bordered row-border-light">
-        <div class="col-md-3 pt-0">
-          <div class="list-group list-group-flush account-settings-links">
-            <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">Geral</a>
-            <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-change-password">Redefinir senha</a>
-          </div>
-        </div>
-
-        <div class="col-md-9">
-          <div class="tab-content">
-            <div class="tab-pane fade active show" id="account-general">
-
-              <div class="card-body media align-items-center">
-                <img src="~/img/user.png" class="d-block ui-w-80">
-               </div>
-                     
-        </div>
-       </div>
-
-
-    <hr class="border-light m-0">
-
-     <div class="table">
-                @foreach (var item in Model) {
-
-                <div class="form-group">
-                  <label class="form-label">Nome Completo</label>
-                  <input id="campoNome" type="text" class="form-control" readonly="readonly" value="@item.Nome">
-                </div>
-
-                <div class="form-group">
-                  <label class="form-label">CPF</label>
-                  <input id="campoCPF" type="text" class="form-control" readonly="readonly" value="@item.CPF">
-                </div>
-
-                <div class="form-group">
-                  <label class="form-label">Data de nascimento</label>
-                  <input id="campoData" type="datetime" class="form-control" readonly="readonly" value="@item.DataDeNascimento">
-                </div>
-
-                <div class="form-group">
-                  <label class="form-label">Endereço</label>
-                  <input id="campoEndereco" type="text" class="form-control" value="@item.Endereco">
-                </div>
-
-                <div class="form-group">
-                  <label class="form-label">Telefone</label>
-                  <input id="campoTelefone" type="text" class="form-control" value="@item.Telefone">
-                </div>
-
-                <div class="form-group">
-                  <label class="form-label">E-mail</label>
-                  <input id="campoEmail" type="text" class="form-control" value="@item.Email">
-                </div>
-
-                <div class="form-group">
-                  <label class="form-label">Senha</label>
-                  <input id="campoEmail" type="password" class="form-control" name="Senha" value="@item.Senha">
-                </div>
-
-                <div class="form-group">
-                  <label class="form-label">Confirme a senha</label>
-                  <input id="campoEmail" type="password" class="form-control" name="Senha2" value="@item.Senha2">
-                </div>
-
-               
-                <div class="media-body ml-4">
-                    <div class="text-right mt-3">
-                        <a asp-action="Delete" type="button" class="btn btn-primary" asp-route-id="@item.Id">Deletar perfil</a>
-                        <a asp-action="Edit" type="button" class="btn btn-primary" asp-route-id="@item.Id">Editar perfil</a>
-                    </div>
-                </div>  
-
-}
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-
-    
- <script>
-        jQuery(function($){
-            $("#campoCPF").mask("999.999.999-99",{placeholder:"000.000.000-00"});
-            $("#campoData").mask("99/99/9999",{placeholder:"DD/MM/AAAA"});
-            $("#campoTelefone").mask("(99)9.9999-9999",{placeholder:"(00)0.0000-0000"});
-        });
-    </script>
-    
-</body>
-
-</html>
-@section Scripts {
-    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
-}
-
-
-
-
-
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Nome)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CPF)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DataDeNascimento)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Endereco)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Telefone)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Email)
+        </th>
+        <th></th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CPF)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DataDeNascimento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Endereco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Telefone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

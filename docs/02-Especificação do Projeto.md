@@ -46,8 +46,9 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-09| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
 |RF-09| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| MÉDIA |
 |RF-10| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail;| MÉDIA |
-|RF-11| A aplicação deve permitir que o usuário acesse apenas as suas reservas; | BAIXA |
-|RF-12| A aplicação deve permitir que o Administrador acesse todas as reservas. |BAIXA|
+|RF-11| A aplicação deve permitir que o usuário consulte suas reservas; | MÉDIA |
+|RF-12| A aplicação deve permitir que o usuário acesse apenas as suas reservas e permitir que o Administrador acesse todas as reservas; | MÉDIA |
+|RF-13| A aplicação deve permitir que o Administrador consulte os dados do Usuário e do Pet. | ALTA|
 
 ### Requisitos não Funcionais
 Os requisitos não-funcionais descrevem características de caráter mais técnico a serem observadas, com o objetivo de assegurar que os requisitos funcionais sejam devidamente atendidos.
@@ -72,7 +73,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 O diagrama de casos de uso é o seguinte passo após a elicitação dos Requisitos Funcionais. Ele ilustra a interação de possíveis usuários com as funcionalidades primordiais do sistema projetado, utilizando-se de atores para representá-los.
 
-![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/8ad575a94f1ce148d2755311a348bf084a76384e/docs/img/diagrama%20de%20caso%20de%20uso%20-%20Page%201.png)
+![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/diagrama%20de%20caso%20de%20uso%20-%20Page%201.jpeg)
 
 
 <br>
@@ -85,8 +86,8 @@ O diagrama de casos de uso é o seguinte passo após a elicitação dos Requisit
 |Realizar cadastro do Pet       | O usuário pode cadastrar os dados referentes ao seu cachorro (vacinas, porte, data de nascimento, nome e raça);                                                                                                                                                                  | RF-06 |
 |Fazer Login                    | O usuário deve fazer o Login para acessar, em detalhes, a sua conta;                                     | RF-09 |
 |Alterar dados cadastrais       | O usuário pode alterar seus dados cadastrais, tais como: telefone, endereço, e-mail e senha;             | RF-10 |
-|Consultar reservas             | O usuário pode consultar as suas reservas;                                                               | RF-11 |
-|Admin consultar reservas       | O Administrador pode consultar todas as reservas.                                                        | RF-12 |
+|Consultar reservas             | O usuário e o Administrador podem consultar as reservas realizadas pelo usuário;                         | RF-12 |
+|Consultar Dados do Usuário/Pet | O Administrador pode consultar os dados dos pets e dos usuários.                                         | RF-13 |
 
 <br>
 
@@ -99,8 +100,8 @@ O diagrama de casos de uso é o seguinte passo após a elicitação dos Requisit
 |              | O usuário pode consultar suas reservas, se agendar uma diária;                                                                                     |
 |              | Para agendar uma diária, o usuário deve contratar um serviço;                                                                                      |
 |              | Para efetivar o cadastro do Pet, o usuário deve fazer o Login;                                                                                     |
-|              | O usuário poderá visualizar erro de login, caso erre sua senha cadastrada;                                                                         |
-|              | O administrador poderá acessar as reservas, caso esteja logado;                                                                                    |
-
+|              | O usuário poderá Visualizar erro de login, caso erre sua senha cadastrada;                                                                         |
+|              | O administrador poderá visualizar acessar as reservas, caso esteja logado;                                                                         |
+|              | O administrador poderá gerenciar dados do pet e do usuário, caso esteja logado.                                                                    |
 
 Fonte: Elaborado pelos autores do projeto
