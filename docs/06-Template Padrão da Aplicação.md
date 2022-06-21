@@ -8,7 +8,13 @@ A tela do sistema abaixo apresenta uma estrutura comum, que é retratada na Figu
 
 ●	Rodapé – apresenta informações de contato da empresa e créditos aos desenvolvedores do site.
 
-![Fluxo 01](https://thumbs2.imgbox.com/30/ee/BYhZy8fx_t.png)
+![Fluxo 01](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/template%20padr%C3%A3o.png)
+<br/>
+
+![Fluxo 02](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/template-pessoa.png)
+<br/>
+
+![Fluxo 03](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/template.png)
 <br/>
 
 ### Paleta de cores 
