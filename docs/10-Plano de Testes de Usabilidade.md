@@ -47,7 +47,12 @@ Seguem as tarefas a serem executadas pelos participantes e observadas
 | `Caso de teste ` | ` CT-08 formulário de cadastro do Pet  `                    | 
 |--------------------|--------------------------------------------------------| 
 | Objetivo do teste            | Verificar se as informações para preenchimento são intuitivas e de fácil compreensão|  
-| Critérios de Êxito           | Usuário preenche os campos corretamente  | 
+| Critérios de Êxito           | Usuário preenche os campos corretamente  |
+
+| `Caso de teste ` | ` CT-09 Alterar os dados cadastrais do usuário  `           | 
+|--------------------|--------------------------------------------------------| 
+| Objetivo do teste            | Verificar se o usuário consegue alterar seus dados com facilidade |  
+| Critérios de Êxito           | Usuário visualiza os novos dados adicionados  | 
 
 ## Análise do teste e resultados
 

@@ -45,7 +45,7 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-07| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
 |RF-09| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
 |RF-09| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| MÉDIA |
-|RF-10| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail;| MÉDIA |
+|RF-10| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail e senha;| MÉDIA |
 |RF-11| A aplicação deve permitir que o usuário acesse apenas as suas reservas; | BAIXA |
 |RF-12| A aplicação deve permitir que o Administrador acesse todas as reservas. |BAIXA|
 
