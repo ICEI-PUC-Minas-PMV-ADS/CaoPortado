@@ -15,7 +15,6 @@ Este projeto trata-se do desenvolvimento de um site, responsivo e funcional, par
 * Arthur Victor de Paula
 * Fernanda Araujo Macieira
 * Hector Florença da Silva Mendes
-* Helen Tito Gomes Belinassi
 * Isabella Carolina de Almeida Siqueira Damião
 
 
