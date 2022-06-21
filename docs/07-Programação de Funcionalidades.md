@@ -19,4 +19,4 @@ Para cada requisito funcional, pode ser entregue um artefato desse tipo
 |RF-09| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| Em desenvolvimento |
 |RF-10| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail e senha;| 1- https://caoportado.azurewebsites.net/Clientes 2-(clique em editar perfil) https://caoportado.azurewebsites.net/Clientes/Edit/ |
 |RF-11| A aplicação deve permitir que o usuário acesse apenas as suas reservas; | https://caoportado.azurewebsites.net/Reservations |
-|RF-12| A aplicação deve permitir que o Administrador acesse todas as reservas. | https://caoportado.azurewebsites.net/Reservations |
+|RF-12| A aplicação deve permitir que o Administrador acesse todas as reservas. | Login: admin@admin.com Senha: 123321 https://caoportado.azurewebsites.net/Reservations |
