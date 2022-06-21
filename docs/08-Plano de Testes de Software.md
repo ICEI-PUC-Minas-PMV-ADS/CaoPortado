@@ -74,12 +74,12 @@ Os testes funcionais a serem realizados no site são descritos a seguir:
 
  |**Caso de Teste** | **CT-10- Hospedagem**|
 |---|---|
-| Requisitos Associados |RNF-01O - O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); |
+| Requisitos Associados |RNF-01: O site deve ser publicado em um ambiente acessível publicamente na Internet (Repl.it, GitHub Pages, Heroku); |
 |Objetivo de Teste | Verificar se o usuário consegue acessar o site através da sua URL. |
 | Passos |1) Abra o navegador.<br/> 2) Informe o endereço do site desejado.|
  
 |**Caso de Teste** | **CT-11- Compatibilidade com os navegadores**|
 |---|---|
-| Requisitos Associados |RNF-04	O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).|
+| Requisitos Associados |RNF-04: O site deve ser compatível com os principais navegadores do mercado (Google Chrome, Firefox, Microsoft Edge).|
 |Objetivo de Teste | Verificar se o usuário consegue acessar o site através da sua URL, utilizando os principais navegadores do mercado. |
 | Passos |1) Abra o seu navegador.<br/> 2) Informe o endereço do site desejado.|
