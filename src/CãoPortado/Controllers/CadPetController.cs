@@ -22,10 +22,12 @@ namespace PetHotel.Controllers
         // GET: CadPet
         public async Task<IActionResult> Index()
         {
-              return _context.CadPet != null ? 
-                          View(await _context.CadPet.ToListAsync()) :
+            var user = User.Claims.First(y => y.Type == "CPF");
+            return _context.CadPet != null ?
+                          View(await _context.CadPet.Where(x => x.CPF_Usuario == user.Value).ToListAsync()) :
                           Problem("Entity set 'Contexto.CadPet'  is null.");
         }
+
 
         // GET: CadPet/Details/5
         public async Task<IActionResult> Details(int? id)
