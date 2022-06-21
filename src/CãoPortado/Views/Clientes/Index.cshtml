@@ -10,22 +10,20 @@
     <title>Meu perfil</title>
     <link rel="stylesheet" href="~/css/MeuPerfil.css">
      <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.11/jquery.mask.min.js"></script>
 </head>
-<body>
 
     <div class="container light-style flex-grow-1 container-p-y">
 
     <h4 class="font-weight-bold py-3 mb-4">
-      Perfil do usuário
+     Perfil do usuário
     </h4>
 
     <div class="card overflow-hidden">
       <div class="row no-gutters row-bordered row-border-light">
         <div class="col-md-3 pt-0">
-          <div class="list-group list-group-flush account-settings-links">
-            <a class="list-group-item list-group-item-action active" data-toggle="list" href="#account-general">Geral</a>
-            <a class="list-group-item list-group-item-action" data-toggle="list" href="#account-change-password">Redefinir senha</a>
+         
+          
           </div>
         </div>
 
@@ -34,14 +32,17 @@
             <div class="tab-pane fade active show" id="account-general">
 
               <div class="card-body media align-items-center">
-                <img src="~/img/user.png" class="d-block ui-w-80">
+               <img src="~/img/user.png" class="d-block ui-w-80">  
                </div>
+               <hr class="border-light m-0">
+
+           <div class="card-body">
+            <div class="form-group">
+
                      
         </div>
        </div>
-
-
-    <hr class="border-light m-0">
+        
 
      <div class="table">
                 @foreach (var item in Model) {
@@ -63,27 +64,27 @@
 
                 <div class="form-group">
                   <label class="form-label">Endereço</label>
-                  <input id="campoEndereco" type="text" class="form-control" value="@item.Endereco">
+                  <input id="campoEndereco" type="text" class="form-control" readonly="readonly" value="@item.Endereco">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Telefone</label>
-                  <input id="campoTelefone" type="text" class="form-control" value="@item.Telefone">
+                  <input id="campoTelefone" type="text" class="form-control" readonly="readonly" value="@item.Telefone">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">E-mail</label>
-                  <input id="campoEmail" type="text" class="form-control" value="@item.Email">
+                  <input id="campoEmail" type="text" class="form-control" readonly="readonly" value="@item.Email">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Senha</label>
-                  <input id="campoEmail" type="password" class="form-control" name="Senha" value="@item.Senha">
+                  <input id="campoEmail" type="password" class="form-control" readonly="readonly" name="Senha" value="@item.Senha">
                 </div>
 
                 <div class="form-group">
                   <label class="form-label">Confirme a senha</label>
-                  <input id="campoEmail" type="password" class="form-control" name="Senha2" value="@item.Senha2">
+                  <input id="campoEmail" type="password" class="form-control" readonly="readonly"name="Senha2" value="@item.Senha2">
                 </div>
 
                
@@ -101,7 +102,7 @@
             </div>
         </div>
     </div>
-
+    </div>
 
     
  <script>
@@ -112,9 +113,7 @@
         });
     </script>
     
-</body>
 
-</html>
 @section Scripts {
     @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
 }
