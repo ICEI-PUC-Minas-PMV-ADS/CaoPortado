@@ -84,7 +84,7 @@ VÍDEO AQUI
 
 | Testes 	| CT-10- Hospedagem | 
 |:---:	|:---:	|
-|	Hospedagem - Azure| ![]() |
+|	Hospedagem - Azure| ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/hospedagem.png) |
 |  	|  	|
 
 
