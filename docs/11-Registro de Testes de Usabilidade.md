@@ -26,6 +26,14 @@ A análise do resultado do teste de usabilidade à distância deve ser igual ao 
 | Usuário 4	| 26 anos| CT-07<br/>CT-08	| 02:15:03 | 23 | 0  |  N/A  | Usuário gostou da aplicação |
 | Usuário 5	| 47	anos| CT-07<br/>CT-08	| 04:18:05 | 35  | 0 |  N/A | Usuário gostou da aplicação |
 
+| **Usuário** 	| **Idade** | **Artefato** 	| **Tempo** | **Clicks/Ações** | **Qtd. Erros** | **Se recuperou do erro** | **Comentários e observações** |
+| --- 	| --- 	| --- 	| --- | ---  | --- | --- | --- |
+| Usuário 1	| 17 anos	| CT-09	| 00:00:00 | 0  | 0 | --- | --- |
+| Usuário 2 | 69 anos| CT-09| 00:00:00 | 0  | 0 | ---  |--- |
+| Usuário 3	| 26	anos| CT-09| 00:00:00 | 0  | 0 |  --- | --- |
+| Usuário 4	| 45 anos | CT-09	| 00:00:00 | 0 | 0  |  ---  | --- |
+| Usuário 5	| 47 anos| CT-09	| 00:00:00 | 0  | 0 |  --- | --- |
+
 
 <h2>Observações e conclusão</h2>
 Vê-se que há uma diferença na experiência do usuário, com base na idade e "costume" com a internet.<br/>
