@@ -1,0 +1,110 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap');
+
+* {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+body {
+    background-color: #C5DBD9;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.cont {
+    max-width: 1200px;
+    margin: 100px auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+    .cont .main-video-container {
+        flex: 1 1 700px;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0,0,0,.1);
+        background-color: #fff;
+        padding: 15px;
+    }
+
+        .cont .main-video-container .main-video {
+            margin-bottom: 7px;
+            border-radius: 5px;
+            width: 100%;
+        }
+
+        .cont .main-video-container .main-vid-title {
+            font-size: 20px;
+            color: #444;
+        }
+
+    .cont .video-list-container {
+        flex: 1 1 350px;
+        height: 485px;
+        overflow-y: scroll;
+        border-radius: 5px;
+        box-shadow: 0 5px 15px rgba(0,0,0,.1);
+        background-color: #fff;
+        padding: 15px;
+    }
+
+        .cont .video-list-container::-webkit-scrollbar {
+            width: 10px;
+        }
+
+        .cont .video-list-container::-webkit-scrollbar-track {
+            background-color: #fff;
+            border-radius: 5px;
+        }
+
+        .cont .video-list-container::-webkit-scrollbar-thumb {
+            background-color: #444;
+            border-radius: 5px;
+        }
+
+        .cont .video-list-container .list {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 10px;
+            background-color: #eee;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-bottom: 10px;
+        }
+
+            .cont .video-list-container .list:last-child {
+                margin-bottom: 0;
+            }
+
+                .cont .video-list-container .list.active {
+                    background-color: #444;
+                }
+
+                .cont .video-list-container .list.active .list-title {
+                    color: #fff;
+                }
+
+            .cont .video-list-container .list .list-video {
+                width: 100px;
+                border-radius: 5px;
+            }
+
+            .cont .video-list-container .list .list-title {
+                font-size: 17px;
+                color: #444;
+            }
+
+h1 {
+    padding-top: 20px;
+    text-align: center;
+    
+}
+

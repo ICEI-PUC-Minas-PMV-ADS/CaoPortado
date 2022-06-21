@@ -1,8 +1,8 @@
 ﻿@model PetHotel.Models.ReservationViewModel
-
 @{
-	Layout = null;
+    ViewData["Title"] = "Create";
 }
+
 
 <html lang="pt-br">
 <head>
@@ -16,9 +16,9 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		
-	<link href="W3/css/bootstrap-datepicker.css" rel="stylesheet"/>
-	<script src="W3/js/bootstrap-datepicker.min.js"></script> 
-	<script src="W3/js/bootstrap-datepicker.pt-BR.min.js" charset="UTF-8"></script>
+	<link href="/W3/css/bootstrap-datepicker.css" rel="stylesheet"/>
+	<script src="/W3/js/bootstrap-datepicker.min.js"></script> 
+	<script src="/W3/js/bootstrap-datepicker.pt-BR.min.js" charset="UTF-8"></script>
 	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<!-- Custom Theme files -->
@@ -43,11 +43,11 @@
 			@Html.AntiForgeryToken()
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-user" aria-hidden="true"></i> Nome :</label>
-				<input type="text" name="Name" placeholder="Nome Completo!" required=""/>
+				<input type="text" name="Name" readonly="readonly" value="@User.Identity.Name" required=""/>
 			</div>
 			<div class="form-date-w3-agileits">
-				<label><i class="fa fa-envelope" aria-hidden="true"></i> Email :</label>
-				<input type="email" name="Email" placeholder="Digite seu E-mail!" required=""/>
+				<label><i class="fa fa-envelope" aria-hidden="true"></i> E-mail :</label>
+				<input type="email" name="Email" placeholder="Digite seu e-mail" required=""/>
 			</div>
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de Chegada :</label>
@@ -68,7 +68,6 @@
 			<div class="form-left-agileits-w3layouts bottom-w3ls">
 				<label><i class="fa fa-home" aria-hidden="true"></i> Serviços :</label>
 				@Html.DropDownListFor(m=>m.Serviços, new SelectList(ViewBag.Serviços,"Value","Text"),new { @class = "form-control"})
-				    
 			</div>
 			<div class="form-left-agileits-w3layouts">
 				<label><i class="fa fa-users" aria-hidden="true"></i> Quantos Cachorros ? :</label>
