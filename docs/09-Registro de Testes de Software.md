@@ -2,7 +2,7 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
-| Testes 	| CT-01 – Cadastro do usuário e CT-02 Login   |
+| Testes 	| CT-01 – Cadastro do usuário |
 |:---:	|:---:	|
 
 
@@ -61,6 +61,32 @@ https://user-images.githubusercontent.com/98633549/173258380-6930d25d-c0ae-4b64-
 |  	|  	|
 |	Imagem | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/galeria%20de%20fotos%20s8%20CT-06.png) |
 |  	|  	|
+
+| Testes 	| CT-07-Álbum de fotos |
+|:---:	|:---:	|
+
+
+VÍDEO AQUI
+
+| Testes 	| CT-08-Playlist de vídeos |
+|:---:	|:---:	|
+
+
+VÍDEO AQUI
+
+
+| Testes 	| CT-09- Alterar os dados cadastrais do usuário |
+|:---:	|:---:	|
+
+
+VÍDEO AQUI
+
+
+| Testes 	| CT-10- Hospedagem | 
+|:---:	|:---:	|
+|	Hospedagem - Azure| ![]() |
+|  	|  	|
+
 
 | Testes 	| CT-11- Compatibilidade com os navegadores | 
 |:---:	|:---:	|
