@@ -66,13 +66,20 @@ https://user-images.githubusercontent.com/98633549/173258380-6930d25d-c0ae-4b64-
 |:---:	|:---:	|
 
 
-VÍDEO AQUI
+https://user-images.githubusercontent.com/98633549/175045576-85930dcd-f412-4cc8-96eb-c0cd3427e5c6.mp4
+
+
+
 
 | Testes 	| CT-08-Playlist de vídeos |
 |:---:	|:---:	|
 
 
-VÍDEO AQUI
+https://user-images.githubusercontent.com/98633549/175045666-2d68e816-7c43-4040-a09b-a34d347a8e83.mp4
+
+
+
+
 
 
 | Testes 	| CT-09- Alterar os dados cadastrais do usuário |
