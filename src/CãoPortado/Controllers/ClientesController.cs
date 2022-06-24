@@ -189,6 +189,7 @@ namespace PetHotel.Controllers
         // POST: Clientes/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [AllowAnonymous]
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id,
@@ -251,8 +252,9 @@ namespace PetHotel.Controllers
                 return View(hospede);
             }
 
-            // POST: Hospedes/Delete/5
-            [HttpPost, ActionName("Delete")]
+        // POST: Hospedes/Delete/5
+        [AllowAnonymous]
+        [HttpPost, ActionName("Delete")]
             [ValidateAntiForgeryToken]
             public async Task<IActionResult> DeleteConfirmed(int id)
             {

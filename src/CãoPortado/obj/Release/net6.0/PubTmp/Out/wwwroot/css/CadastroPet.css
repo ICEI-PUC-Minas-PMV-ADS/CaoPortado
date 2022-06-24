@@ -200,8 +200,9 @@ fieldset {
 }
 
 #erro {
-    color: red;
+    color: #6ac7bc;
 }
+
 
 
 @media screen and (max-width:576px) {
