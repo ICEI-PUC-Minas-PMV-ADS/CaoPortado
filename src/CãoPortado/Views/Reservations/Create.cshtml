@@ -42,35 +42,35 @@
 		{
 			@Html.AntiForgeryToken()
 			<div class="form-date-w3-agileits">
-				<label><i class="fa fa-user" aria-hidden="true"></i> Nome :</label>
+				<label><i class="fa fa-user" aria-hidden="true"></i> Nome:</label>
 				<input type="text" name="Name" readonly="readonly" value="@User.Identity.Name" required=""/>
 			</div>
 			<div class="form-date-w3-agileits">
-				<label><i class="fa fa-envelope" aria-hidden="true"></i> E-mail :</label>
+				<label><i class="fa fa-envelope" aria-hidden="true"></i> E-mail:</label>
 				<input type="email" name="Email" placeholder="Digite seu e-mail" required=""/>
 			</div>
 			<div class="form-date-w3-agileits">
-				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de Chegada :</label>
+				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de Chegada:</label>
 				<input id="datepicker1" name="DataDeChegada" type="text"  required="">
 			</div>
 			<div class="form-time-w3layouts">
-				<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora da Chegada :</label>
+				<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora da Chegada:</label>
 				<input type="text" name="HoraDeChegada" class="timepicker form-control" value="Hrs:Min">
 			</div>
 			<div class="form-date-w3-agileits">
-				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data da Saída :</label>
+				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de Saída:</label>
 				<input id="datepicker2" name="DataDePartida" type="text"  required="">
 			</div>
 			<div class="form-time-w3layouts">
-				<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora da Saída :</label>
+				<label><i class="fa fa-clock-o" aria-hidden="true"></i> Hora da Saída:</label>
 				<input type="text" name="HoraDePartidar" class="timepicker form-control" value="Hrs:Min">
 			</div>
 			<div class="form-left-agileits-w3layouts bottom-w3ls">
-				<label><i class="fa fa-home" aria-hidden="true"></i> Serviços :</label>
+				<label><i class="fa fa-home" aria-hidden="true"></i> Serviços:</label>
 				@Html.DropDownListFor(m=>m.Serviços, new SelectList(ViewBag.Serviços,"Value","Text"),new { @class = "form-control"})
 			</div>
 			<div class="form-left-agileits-w3layouts">
-				<label><i class="fa fa-users" aria-hidden="true"></i> Quantos Cachorros ? :</label>
+				<label><i class="fa fa-users" aria-hidden="true"></i> Quantos Cachorros?</label>
 				@Html.DropDownListFor(m=>m.QuantidadeDePets, new SelectList(ViewBag.QuantidadeDePets,"Value","Text"),new { @class = "form-control"})
 			</div>
 			<div class="clear"> </div>

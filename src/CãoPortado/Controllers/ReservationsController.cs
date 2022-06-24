@@ -20,12 +20,14 @@ namespace PetHotel.Controllers
         }
 
         // GET: Reservations
+
         public async Task<IActionResult> Index()
         {
-              return _context.Reservation != null ? 
-                          View(await _context.Reservation.ToListAsync()) :
-                          Problem("Entity set 'Contexto.Reservation'  is null.");
+            return _context.Reservation != null ?
+                        View(await _context.Reservation.ToListAsync()) :
+                        Problem("Entity set 'Contexto.Reservation'  is null.");
         }
+
 
         // GET: Reservations/Details/5
         public async Task<IActionResult> Details(int? id)
@@ -177,6 +179,7 @@ namespace PetHotel.Controllers
         }
 
         // POST: Reservations/Delete/5
+
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(int id)

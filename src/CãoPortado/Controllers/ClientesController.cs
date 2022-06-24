@@ -102,11 +102,14 @@ namespace PetHotel.Controllers
             return View();
         }
 
-      
+        [AllowAnonymous]
         // GET: Clientes
         public async Task<IActionResult> Index()
         {
-            return View(await _context.Clientes.ToListAsync());
+            var user = User.Claims.First(y => y.Type == "CPF");
+            return _context.Clientes != null ?
+                          View(await _context.Clientes.Where(x => x.CPF == user.Value).ToListAsync()) :
+                          Problem("Entity set 'Contexto.Cliente'  is null.");
         }
 
         // GET: Clientes/Details/5
@@ -166,7 +169,7 @@ namespace PetHotel.Controllers
             return View();
              
         }
-
+        [AllowAnonymous]
         // GET: Clientes/Edit/5
         public async Task<IActionResult> Edit(int? id)
         {
@@ -229,9 +232,9 @@ namespace PetHotel.Controllers
 
             return View(clientes);
         }
-
+        [AllowAnonymous]
         // GET: Clientes/Delete/5
-            public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(int? id)
             {
                 if (id == null)
                 {

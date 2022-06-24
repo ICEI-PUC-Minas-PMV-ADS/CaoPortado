@@ -32,13 +32,15 @@
                             <span asp-validation-for="Senha" class="text-danger"></span>
                         </div>
                         <div class="form-group">
-                            <input type="submit" value="Entrar" class="btn btn-primary" /> |
+                            <input type="submit" value="Entrar" class="btn btn-info" /> |
                             <a class="btn btn-info" asp-controller="Home" asp-action="Index">Voltar</a>
                         </div>
+
                         <div id="register-link" class="text-right">
                             <a asp-controller="Clientes" asp-action="Create">Registre-se agora!</a>
                             <h3>@ViewBag.Message </h3>
                         </div>
+                       
                     </form>
                 </div>
             </div>

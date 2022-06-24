@@ -2,7 +2,7 @@
 
 Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
 
-| Testes 	| CT-01 – Cadastro do usuário e CT-02 Login   |
+| Testes 	| CT-01 – Cadastro do usuário |
 |:---:	|:---:	|
 
 
@@ -61,7 +61,48 @@ https://user-images.githubusercontent.com/98633549/173258380-6930d25d-c0ae-4b64-
 |  	|  	|
 |	Imagem | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/galeria%20de%20fotos%20s8%20CT-06.png) |
 |  	|  	|
-  
+
+| Testes 	| CT-07-Álbum de fotos |
+|:---:	|:---:	|
+
+
+https://user-images.githubusercontent.com/98633549/175045576-85930dcd-f412-4cc8-96eb-c0cd3427e5c6.mp4
+
+
+
+
+| Testes 	| CT-08-Playlist de vídeos |
+|:---:	|:---:	|
+
+
+https://user-images.githubusercontent.com/98633549/175045666-2d68e816-7c43-4040-a09b-a34d347a8e83.mp4
+
+
+
+
+
+
+| Testes 	| CT-09- Alterar os dados cadastrais do usuário |
+|:---:	|:---:	|
+
+
+VÍDEO AQUI
+
+
+| Testes 	| CT-10- Hospedagem | 
+|:---:	|:---:	|
+|	Hospedagem - Azure| ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/hospedagem.png) |
+|  	|  	|
+
+
+| Testes 	| CT-11- Compatibilidade com os navegadores | 
+|:---:	|:---:	|
+|	Microsoft Edge | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/RNF%20-%20Microsoft%20Edge.png) |
+|  	|  	|
+|	Google Chrome | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/RNF%20Chrome.png) |
+|  	|  	|
+|	Firefox | ![](https://github.com/ICEI-PUC-Minas-PMV-ADS/CaoPortado/blob/main/docs/img/RNF%20Firefox.png) |
+|  	|  	|
   
 ## Avaliação
 
