@@ -23,10 +23,18 @@ namespace PetHotel.Controllers
         
         public async Task<IActionResult> Index()
         {
-            var user = User.Claims.First(y => y.Type == "Email");
-            return _context.Reservation != null ?
-                          View(await _context.Reservation.Where(x => x.Email == user.Value).ToListAsync()) :
+            if (User.IsInRole("Admin")) 
+            {
+                return _context.Reservation != null ?
+                          View(await _context.Reservation.ToListAsync()) :
                           Problem("Entity set 'Contexto.Reservation'  is null.");
+            } else {
+                var user = User.Claims.First(y => y.Type == "Email");
+                return _context.Reservation != null ?
+                              View(await _context.Reservation.Where(x => x.Email == user.Value).ToListAsync()) :
+                              Problem("Entity set 'Contexto.Reservation'  is null.");
+            }
+            
         }
 
 
