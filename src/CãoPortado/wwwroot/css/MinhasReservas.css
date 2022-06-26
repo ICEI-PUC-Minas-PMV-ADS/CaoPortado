@@ -1,0 +1,125 @@
+﻿* {
+    margin: 0px;
+}
+
+body {
+    background-color: #C5DBD9;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ui-w-80 {
+    width: 80px !important;
+    height: auto;
+}
+
+label.btn {
+    margin-bottom: 0;
+}
+
+.btn-outline-primary {
+    border-color: #26B4FF;
+    background: transparent;
+    color: #26B4FF;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.text-light {
+    color: #babbbc !important;
+}
+
+.row-bordered {
+    overflow: hidden;
+}
+
+.account-settings-fileinput {
+    position: absolute;
+    visibility: hidden;
+    width: 1px;
+    height: 1px;
+    opacity: 0;
+}
+
+.account-settings-links .list-group-item.active {
+    font-weight: bold !important;
+}
+
+html:not(.dark-style) .account-settings-links .list-group-item.active {
+    background: transparent !important;
+}
+
+.account-settings-multiselect ~ .select2-container {
+    width: 100% !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+    .light-style .account-settings-links .list-group-item.active {
+        color: #4e5155 !important;
+    }
+
+.material-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24, 28, 33, 0.03) !important;
+}
+
+    .material-style .account-settings-links .list-group-item.active {
+        color: #4e5155 !important;
+    }
+
+.dark-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(255, 255, 255, 0.03) !important;
+}
+
+    .dark-style .account-settings-links .list-group-item.active {
+        color: #fff !important;
+    }
+
+.light-style .account-settings-links .list-group-item.active {
+    color: #4E5155 !important;
+}
+
+.light-style .account-settings-links .list-group-item {
+    padding: 0.85rem 1.5rem;
+    border-color: rgba(24,28,33,0.03) !important;
+}
+
+.btn-primary {
+    background-color: #6AC7BC;
+    border-color: #6AC7BC;
+}
+
+    .btn-primary:hover {
+        background-color: #21b19f;
+        border-color: #21b19f;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+.alert-warning {
+    color: black;
+    background-color: #C5DBD9;
+    border-color: #C5DBD9;
+}
+
+.form-control:disabled, .form-control[readonly] {
+    width: 82px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 0px;
+    height: auto;
+    border-color: black;
+}
+
+.form-control {
+    display: inline-block;
+}
+
+.form-left-agileits-w3layouts bottom-w3ls {
+    padding: 10px;
+}

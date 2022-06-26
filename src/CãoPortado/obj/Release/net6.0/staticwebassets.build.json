@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1aHhWFLc/QElY1i8Pd8VIk7DuSn9hQKehoaOGPf63i4=",
+  "Hash": "ktmRxK9PPKZDlsGaMuoaLfimO2PUXmKLHmTvt9DLe5A=",
   "Source": "PetHotel",
   "BasePath": "_content/PetHotel",
   "Mode": "Default",
@@ -950,6 +950,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\MeuPet.css"
+    },
+    {
+      "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\MinhasReservas.css",
+      "SourceId": "PetHotel",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\",
+      "BasePath": "_content/PetHotel",
+      "RelativePath": "css/MinhasReservas.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\MinhasReservas.css"
     },
     {
       "Identity": "C:\\Users\\isaca\\Source\\Repos\\ICEI-PUC-Minas-PMV-ADS\\CaoPortado\\src\\CãoPortado\\wwwroot\\css\\owl.carousel.min.css",
