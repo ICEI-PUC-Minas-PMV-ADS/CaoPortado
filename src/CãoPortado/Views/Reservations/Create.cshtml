@@ -47,7 +47,7 @@
 			</div>
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-envelope" aria-hidden="true"></i> E-mail:</label>
-				<input type="email" name="Email" placeholder="Digite seu e-mail" required=""/>
+				<input type="email" name="Email" readonly="readonly" value="@User.Claims.First(y => y.Type == "Email").Value" required=""/>
 			</div>
 			<div class="form-date-w3-agileits">
 				<label><i class="fa fa-calendar" aria-hidden="true"></i> Data de Chegada:</label>
