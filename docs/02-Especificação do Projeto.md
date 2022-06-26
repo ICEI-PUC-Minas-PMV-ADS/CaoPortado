@@ -44,7 +44,7 @@ Os requisitos funcionais representam as necessidades, características e recurso
 |RF-06| A aplicação deve ter um formulário de cadastro do Pet, informando a idade, o porte do animal, informações das vacinas, CPF do dono cadastrado; (Polivalente V8 ou V10, Raiva e Giárdia);|MÉDIA|
 |RF-07| O cadastro do Pet deve ser obrigatoriamente vinculado ao cadastro de seu dono;| ALTA |
 |RF-09| A aplicação deve permitir que o usuário faça Login usando o e-mail e senha cadastrados; | ALTA |
-|RF-10| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço, e-mail e senha;| MÉDIA |
+|RF-10| A aplicação deve permitir que o usuário altere seus dados cadastrais na tela "Meu perfil", tais como: telefone, endereço e senha;| MÉDIA |
 |RF-11| A aplicação deve permitir que o usuário acesse apenas as suas reservas; | BAIXA |
 |RF-12| A aplicação deve permitir que o Administrador acesse todas as reservas. |BAIXA|
 |RF-13| A aplicação deve permitir que o usuário redefina a senha na Tela de Login, clicando no "Esqueci minha senha";| MÉDIA |
