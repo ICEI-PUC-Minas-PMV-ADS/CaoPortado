@@ -6,7 +6,7 @@ ao editar este arquivo MSBuild. Para saber mais sobre isso, visite https://go.mi
 <Project>
   <PropertyGroup>
     <TimeStampOfAssociatedLegacyPublishXmlFile />
-    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALB/gLDYCZ0CNKyIshkajtwAAAAACAAAAAAAQZgAAAAEAACAAAAAltPk1QylNziKEbd53sYohESGWP8x3IDLTEqS4JzfGTAAAAAAOgAAAAAIAACAAAADta8rw1r1WjEfct/+VuzdvY9Dwg9V0fjJlFHNFmiZjboAAAABT6nMnLx/kdFG/2NQrnCxt4UEzD8v/emm8ffpfBAlJQQrcP3k45TFnwHyIooyHo1NUpqPIUbmGeSUv+dCvfYToVt1OIG3rpNtie+tjuvncBPqoI/7AbWnV/9ugcXAZgIYadVC4u9dSYBw+QlfU1sqnAzSbn/bvEcBJIFkQL6tZKEAAAADrbgjmQuFNpGLc87qaByh0ema1143eh5Y5GVvPacHf1EiJhvbnNG7u0g7Ik55CwQhjcQ3TLs1aOmQkZlRh5ryy</EncryptedPassword>
-    <History>True|2022-06-24T22:21:54.3808636Z;</History>
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAGgS8dJXjg0OCyA0aF0C56AAAAAACAAAAAAAQZgAAAAEAACAAAAClzDCSL1OXwx84qqiEg/BoW/Z+IgB/vlrO+YogSlzyDAAAAAAOgAAAAAIAACAAAAA/uPzrfzZcchsMDXCcM+g+xGnSzsio/B3aKsrpU1dZpIAAAAD5SsYP3LbPODvSJOTTLul8JjaVnWfZjJ90vxx22MRqLQHYx7d8q9uuLoz0V1UL+hp2dIvOGh5RwULruuktZ6vOTeWCKUl7cbaq26YGjJTRDMasdWfa29MJTo28XhfqdGOP44Osl1FchNizw4zEspgrR4O3Y2wiXArBcezIKLAan0AAAACMbMXKTC0W9MbzKHyzPp/o1QK0syrxpwEOw4XnQjrvFdUWBLIWnChrcH1WThcmsFfAGIo6Zpl+Lr6oVLYOi4wD</EncryptedPassword>
+    <History>True|2022-06-26T20:14:43.0753657Z;True|2022-06-26T17:11:12.9958305-03:00;</History>
   </PropertyGroup>
 </Project>

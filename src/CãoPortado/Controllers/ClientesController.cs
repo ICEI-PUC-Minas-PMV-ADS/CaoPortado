@@ -191,48 +191,38 @@ namespace PetHotel.Controllers
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [AllowAnonymous]
-        [HttpPost]
+        [HttpPost, ActionName("Edit")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id,
-            [Bind("Id,Nome,CPF,DataDeNascimento,Endereco,Telefone,Email,Senha,Senha2")] Clientes clientes)
+        public async Task<IActionResult> EditPost(int? id)
         {
-            if (id != clientes.Id)
+            // Verifica se o Id da página está null (asp-route-id)
+            if (id == null)
             {
                 return NotFound();
             }
 
-            if (clientes.Senha != clientes.Senha2)
+            // Busca no banco de dados o Pet que sofrerá a modificação
+            var cadToUpdate = await _context.Clientes.FirstOrDefaultAsync(c => c.Id == id);
+            
+            if (await TryUpdateModelAsync<Clientes>(cadToUpdate, "", c => c.Endereco, c => c.Senha, c => c.Telefone))
             {
-                ViewBag.Message = "Senhas não conferem. Digite novamente";
-                return View();
-            }
-
-            if (ModelState.IsValid)
-            {
+                cadToUpdate.Senha = BCrypt.Net.BCrypt.HashPassword(cadToUpdate.Senha);
+                // Colocar dentro do try catch
                 try
                 {
-                    clientes.Senha = BCrypt.Net.BCrypt.HashPassword(clientes.Senha);
-                    clientes.Senha2 = BCrypt.Net.BCrypt.HashPassword(clientes.Senha2);
-                    _context.Update(clientes);
+                    // Aqui está executando o envio para o banco de dados
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!ClientesExists(clientes.Id))
-                    {
-                        return NotFound();
-                    }
-                    else
-                    {
-                        throw;
-                    }
-                }
+                    // Se der erro, irá cair aqui
+                    throw;
 
-                ViewBag.Message = "Atualização realizada com sucesso!";
-                //return RedirectToAction(nameof(Index));
+                }
+                return RedirectToAction(nameof(Index));
             }
 
-            return View(clientes);
+            return View(cadToUpdate);
         }
         [AllowAnonymous]
         // GET: Clientes/Delete/5

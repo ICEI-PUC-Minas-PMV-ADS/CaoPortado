@@ -9,7 +9,7 @@
 <hr />
 <div class="row">
     <div class="col-md-4">
-        <form asp-action="Edit">
+        <form asp-action="Edit" name="Cadastro" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
             <div class="form-group">
@@ -25,25 +25,11 @@
                 <span asp-validation-for="Telefone" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <span>E-mail</span>
-                <label class="control-label"></label>
-                <input asp-for="Email" class="form-control" />
-                <span asp-validation-for="Email" class="text-danger"></span>
-            </div>
-            <div class="form-group">
                 <span>Nova senha</span>
                 <label class="control-label"></label>
-                <input asp-for="Senha" class="form-control" />
+                <input asp-for="Senha" class="form-control" placeholder="Digite sua nova senha" value="" />
                 <span asp-validation-for="Senha" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <span>Confirme a senha</span>
-                <label class="control-label"></label>
-                <input asp-for="Senha2" class="form-control" />
-                <span asp-validation-for="Senha2" class="text-danger" ></span>
-            </div>
-
-            
+            </div>      
             <div class="form-group">
                 <input type="submit" value="Salvar" class="btn btn-info" />
                 <a asp-action="Index">Voltar</a>
