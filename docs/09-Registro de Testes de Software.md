@@ -86,7 +86,9 @@ https://user-images.githubusercontent.com/98633549/175045666-2d68e816-7c43-4040-
 |:---:	|:---:	|
 
 
-VÍDEO AQUI
+
+https://user-images.githubusercontent.com/98633549/175840197-86180943-113d-49d2-9766-4c6a9dd72b6e.mp4
+
 
 
 | Testes 	| CT-10- Hospedagem | 
