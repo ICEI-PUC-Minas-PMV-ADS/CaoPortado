@@ -14,4 +14,4 @@ https://user-images.githubusercontent.com/90113699/158076037-ed227018-a268-4d47-
 
 ## Assista a apresentação da aplicação desenvolvida
 
-VÍDEO AQUI
+https://user-images.githubusercontent.com/90113699/175839583-8e638268-0781-4525-b548-de9ef3cbebc3.mp4
